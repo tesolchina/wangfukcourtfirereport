@@ -1623,7 +1623,8 @@ def build_letter():
       <div class="note-block">
         <h3>Publication</h3>
         <p>Published in the <a href="{esc(pub.get("url", "#"))}" target="_blank" rel="noopener">South China Morning Post
-        letters column ↗</a> on <strong>{esc(pub.get("date", ""))}</strong>, in the edition
+        letters column ↗</a> on <strong>{esc(pub.get("date", ""))}</strong> under the heading
+        <strong>“{esc(pub.get("letter_headline", ""))}”</strong>, in the edition
         “{esc(pub.get("edition", ""))}”. {esc(pub.get("note", ""))}</p>
         <p>The letter grew out of this site’s analysis: <a href="documents.html">243 documents</a>,
         <a href="search.html">full-text search</a> and the

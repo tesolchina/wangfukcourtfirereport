@@ -600,7 +600,7 @@ def build_letter_tc():
       <div class="note-block">
         <h3>刊出資料</h3>
         <p>已於 <strong>{esc(pub.get("date", ""))}</strong> 在 <a href="{esc(pub.get("url", "#"))}" target="_blank" rel="noopener">南華早報
-        Letters 版刊出 ↗</a>，見當日版《{esc(pub.get("edition", ""))}》。{esc(pub.get("note", ""))}</p>
+        Letters 版刊出 ↗</a>，標題為<strong>「{esc(pub.get("letter_headline", ""))}」</strong>，見當日版《{esc(pub.get("edition", ""))}》。{esc(pub.get("note", ""))}</p>
         <p>信函源自本網站的整理工作：<a href="documents.html">243 份文件</a>、<a href="search.html">全文搜尋</a>及
         <a href="tor.html">職權範圍框架</a>均見於下文。</p>
       </div>
