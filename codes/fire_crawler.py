@@ -34,7 +34,7 @@ DATA_DIR = ROOT / "data"
 PDF_DIR = DATA_DIR / "pdfs"
 MANIFEST = DATA_DIR / "manifest.json"
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; AI4News-FireReport-Crawler/0.1; +https://github.com/tesolchina/ai4news)"
+    "User-Agent": "Mozilla/5.0 (compatible; AI4News-FireReport-Crawler/0.1; +https://github.com/tesolchina/wangfukcourtfirereport)"
 }
 TIMEOUT = 30
 SLEEP = 0.3  # polite crawling
