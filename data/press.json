@@ -1,0 +1,33 @@
+{
+  "published": {
+    "outlet": "South China Morning Post - Letters",
+    "date": "2026-08-19",
+    "edition": "Letters | Hong Kong mustn't use the wrong index to gauge outdoor heat stress",
+    "url": "https://www.scmp.com/comment/letters",
+    "note": "Our letter on the accessibility of the Wang Fuk Court fire inquiry documents appeared in this edition of the SCMP letters column."
+  },
+  "letter": {
+    "subject": "Wang Fuk Court fire - 1.9 million words, and the key questions are still hard to answer",
+    "salutation": "Sir,",
+    "paragraphs": [
+      "The Independent Committee on the Wang Fuk Court fire has published a large body of material - witness statements, hearing transcripts, expert reports and photographs. The site orders them by the sequence of the committee's work, not by the tasks outlined in its Terms of Reference. Journalists and the public seeking evidence on sprinkler failure or tender collusion must wade through page after page.",
+      "To test whether it could be made navigable, we used AI tools: a web crawler collected every document from the site, and large language models read, summarised and tagged each against the seven tasks in the Terms of Reference - including OCR for the 27 documents that arrived as scans with no readable text.",
+      "The results are striking: 243 documents, 6,377 pages, 1.9 million words, roughly 1,800 photographs and diagrams. Yet the material is unevenly distributed: supervision responsibilities appear in 195 documents, adequacy of laws in 77, and bid-rigging and collusion - what residents most want explained - in 99, against eight and eleven in a summary-level first pass. Nor is that all: reading the full text, we found evidence bearing on tender irregularities in documents that never use those words - a fire-service contractor that filed shutdown-renewal notices without ever visiting the estate, a renovation subcontract agreed orally with no written contract, and a contract attachment whose material-data folder was empty. A keyword search, or the committee's own menu, would never surface them. Every document is public, but the questions people ask are the ones the archive makes hardest to answer.",
+      "To help readers answer them, we have built a free bilingual site (https://wangfukcourtfirereport.simonsays.hk/) organised around the seven tasks. Each document has a page with a summary, key points, a table of contents and a link to the original PDF; an interactive map shows how the documents relate to each task, and full-text search spans all 243 documents. We urge the independent committee to adopt such tools in presenting its findings in a more accessible manner."
+    ],
+    "signature": "Wenyun Fu and Simon Wang, Kowloon Tong",
+    "as_submitted_note": "The text below is the letter as submitted; the published version may differ slightly in wording and layout."
+  },
+  "letter_tc": {
+    "subject": "宏福苑大火 - 190 萬字，而關鍵問題仍難以找到答案",
+    "salutation": "編輯先生：",
+    "paragraphs": [
+      "就大埔宏福苑火災成立的獨立委員會已公布大量材料——證人陳述書、聆訊謄本、專家報告及照片。該網站按委員會工作的先後次序編排文件，而非按其職權範圍列明的任務編排。記者及公眾若想查找花灑系統失靈或招標串通的證據，必須逐頁翻閱。",
+      "為測試這些材料能否整理得更易於檢索，我們使用了人工智能工具：以網絡爬蟲收集網站上所有文件，再以大型語言模型通讀、摘要，並按職權範圍的七項任務逐一標籤——包括為 27 份只有掃描影像、沒有可讀文字的文件進行光學字符識別（OCR）。",
+      "結果令人矚目：243 份文件、6,377 頁、190 萬字、約 1,800 張照片及圖表。然而材料分布極不均勻：監督責任見於 195 份文件，法律是否足夠見於 77 份，而居民最想了解的圍標及合謀——僅見於 99 份，首次僅讀標題及摘要的篩選則只有八份及十一份。不止於此：通讀全文後，我們在從未使用相關詞彙的文件中，發現與招標違規相關的證據——有消防裝置承辦商從未到訪屋苑便提交關閉通知書；有維修分判工程僅以口頭協議、沒有書面合約；有合約附件內的材料數據資料夾是空的。關鍵詞搜尋，或委員會自己的選單，永遠不會顯示這些文件。每份文件都是公開的，但人們提出的問題，正正是這套檔案最難回答的問題。",
+      "為協助讀者尋找答案，我們建立了一個免費的雙語網站（https://wangfukcourtfirereport.simonsays.hk/），按七項任務整理。每份文件均有獨立頁面，附摘要、要點、目錄及原始 PDF 連結；互動地圖展示各文件與每項任務的關係；全文搜尋涵蓋全部 243 份文件。我們促請獨立委員會在發表調查結果時，採用這類工具，使材料更易於查閱。"
+    ],
+    "signature": "Wenyun Fu 與 Simon Wang 謹啟，九龍塘",
+    "as_submitted_note": "以下為投稿原文；刊出版本或略有刪改。"
+  }
+}

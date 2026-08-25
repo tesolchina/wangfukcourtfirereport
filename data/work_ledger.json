@@ -1,0 +1,3569 @@
+{
+ "model": {
+  "type_base_hours": {
+   "witness_statement": 12.0,
+   "hearing_transcript": 8.0,
+   "expert_report": 60.0,
+   "investigation_report": 120.0,
+   "opening_address": 24.0,
+   "closing_address": 40.0,
+   "submission": 10.0,
+   "letter": 4.0,
+   "notice": 1.5,
+   "press_release": 2.0,
+   "procedural": 2.0,
+   "recommendation": 16.0,
+   "minutes": 3.0,
+   "other": 4.0
+  },
+  "page_review_hours_per_page": 0.12,
+  "note": "work_hours = base_hours(type) + pages * page_review_hours; ToR attribution splits a multi-tagged document equally among its tags"
+ },
+ "total_hours": 4206.4,
+ "total_person_days": 525.8,
+ "total_docs": 243,
+ "by_type": {
+  "witness_statement": {
+   "count": 120,
+   "pages": 1294,
+   "hours": 1596.5
+  },
+  "investigation_report": {
+   "count": 4,
+   "pages": 1409,
+   "hours": 649.1
+  },
+  "closing_address": {
+   "count": 10,
+   "pages": 1183,
+   "hours": 542.1
+  },
+  "expert_report": {
+   "count": 7,
+   "pages": 382,
+   "hours": 465.9
+  },
+  "hearing_transcript": {
+   "count": 30,
+   "pages": 1044,
+   "hours": 365.1
+  },
+  "opening_address": {
+   "count": 7,
+   "pages": 279,
+   "hours": 201.6
+  },
+  "submission": {
+   "count": 13,
+   "pages": 219,
+   "hours": 156.2
+  },
+  "recommendation": {
+   "count": 3,
+   "pages": 376,
+   "hours": 93.2
+  },
+  "procedural": {
+   "count": 35,
+   "pages": 131,
+   "hours": 85.7
+  },
+  "other": {
+   "count": 6,
+   "pages": 13,
+   "hours": 25.4
+  },
+  "letter": {
+   "count": 3,
+   "pages": 16,
+   "hours": 13.9
+  },
+  "notice": {
+   "count": 4,
+   "pages": 23,
+   "hours": 8.7
+  },
+  "press_release": {
+   "count": 1,
+   "pages": 8,
+   "hours": 3.0
+  }
+ },
+ "by_tor": {
+  "ToR4: Supervision, Roles & Responsibilities": {
+   "docs": 195,
+   "pages": 5847,
+   "hours_split": 876.9,
+   "hours_full": 3556.8
+  },
+  "ToR3: Building Maintenance & Renovation Works": {
+   "docs": 146,
+   "pages": 5286,
+   "hours_split": 728.8,
+   "hours_full": 3287.1
+  },
+  "ToR1: Causes & Circumstances of Fire": {
+   "docs": 146,
+   "pages": 4995,
+   "hours_split": 709.2,
+   "hours_full": 2948.3
+  },
+  "ToR2: Fire Service Installations & Equipment": {
+   "docs": 117,
+   "pages": 5066,
+   "hours_split": 547.5,
+   "hours_full": 2626.7
+  },
+  "ToR7: Recommendations & Improvement Measures": {
+   "docs": 81,
+   "pages": 4900,
+   "hours_split": 428.3,
+   "hours_full": 2304.3
+  },
+  "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)": {
+   "docs": 86,
+   "pages": 4649,
+   "hours_split": 413.8,
+   "hours_full": 2106.5
+  },
+  "ToR6: Adequacy of Laws & Penalties": {
+   "docs": 72,
+   "pages": 4845,
+   "hours_split": 368.6,
+   "hours_full": 2107.6
+  },
+  "General / Other": {
+   "docs": 50,
+   "pages": 794,
+   "hours_split": 133.2,
+   "hours_full": 294.9
+  }
+ },
+ "top_docs": [
+  [
+   "Final Investigation Report of the Inter-departmental Fire Investigation Task Force (Appendix A-27 is the Expert Report by Professor YUEN Kwok Kit, Ric",
+   {
+    "type": "investigation_report",
+    "pages": 1142,
+    "base_hours": 120.0,
+    "page_hours": 137.0,
+    "hours": 257.0,
+    "tor_tags": [
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR4: Supervision, Roles & Responsibilities",
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR7: Recommendations & Improvement Measures",
+     "ToR6: Adequacy of Laws & Penalties",
+     "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+    ]
+   }
+  ],
+  [
+   "Interim Investigation Report of the Inter-departmental Fire Investigation Task Force (English only)",
+   {
+    "type": "investigation_report",
+    "pages": 113,
+    "base_hours": 120.0,
+    "page_hours": 13.6,
+    "hours": 133.6,
+    "tor_tags": [
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR4: Supervision, Roles & Responsibilities",
+     "ToR6: Adequacy of Laws & Penalties",
+     "ToR7: Recommendations & Improvement Measures"
+    ]
+   }
+  ],
+  [
+   "Report of Competition Commission concerning Terms of Reference (2) of Independent Committee (English only)",
+   {
+    "type": "investigation_report",
+    "pages": 91,
+    "base_hours": 120.0,
+    "page_hours": 10.9,
+    "hours": 130.9,
+    "tor_tags": [
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+     "ToR6: Adequacy of Laws & Penalties",
+     "ToR7: Recommendations & Improvement Measures"
+    ]
+   }
+  ],
+  [
+   "Report of Independent Commission Against Corruption concerning Terms of Reference (2) of Independent Committee (English only)",
+   {
+    "type": "investigation_report",
+    "pages": 63,
+    "base_hours": 120.0,
+    "page_hours": 7.6,
+    "hours": 127.6,
+    "tor_tags": [
+     "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+     "ToR6: Adequacy of Laws & Penalties",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR4: Supervision, Roles & Responsibilities",
+     "ToR7: Recommendations & Improvement Measures"
+    ]
+   }
+  ],
+  [
+   "Closing Address by Counsel for the Committee (English only)",
+   {
+    "type": "closing_address",
+    "pages": 627,
+    "base_hours": 40.0,
+    "page_hours": 75.2,
+    "hours": 115.2,
+    "tor_tags": [
+     "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+     "ToR7: Recommendations & Improvement Measures",
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR4: Supervision, Roles & Responsibilities",
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR6: Adequacy of Laws & Penalties"
+    ]
+   }
+  ],
+  [
+   "Closing Address by Counsel for the Relevant Bureaux and Departments of the Government (English only)",
+   {
+    "type": "closing_address",
+    "pages": 408,
+    "base_hours": 40.0,
+    "page_hours": 49.0,
+    "hours": 89.0,
+    "tor_tags": [
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR4: Supervision, Roles & Responsibilities",
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+     "ToR7: Recommendations & Improvement Measures",
+     "General / Other",
+     "ToR6: Adequacy of Laws & Penalties"
+    ]
+   }
+  ],
+  [
+   "Expert Report by Professor Asif Sohail USMANI and Professor JIANG Liming, Fire Engineering Experts appointed by the Independent Committee (English onl",
+   {
+    "type": "expert_report",
+    "pages": 130,
+    "base_hours": 60.0,
+    "page_hours": 15.6,
+    "hours": 75.6,
+    "tor_tags": [
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR7: Recommendations & Improvement Measures",
+     "ToR6: Adequacy of Laws & Penalties",
+     "ToR4: Supervision, Roles & Responsibilities"
+    ]
+   }
+  ],
+  [
+   "Presentation Slides by Professor Asif Sohail USMANI and Professor JIANG Liming (English only)",
+   {
+    "type": "expert_report",
+    "pages": 83,
+    "base_hours": 60.0,
+    "page_hours": 10.0,
+    "hours": 70.0,
+    "tor_tags": [
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR7: Recommendations & Improvement Measures",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR4: Supervision, Roles & Responsibilities",
+     "ToR6: Adequacy of Laws & Penalties"
+    ]
+   }
+  ],
+  [
+   "Presentation Slides by Professor YUEN Kwok Kit, Richard (English only)",
+   {
+    "type": "expert_report",
+    "pages": 49,
+    "base_hours": 60.0,
+    "page_hours": 5.9,
+    "hours": 65.9,
+    "tor_tags": [
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR7: Recommendations & Improvement Measures"
+    ]
+   }
+  ],
+  [
+   "Presentation Slides by Dr TO Chi Wing (English only)",
+   {
+    "type": "expert_report",
+    "pages": 41,
+    "base_hours": 60.0,
+    "page_hours": 4.9,
+    "hours": 64.9,
+    "tor_tags": [
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR3: Building Maintenance & Renovation Works"
+    ]
+   }
+  ],
+  [
+   "Presentation Slides by Dr LEE Wing Man (English only)",
+   {
+    "type": "expert_report",
+    "pages": 40,
+    "base_hours": 60.0,
+    "page_hours": 4.8,
+    "hours": 64.8,
+    "tor_tags": [
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR3: Building Maintenance & Renovation Works"
+    ]
+   }
+  ],
+  [
+   "Presentation Slides by Mr LAM Kin Kwan (English only)",
+   {
+    "type": "expert_report",
+    "pages": 20,
+    "base_hours": 60.0,
+    "page_hours": 2.4,
+    "hours": 62.4,
+    "tor_tags": [
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR4: Supervision, Roles & Responsibilities"
+    ]
+   }
+  ],
+  [
+   "Presentation Slides by Mr YIU Men Yeung (English only)",
+   {
+    "type": "expert_report",
+    "pages": 19,
+    "base_hours": 60.0,
+    "page_hours": 2.3,
+    "hours": 62.3,
+    "tor_tags": [
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR2: Fire Service Installations & Equipment"
+    ]
+   }
+  ],
+  [
+   "Recommendations on improvement measures by Competition Commission concerning Terms of Reference (2) of Independent Committee (English only)",
+   {
+    "type": "recommendation",
+    "pages": 363,
+    "base_hours": 16.0,
+    "page_hours": 43.6,
+    "hours": 59.6,
+    "tor_tags": [
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR7: Recommendations & Improvement Measures",
+     "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+     "ToR6: Adequacy of Laws & Penalties",
+     "ToR4: Supervision, Roles & Responsibilities"
+    ]
+   }
+  ],
+  [
+   "Closing Address by Counsel for ISS EastPoint Properties Limited (English only)",
+   {
+    "type": "closing_address",
+    "pages": 28,
+    "base_hours": 40.0,
+    "page_hours": 3.4,
+    "hours": 43.4,
+    "tor_tags": [
+     "ToR4: Supervision, Roles & Responsibilities",
+     "ToR7: Recommendations & Improvement Measures",
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR6: Adequacy of Laws & Penalties"
+    ]
+   }
+  ],
+  [
+   "Closing Address by Counsel for nine Wang Fuk Court residents (Chinese only)",
+   {
+    "type": "closing_address",
+    "pages": 25,
+    "base_hours": 40.0,
+    "page_hours": 3.0,
+    "hours": 43.0,
+    "tor_tags": [
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR4: Supervision, Roles & Responsibilities",
+     "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR6: Adequacy of Laws & Penalties",
+     "ToR7: Recommendations & Improvement Measures"
+    ]
+   }
+  ],
+  [
+   "Synopsis of Closing Address by Counsel for the Relevant Bureaux and Departments of the Government (Chinese only)",
+   {
+    "type": "closing_address",
+    "pages": 24,
+    "base_hours": 40.0,
+    "page_hours": 2.9,
+    "hours": 42.9,
+    "tor_tags": [
+     "ToR1: Causes & Circumstances of Fire",
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR4: Supervision, Roles & Responsibilities",
+     "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+     "ToR6: Adequacy of Laws & Penalties",
+     "ToR7: Recommendations & Improvement Measures"
+    ]
+   }
+  ],
+  [
+   "Closing Address by Counsel for Mr LEUNG Ping Kay (English only)",
+   {
+    "type": "closing_address",
+    "pages": 20,
+    "base_hours": 40.0,
+    "page_hours": 2.4,
+    "hours": 42.4,
+    "tor_tags": [
+     "ToR4: Supervision, Roles & Responsibilities",
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+     "ToR6: Adequacy of Laws & Penalties",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR1: Causes & Circumstances of Fire"
+    ]
+   }
+  ],
+  [
+   "Closing Address by Counsel for Victory Fire Engineering Limited (English only)",
+   {
+    "type": "closing_address",
+    "pages": 19,
+    "base_hours": 40.0,
+    "page_hours": 2.3,
+    "hours": 42.3,
+    "tor_tags": [
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR4: Supervision, Roles & Responsibilities"
+    ]
+   }
+  ],
+  [
+   "Closing Address by Representative of Competition Commission (English only)",
+   {
+    "type": "closing_address",
+    "pages": 13,
+    "base_hours": 40.0,
+    "page_hours": 1.6,
+    "hours": 41.6,
+    "tor_tags": [
+     "ToR2: Fire Service Installations & Equipment",
+     "ToR3: Building Maintenance & Renovation Works",
+     "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+     "ToR6: Adequacy of Laws & Penalties",
+     "ToR7: Recommendations & Improvement Measures"
+    ]
+   }
+  ]
+ ],
+ "docs": {
+  "2ndSupplemental Witness Statement of Mr LEE Kwok Hung (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 7,
+   "base_hours": 12.0,
+   "page_hours": 0.8,
+   "hours": 12.8,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "2ndWitness Statement of Mr LEUNG Man Chung (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Mr LEUNG Man Chung (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "3rdWitness Statement of Mr LEUNG Ping Kay (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr YIM Choi Wah, Alex (English only)": {
+   "type": "witness_statement",
+   "pages": 10,
+   "base_hours": 12.0,
+   "page_hours": 1.2,
+   "hours": 13.2,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "Reply from Mr WONG Luen Kuen (Chinese only)": {
+   "type": "submission",
+   "pages": 7,
+   "base_hours": 10.0,
+   "page_hours": 0.8,
+   "hours": 10.8,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Reply from王華添工程公司(Chinese only)": {
+   "type": "submission",
+   "pages": 6,
+   "base_hours": 10.0,
+   "page_hours": 0.7,
+   "hours": 10.7,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Reply from On Cheong Engineering Limited (Chinese only)": {
+   "type": "submission",
+   "pages": 8,
+   "base_hours": 10.0,
+   "page_hours": 1.0,
+   "hours": 11.0,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Reply from Messrs. Wong & Lawyers (Acting for Hang Fung Building Engineering Limited) (Chinese only)": {
+   "type": "submission",
+   "pages": 8,
+   "base_hours": 10.0,
+   "page_hours": 1.0,
+   "hours": 11.0,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "General / Other"
+   ]
+  },
+  "Reply from Lam Kee Construction Materials (Chinese only)": {
+   "type": "submission",
+   "pages": 5,
+   "base_hours": 10.0,
+   "page_hours": 0.6,
+   "hours": 10.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Reply from Red Sun Construct (Asia) Engineering Limited (Chinese only)": {
+   "type": "submission",
+   "pages": 6,
+   "base_hours": 10.0,
+   "page_hours": 0.7,
+   "hours": 10.7,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Reply from Tin Hung Engineering Company (Chinese only)": {
+   "type": "submission",
+   "pages": 7,
+   "base_hours": 10.0,
+   "page_hours": 0.8,
+   "hours": 10.8,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Reply from Messrs. King & Company (Acting for Fred & Willie Bros Const Eng Co Limited) (English only)": {
+   "type": "submission",
+   "pages": 8,
+   "base_hours": 10.0,
+   "page_hours": 1.0,
+   "hours": 11.0,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works"
+   ]
+  },
+  "Reply from Messrs. Wong & Lawyers (Acting for Hoi Tak Construction Engineering Limited) (Chinese only)": {
+   "type": "submission",
+   "pages": 12,
+   "base_hours": 10.0,
+   "page_hours": 1.4,
+   "hours": 11.4,
+   "tor_tags": [
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Reply from the Development Bureau (English only)": {
+   "type": "submission",
+   "pages": 6,
+   "base_hours": 10.0,
+   "page_hours": 0.7,
+   "hours": 10.7,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "2ndWitness Statement of Ms LAM Wing Sze, Emma (English only)": {
+   "type": "witness_statement",
+   "pages": 2,
+   "base_hours": 12.0,
+   "page_hours": 0.2,
+   "hours": 12.2,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Ms LAM Wing Sze, Emma (English only)": {
+   "type": "witness_statement",
+   "pages": 8,
+   "base_hours": 12.0,
+   "page_hours": 1.0,
+   "hours": 13.0,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Ms LI King Yan (English only)": {
+   "type": "witness_statement",
+   "pages": 8,
+   "base_hours": 12.0,
+   "page_hours": 1.0,
+   "hours": 13.0,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "Witness Statement of Ms CHOW Wing Yee (English only)": {
+   "type": "witness_statement",
+   "pages": 10,
+   "base_hours": 12.0,
+   "page_hours": 1.2,
+   "hours": 13.2,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Witness Statement of Ms HO Kit Yee (English only)": {
+   "type": "witness_statement",
+   "pages": 6,
+   "base_hours": 12.0,
+   "page_hours": 0.7,
+   "hours": 12.7,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "2ndWitness Statement of Ms CHAI Nga Man (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Ms CHAI Nga Man (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr TSANG Chun Ming (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "2ndWitness Statement of Ms LAU Yuet Chun (English only)": {
+   "type": "witness_statement",
+   "pages": 2,
+   "base_hours": 12.0,
+   "page_hours": 0.2,
+   "hours": 12.2,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Ms LAU Yuet Chun (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "3rdWitness Statement of Mr WONG Cheung Hing (English only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "2ndWitness Statement of Mr WONG Cheung Hing (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "1stWitness Statement of Mr WONG Cheung Hing (English only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "3rdWitness Statement of Ms LEUNG Yee Mei, April (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "2ndWitness Statement of Ms LEUNG Yee Mei, April (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr SIU Tsz Ho (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr YEUNG Ching (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "4thWitness Statement of Mr YIU Men Yeung (English only)": {
+   "type": "witness_statement",
+   "pages": 27,
+   "base_hours": 12.0,
+   "page_hours": 3.2,
+   "hours": 15.2,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Presentation Slides by Professor Asif Sohail USMANI and Professor JIANG Liming (English only)": {
+   "type": "expert_report",
+   "pages": 83,
+   "base_hours": 60.0,
+   "page_hours": 10.0,
+   "hours": 70.0,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Expert Report by Professor Asif Sohail USMANI and Professor JIANG Liming, Fire Engineering Experts appointed by the Independent Committee (English onl": {
+   "type": "expert_report",
+   "pages": 130,
+   "base_hours": 60.0,
+   "page_hours": 15.6,
+   "hours": 75.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Presentation Slides by Mr YIU Men Yeung (English only)": {
+   "type": "expert_report",
+   "pages": 19,
+   "base_hours": 60.0,
+   "page_hours": 2.3,
+   "hours": 62.3,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Presentation Slides by Dr TO Chi Wing (English only)": {
+   "type": "expert_report",
+   "pages": 41,
+   "base_hours": 60.0,
+   "page_hours": 4.9,
+   "hours": 64.9,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works"
+   ]
+  },
+  "Presentation Slides by Professor YUEN Kwok Kit, Richard (English only)": {
+   "type": "expert_report",
+   "pages": 49,
+   "base_hours": 60.0,
+   "page_hours": 5.9,
+   "hours": 65.9,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Presentation Slides by Dr LEE Wing Man (English only)": {
+   "type": "expert_report",
+   "pages": 40,
+   "base_hours": 60.0,
+   "page_hours": 4.8,
+   "hours": 64.8,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works"
+   ]
+  },
+  "Presentation Slides by Mr LAM Kin Kwan (English only)": {
+   "type": "expert_report",
+   "pages": 20,
+   "base_hours": 60.0,
+   "page_hours": 2.4,
+   "hours": 62.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Final Investigation Report of the Inter-departmental Fire Investigation Task Force (Appendix A-27 is the Expert Report by Professor YUEN Kwok Kit, Ric": {
+   "type": "investigation_report",
+   "pages": 1142,
+   "base_hours": 120.0,
+   "page_hours": 137.0,
+   "hours": 257.0,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Interim Investigation Report of the Inter-departmental Fire Investigation Task Force (English only)": {
+   "type": "investigation_report",
+   "pages": 113,
+   "base_hours": 120.0,
+   "page_hours": 13.6,
+   "hours": 133.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Reply from Mr MUI Siu Fung to the solicitors of the Independent Committee (Chinese only)": {
+   "type": "letter",
+   "pages": 5,
+   "base_hours": 4.0,
+   "page_hours": 0.6,
+   "hours": 4.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "2ndreply from Ms WONG Pik Kiu to the solicitors of the Independent Committee (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 9,
+   "base_hours": 12.0,
+   "page_hours": 1.1,
+   "hours": 13.1,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1streply from Ms WONG Pik Kiu to the solicitors of the Independent Committee (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 7,
+   "base_hours": 12.0,
+   "page_hours": 0.8,
+   "hours": 12.8,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr WONG Chung Kee, Steve (English only)": {
+   "type": "witness_statement",
+   "pages": 5,
+   "base_hours": 12.0,
+   "page_hours": 0.6,
+   "hours": 12.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "2ndWitness Statement of Mr HO Kin Yip (English only)": {
+   "type": "witness_statement",
+   "pages": 9,
+   "base_hours": 12.0,
+   "page_hours": 1.1,
+   "hours": 13.1,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "1stWitness Statement of Mr HO Kin Yip (English only)": {
+   "type": "witness_statement",
+   "pages": 8,
+   "base_hours": 12.0,
+   "page_hours": 1.0,
+   "hours": 13.0,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Witness Statement of Mr HAU Wa Kin (English only)": {
+   "type": "witness_statement",
+   "pages": 13,
+   "base_hours": 12.0,
+   "page_hours": 1.6,
+   "hours": 13.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr HO Cheung Ming (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Witness Statement of Mr LEE Chun Wah (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Ms LI Ho Ying (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Witness Statement of Mr LIE Ngai Wa (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Witness Statement of Mr LUI Kan Man (English only)": {
+   "type": "witness_statement",
+   "pages": 2,
+   "base_hours": 12.0,
+   "page_hours": 0.2,
+   "hours": 12.2,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Ms LI Ka Yuen, Sandy (English only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Witness Statement of Mr CHAN Chung San (English only)": {
+   "type": "witness_statement",
+   "pages": 8,
+   "base_hours": 12.0,
+   "page_hours": 1.0,
+   "hours": 13.0,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Ms CHEUNG Lui (English only)": {
+   "type": "witness_statement",
+   "pages": 5,
+   "base_hours": 12.0,
+   "page_hours": 0.6,
+   "hours": 12.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr LAI Ho Fai, Edmund (English only)": {
+   "type": "witness_statement",
+   "pages": 10,
+   "base_hours": 12.0,
+   "page_hours": 1.2,
+   "hours": 13.2,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Witness Statement of Mr YU Siu Chuen (English only)": {
+   "type": "witness_statement",
+   "pages": 12,
+   "base_hours": 12.0,
+   "page_hours": 1.4,
+   "hours": 13.4,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "1stWitness Statement of Ms LEUNG Yee Mei, April (English only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "3rdWitness Statement of Mr YIU Men Yeung (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "2ndWitness Statement of Mr YIU Men Yeung (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "1stWitness Statement of Mr YIU Men Yeung (English only)": {
+   "type": "witness_statement",
+   "pages": 7,
+   "base_hours": 12.0,
+   "page_hours": 0.8,
+   "hours": 12.8,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Witness Statement of Ir Dr TO Chi Wing (English only)": {
+   "type": "witness_statement",
+   "pages": 17,
+   "base_hours": 12.0,
+   "page_hours": 2.0,
+   "hours": 14.0,
+   "tor_tags": [
+    "General / Other",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Recommendations on improvement measures by Competition Commission concerning Terms of Reference (2) of Independent Committee (English only)": {
+   "type": "recommendation",
+   "pages": 363,
+   "base_hours": 16.0,
+   "page_hours": 43.6,
+   "hours": 59.6,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Recommendations on improvement measures by the Government concerning Terms of Reference (1) and (2) of Independent Committee (English only)": {
+   "type": "submission",
+   "pages": 34,
+   "base_hours": 10.0,
+   "page_hours": 4.1,
+   "hours": 14.1,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Recommendations on improvement measures by nine Wang Fuk Court residents concerning Terms of Reference (1) and (2) of Independent Committee (Chinese o": {
+   "type": "recommendation",
+   "pages": 9,
+   "base_hours": 16.0,
+   "page_hours": 1.1,
+   "hours": 17.1,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Closing Address by Counsel for the Committee (English only)": {
+   "type": "closing_address",
+   "pages": 627,
+   "base_hours": 40.0,
+   "page_hours": 75.2,
+   "hours": 115.2,
+   "tor_tags": [
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Synopsis of Closing Address by Counsel for the Relevant Bureaux and Departments of the Government (Chinese only)": {
+   "type": "closing_address",
+   "pages": 24,
+   "base_hours": 40.0,
+   "page_hours": 2.9,
+   "hours": 42.9,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Closing Address by Counsel for the Relevant Bureaux and Departments of the Government (English only)": {
+   "type": "closing_address",
+   "pages": 408,
+   "base_hours": 40.0,
+   "page_hours": 49.0,
+   "hours": 89.0,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR7: Recommendations & Improvement Measures",
+    "General / Other",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Closing Address by Counsel for nine Wang Fuk Court residents (Chinese only)": {
+   "type": "closing_address",
+   "pages": 25,
+   "base_hours": 40.0,
+   "page_hours": 3.0,
+   "hours": 43.0,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Closing Address by Counsel for Victory Fire Engineering Limited (English only)": {
+   "type": "closing_address",
+   "pages": 19,
+   "base_hours": 40.0,
+   "page_hours": 2.3,
+   "hours": 42.3,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Closing Address by the 12th Management Committee of the Incorporated Owners of Wang Fuk Court (Chinese only)": {
+   "type": "closing_address",
+   "pages": 10,
+   "base_hours": 40.0,
+   "page_hours": 1.2,
+   "hours": 41.2,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Closing Address by Counsel for Mr LEUNG Ping Kay (English only)": {
+   "type": "closing_address",
+   "pages": 20,
+   "base_hours": 40.0,
+   "page_hours": 2.4,
+   "hours": 42.4,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "Closing Address by Representative of Competition Commission (English only)": {
+   "type": "closing_address",
+   "pages": 13,
+   "base_hours": 40.0,
+   "page_hours": 1.6,
+   "hours": 41.6,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Closing Address by Counsel for Urban Renewal Authority (Chinese only)": {
+   "type": "closing_address",
+   "pages": 9,
+   "base_hours": 40.0,
+   "page_hours": 1.1,
+   "hours": 41.1,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Closing Address by Counsel for ISS EastPoint Properties Limited (English only)": {
+   "type": "closing_address",
+   "pages": 28,
+   "base_hours": 40.0,
+   "page_hours": 3.4,
+   "hours": 43.4,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Recommendations by Professor Asif Sohail USMANI and Professor JIANG Liming, Fire Engineering Experts appointed by the Independent Committee (English o": {
+   "type": "recommendation",
+   "pages": 4,
+   "base_hours": 16.0,
+   "page_hours": 0.5,
+   "hours": 16.5,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Hong Kong Police Force’s witness statement on irregularities in building maintenance and renovation works (English only)": {
+   "type": "witness_statement",
+   "pages": 15,
+   "base_hours": 12.0,
+   "page_hours": 1.8,
+   "hours": 13.8,
+   "tor_tags": [
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Report of Independent Commission Against Corruption concerning Terms of Reference (2) of Independent Committee (English only)": {
+   "type": "investigation_report",
+   "pages": 63,
+   "base_hours": 120.0,
+   "page_hours": 7.6,
+   "hours": 127.6,
+   "tor_tags": [
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Press release on a building maintenance cartel case submitted to Competition Tribunal by Competition Commission": {
+   "type": "press_release",
+   "pages": 8,
+   "base_hours": 2.0,
+   "page_hours": 1.0,
+   "hours": 3.0,
+   "tor_tags": [
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Originating notice of application submitted by Competition Commission to Competition Tribunal on a building maintenance cartel case (English only)": {
+   "type": "submission",
+   "pages": 81,
+   "base_hours": 10.0,
+   "page_hours": 9.7,
+   "hours": 19.7,
+   "tor_tags": [
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Report of Competition Commission concerning Terms of Reference (2) of Independent Committee (English only)": {
+   "type": "investigation_report",
+   "pages": 91,
+   "base_hours": 120.0,
+   "page_hours": 10.9,
+   "hours": 130.9,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Directions of the Chairman of the Independent Committee made at the hearing on 8 May 2026": {
+   "type": "procedural",
+   "pages": 3,
+   "base_hours": 2.0,
+   "page_hours": 0.4,
+   "hours": 2.4,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr LAU Fu Kwok (English only)": {
+   "type": "witness_statement",
+   "pages": 22,
+   "base_hours": 12.0,
+   "page_hours": 2.6,
+   "hours": 14.6,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Witness Statement of Mr TE Chi Wang (English only)": {
+   "type": "witness_statement",
+   "pages": 13,
+   "base_hours": 12.0,
+   "page_hours": 1.6,
+   "hours": 13.6,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "2ndWitness Statement of Mr YUNG Siu Lun (English only)": {
+   "type": "witness_statement",
+   "pages": 11,
+   "base_hours": 12.0,
+   "page_hours": 1.3,
+   "hours": 13.3,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "1stWitness Statement of Mr YUNG Siu Lun (English only)": {
+   "type": "witness_statement",
+   "pages": 19,
+   "base_hours": 12.0,
+   "page_hours": 2.3,
+   "hours": 14.3,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "3rdWitness Statement of Mr KU Siu Ping (English only)": {
+   "type": "witness_statement",
+   "pages": 30,
+   "base_hours": 12.0,
+   "page_hours": 3.6,
+   "hours": 15.6,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "2ndWitness Statement of Mr KU Siu Ping (English only)": {
+   "type": "witness_statement",
+   "pages": 15,
+   "base_hours": 12.0,
+   "page_hours": 1.8,
+   "hours": 13.8,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Mr KU Siu Ping (English only)": {
+   "type": "witness_statement",
+   "pages": 33,
+   "base_hours": 12.0,
+   "page_hours": 4.0,
+   "hours": 16.0,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Witness Statement of Mr WONG Se King, Peter": {
+   "type": "witness_statement",
+   "pages": 19,
+   "base_hours": 12.0,
+   "page_hours": 2.3,
+   "hours": 14.3,
+   "tor_tags": [
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr YAM Lap Yin, Brian (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR3: Building Maintenance & Renovation Works"
+   ]
+  },
+  "2ndWitness Statement of Mr CHAN Yat Ho, Matthew (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 5,
+   "base_hours": 12.0,
+   "page_hours": 0.6,
+   "hours": 12.6,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Mr CHAN Yat Ho, Matthew": {
+   "type": "witness_statement",
+   "pages": 13,
+   "base_hours": 12.0,
+   "page_hours": 1.6,
+   "hours": 13.6,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "2ndWitness Statement of Mr YUE Chak Sang (English only)": {
+   "type": "witness_statement",
+   "pages": 14,
+   "base_hours": 12.0,
+   "page_hours": 1.7,
+   "hours": 13.7,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "1stWitness Statement of Mr YUE Chak Sang (English only)": {
+   "type": "witness_statement",
+   "pages": 31,
+   "base_hours": 12.0,
+   "page_hours": 3.7,
+   "hours": 15.7,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Witness Statement of Mr PANG Yuk Lung, Michael (English only)": {
+   "type": "witness_statement",
+   "pages": 70,
+   "base_hours": 12.0,
+   "page_hours": 8.4,
+   "hours": 20.4,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Witness Statement of Ms CHAN Hau Man (English only)": {
+   "type": "witness_statement",
+   "pages": 13,
+   "base_hours": 12.0,
+   "page_hours": 1.6,
+   "hours": 13.6,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Witness Statement of Ms OR Wai Yin (English only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "2ndletter from Mr TSE Kam Ming to the solicitors of the Independent Committee (English only)": {
+   "type": "letter",
+   "pages": 4,
+   "base_hours": 4.0,
+   "page_hours": 0.5,
+   "hours": 4.5,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "1stletter from Mr TSE Kam Ming to the solicitors of the Independent Committee (English only)": {
+   "type": "letter",
+   "pages": 7,
+   "base_hours": 4.0,
+   "page_hours": 0.8,
+   "hours": 4.8,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Witness Statement of Ms CHEUNG Yuk Ching, Karen (English only)": {
+   "type": "witness_statement",
+   "pages": 34,
+   "base_hours": 12.0,
+   "page_hours": 4.1,
+   "hours": 16.1,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "2ndWitness Statement of Mr YEUNG Yan Kin, Andy (English only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Mr YEUNG Yan Kin, Andy (English only)": {
+   "type": "witness_statement",
+   "pages": 11,
+   "base_hours": 12.0,
+   "page_hours": 1.3,
+   "hours": 13.3,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "3rdWitness Statement of Mr TANG Wing Wah (English only)": {
+   "type": "witness_statement",
+   "pages": 16,
+   "base_hours": 12.0,
+   "page_hours": 1.9,
+   "hours": 13.9,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "2ndWitness Statement of Mr TANG Wing Wah (English only)": {
+   "type": "witness_statement",
+   "pages": 13,
+   "base_hours": 12.0,
+   "page_hours": 1.6,
+   "hours": 13.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "1stWitness Statement of Mr TANG Wing Wah (English only)": {
+   "type": "witness_statement",
+   "pages": 23,
+   "base_hours": 12.0,
+   "page_hours": 2.8,
+   "hours": 14.8,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Witness Statement of Mr CHAN Derek Armstrong (English only)": {
+   "type": "witness_statement",
+   "pages": 16,
+   "base_hours": 12.0,
+   "page_hours": 1.9,
+   "hours": 13.9,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "2ndWitness Statement of Mr TUNG Wing Kei (English only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "1stWitness Statement of Mr TUNG Wing Kei (English only)": {
+   "type": "witness_statement",
+   "pages": 10,
+   "base_hours": 12.0,
+   "page_hours": 1.2,
+   "hours": 13.2,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "2ndWitness Statement of Mr FOK Chun Ming (English only)": {
+   "type": "witness_statement",
+   "pages": 8,
+   "base_hours": 12.0,
+   "page_hours": 1.0,
+   "hours": 13.0,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "1stWitness Statement of Mr FOK Chun Ming (English only)": {
+   "type": "witness_statement",
+   "pages": 9,
+   "base_hours": 12.0,
+   "page_hours": 1.1,
+   "hours": 13.1,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Witness Statement of Mr NG Wing Kwong (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr HOR Herman (English only)": {
+   "type": "witness_statement",
+   "pages": 6,
+   "base_hours": 12.0,
+   "page_hours": 0.7,
+   "hours": 12.7,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr YUNG Kam Hung, Michael (English only)": {
+   "type": "witness_statement",
+   "pages": 12,
+   "base_hours": 12.0,
+   "page_hours": 1.4,
+   "hours": 13.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Witness Statement of Mr YUEN Tsz Lok, Murphy (English only)": {
+   "type": "witness_statement",
+   "pages": 19,
+   "base_hours": 12.0,
+   "page_hours": 2.3,
+   "hours": 14.3,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "3rdWitness Statement of Mr LI Man Pong (English only)": {
+   "type": "witness_statement",
+   "pages": 6,
+   "base_hours": 12.0,
+   "page_hours": 0.7,
+   "hours": 12.7,
+   "tor_tags": [
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "2ndWitness Statement of Mr LI Man Pong (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "1stWitness Statement of Mr LI Man Pong (English only)": {
+   "type": "witness_statement",
+   "pages": 25,
+   "base_hours": 12.0,
+   "page_hours": 3.0,
+   "hours": 15.0,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "2ndWitness Statement of Ms LAM Sau Ching (English only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR3: Building Maintenance & Renovation Works"
+   ]
+  },
+  "1stWitness Statement of Ms LAM Sau Ching (English only)": {
+   "type": "witness_statement",
+   "pages": 31,
+   "base_hours": 12.0,
+   "page_hours": 3.7,
+   "hours": 15.7,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "2ndWitness Statement of Mr KONG Cheung Fat (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 56,
+   "base_hours": 12.0,
+   "page_hours": 6.7,
+   "hours": 18.7,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Mr KONG Cheung Fat (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 16,
+   "base_hours": 12.0,
+   "page_hours": 1.9,
+   "hours": 13.9,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Response of the 12th Management Committee of the Incorporated Owners of Wang Fuk Court for the term from 6 September 2024 to 6 January 2026 in relatio": {
+   "type": "submission",
+   "pages": 31,
+   "base_hours": 10.0,
+   "page_hours": 3.7,
+   "hours": 13.7,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Witness Statement of Mr TSUI Moon Come (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 31,
+   "base_hours": 12.0,
+   "page_hours": 3.7,
+   "hours": 15.7,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "1stSupplemental Witness Statement of Mr LEE Kwok Hung (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 5,
+   "base_hours": 12.0,
+   "page_hours": 0.6,
+   "hours": 12.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Witness Statement of Mr LEE Kwok Hung (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 13,
+   "base_hours": 12.0,
+   "page_hours": 1.6,
+   "hours": 13.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr NG Pui Kwan (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "2ndWitness Statement of Mr CHENG Ka Chun (English only)": {
+   "type": "witness_statement",
+   "pages": 3,
+   "base_hours": 12.0,
+   "page_hours": 0.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Mr CHENG Ka Chun (English only)": {
+   "type": "witness_statement",
+   "pages": 11,
+   "base_hours": 12.0,
+   "page_hours": 1.3,
+   "hours": 13.3,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "General / Other",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works"
+   ]
+  },
+  "Witness Statement of Ms TSANG Shuk Yin (English only)": {
+   "type": "witness_statement",
+   "pages": 8,
+   "base_hours": 12.0,
+   "page_hours": 1.0,
+   "hours": 13.0,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "3rdWitness Statement of Mr WONG Sze Lut, Sunny (English only)": {
+   "type": "witness_statement",
+   "pages": 5,
+   "base_hours": 12.0,
+   "page_hours": 0.6,
+   "hours": 12.6,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "2ndWitness Statement of Mr WONG Sze Lut, Sunny (English only)": {
+   "type": "witness_statement",
+   "pages": 9,
+   "base_hours": 12.0,
+   "page_hours": 1.1,
+   "hours": 13.1,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "1stWitness Statement of Mr WONG Sze Lut, Sunny (English only)": {
+   "type": "witness_statement",
+   "pages": 23,
+   "base_hours": 12.0,
+   "page_hours": 2.8,
+   "hours": 14.8,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Witness Statement of Mr WONG King Man (English only)": {
+   "type": "witness_statement",
+   "pages": 8,
+   "base_hours": 12.0,
+   "page_hours": 1.0,
+   "hours": 13.0,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Witness Statement of Mr LAM Ho Chun (English only)": {
+   "type": "witness_statement",
+   "pages": 6,
+   "base_hours": 12.0,
+   "page_hours": 0.7,
+   "hours": 12.7,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr CHEUNG Lok Hang (English only)": {
+   "type": "witness_statement",
+   "pages": 5,
+   "base_hours": 12.0,
+   "page_hours": 0.6,
+   "hours": 12.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr HUI Kin On (English only)": {
+   "type": "witness_statement",
+   "pages": 8,
+   "base_hours": 12.0,
+   "page_hours": 1.0,
+   "hours": 13.0,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "5thWitness Statement of Mr KEUNG Sai Ming (English only)": {
+   "type": "witness_statement",
+   "pages": 13,
+   "base_hours": 12.0,
+   "page_hours": 1.6,
+   "hours": 13.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "4thWitness Statement of Mr KEUNG Sai Ming (English only)": {
+   "type": "witness_statement",
+   "pages": 14,
+   "base_hours": 12.0,
+   "page_hours": 1.7,
+   "hours": 13.7,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "3rdWitness Statement of Mr KEUNG Sai Ming (English only)": {
+   "type": "witness_statement",
+   "pages": 7,
+   "base_hours": 12.0,
+   "page_hours": 0.8,
+   "hours": 12.8,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works"
+   ]
+  },
+  "2ndWitness Statement of Mr KEUNG Sai Ming (English only)": {
+   "type": "witness_statement",
+   "pages": 8,
+   "base_hours": 12.0,
+   "page_hours": 1.0,
+   "hours": 13.0,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Mr KEUNG Sai Ming (English only)": {
+   "type": "witness_statement",
+   "pages": 47,
+   "base_hours": 12.0,
+   "page_hours": 5.6,
+   "hours": 17.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "2ndWitness Statement of Mr LEUNG Ping Kay (English only)": {
+   "type": "witness_statement",
+   "pages": 16,
+   "base_hours": 12.0,
+   "page_hours": 1.9,
+   "hours": 13.9,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Mr LEUNG Ping Kay (English only)": {
+   "type": "witness_statement",
+   "pages": 9,
+   "base_hours": 12.0,
+   "page_hours": 1.1,
+   "hours": 13.1,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "2ndWitness Statement of Mr CHUNG Kit Man (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr TONG Hing Lun (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "2ndWitness Statement of Ms CHENG Tsz Ying (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 7,
+   "base_hours": 12.0,
+   "page_hours": 0.8,
+   "hours": 12.8,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works"
+   ]
+  },
+  "1stWitness Statement of Ms CHENG Tsz Ying (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 16,
+   "base_hours": 12.0,
+   "page_hours": 1.9,
+   "hours": 13.9,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "Witness Statement of Mr LAM Man Yan (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 8,
+   "base_hours": 12.0,
+   "page_hours": 1.0,
+   "hours": 13.0,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "2ndWitness Statement of Mr WONG Pak Shing (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Mr WONG Pak Shing (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 7,
+   "base_hours": 12.0,
+   "page_hours": 0.8,
+   "hours": 12.8,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Witness Statement of Mr LAW Kwok Shui (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 7,
+   "base_hours": 12.0,
+   "page_hours": 0.8,
+   "hours": 12.8,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr LEE Shing Foo (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 7,
+   "base_hours": 12.0,
+   "page_hours": 0.8,
+   "hours": 12.8,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Ms CHUNG Sui Ha (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 8,
+   "base_hours": 12.0,
+   "page_hours": 1.0,
+   "hours": 13.0,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Witness Statement of Ms LOK Sin Ying (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 9,
+   "base_hours": 12.0,
+   "page_hours": 1.1,
+   "hours": 13.1,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "Witness Statement of Mr LI Chun Yin (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "1stWitness Statement of Mr CHUNG Kit Man (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 9,
+   "base_hours": 12.0,
+   "page_hours": 1.1,
+   "hours": 13.1,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr WONG Kin Wa (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 4,
+   "base_hours": 12.0,
+   "page_hours": 0.5,
+   "hours": 12.5,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Mr YIP Ka Kui, Sdanni (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 15,
+   "base_hours": 12.0,
+   "page_hours": 1.8,
+   "hours": 13.8,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Witness Statement of Ms LO Hiu Kei (Chinese only)": {
+   "type": "witness_statement",
+   "pages": 5,
+   "base_hours": 12.0,
+   "page_hours": 0.6,
+   "hours": 12.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Opening Address by Counsel for Hop On Management Company Limited (Chinese only)": {
+   "type": "opening_address",
+   "pages": 4,
+   "base_hours": 24.0,
+   "page_hours": 0.5,
+   "hours": 24.5,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Opening Address by Representative of Competition Commission (English only)": {
+   "type": "opening_address",
+   "pages": 90,
+   "base_hours": 24.0,
+   "page_hours": 10.8,
+   "hours": 34.8,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Opening Address by Counsel for ISS EastPoint Properties Limited (English only)": {
+   "type": "opening_address",
+   "pages": 19,
+   "base_hours": 24.0,
+   "page_hours": 2.3,
+   "hours": 26.3,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "Opening Address by Counsel for Urban Renewal Authority (English only)": {
+   "type": "opening_address",
+   "pages": 115,
+   "base_hours": 24.0,
+   "page_hours": 13.8,
+   "hours": 37.8,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Opening Address by Counsel for Relevant Bureaux and Departments of the Government": {
+   "type": "opening_address",
+   "pages": 28,
+   "base_hours": 24.0,
+   "page_hours": 3.4,
+   "hours": 27.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Opening Address by Mr Tsui Moon Come, Tony, Chairperson of the 12th Management Committee of the Incorporated Owners of Wang Fuk Court (Chinese only)": {
+   "type": "opening_address",
+   "pages": 3,
+   "base_hours": 24.0,
+   "page_hours": 0.4,
+   "hours": 24.4,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Opening Address by Counsel for the Committee": {
+   "type": "opening_address",
+   "pages": 20,
+   "base_hours": 24.0,
+   "page_hours": 2.4,
+   "hours": 26.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Rules of Procedure for Evidential Hearing (made at the direction conference on 5 February 2026)": {
+   "type": "procedural",
+   "pages": 6,
+   "base_hours": 2.0,
+   "page_hours": 0.7,
+   "hours": 2.7,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 17 July 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 29,
+   "base_hours": 8.0,
+   "page_hours": 3.5,
+   "hours": 11.5,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "General / Other"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 16 July 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 29,
+   "base_hours": 8.0,
+   "page_hours": 3.5,
+   "hours": 11.5,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 15 July 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 14,
+   "base_hours": 8.0,
+   "page_hours": 1.7,
+   "hours": 9.7,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 25 June 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 27,
+   "base_hours": 8.0,
+   "page_hours": 3.2,
+   "hours": 11.2,
+   "tor_tags": [
+    "General / Other",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 24 June 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 24,
+   "base_hours": 8.0,
+   "page_hours": 2.9,
+   "hours": 10.9,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 22 June 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 127,
+   "base_hours": 8.0,
+   "page_hours": 15.2,
+   "hours": 23.2,
+   "tor_tags": [
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR7: Recommendations & Improvement Measures",
+    "General / Other",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 8 May 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 28,
+   "base_hours": 8.0,
+   "page_hours": 3.4,
+   "hours": 11.4,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 7 May 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 20,
+   "base_hours": 8.0,
+   "page_hours": 2.4,
+   "hours": 10.4,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 6 May 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 43,
+   "base_hours": 8.0,
+   "page_hours": 5.2,
+   "hours": 13.2,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 30 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 37,
+   "base_hours": 8.0,
+   "page_hours": 4.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 27 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 35,
+   "base_hours": 8.0,
+   "page_hours": 4.2,
+   "hours": 12.2,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 24 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 29,
+   "base_hours": 8.0,
+   "page_hours": 3.5,
+   "hours": 11.5,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 23 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 23,
+   "base_hours": 8.0,
+   "page_hours": 2.8,
+   "hours": 10.8,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 22 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 27,
+   "base_hours": 8.0,
+   "page_hours": 3.2,
+   "hours": 11.2,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 21 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 28,
+   "base_hours": 8.0,
+   "page_hours": 3.4,
+   "hours": 11.4,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 20 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 22,
+   "base_hours": 8.0,
+   "page_hours": 2.6,
+   "hours": 10.6,
+   "tor_tags": [
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 17 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 37,
+   "base_hours": 8.0,
+   "page_hours": 4.4,
+   "hours": 12.4,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 16 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 30,
+   "base_hours": 8.0,
+   "page_hours": 3.6,
+   "hours": 11.6,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR3: Building Maintenance & Renovation Works"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 15 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 40,
+   "base_hours": 8.0,
+   "page_hours": 4.8,
+   "hours": 12.8,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 13 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 32,
+   "base_hours": 8.0,
+   "page_hours": 3.8,
+   "hours": 11.8,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR3: Building Maintenance & Renovation Works"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 10 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 47,
+   "base_hours": 8.0,
+   "page_hours": 5.6,
+   "hours": 13.6,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 8 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 50,
+   "base_hours": 8.0,
+   "page_hours": 6.0,
+   "hours": 14.0,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 2 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 36,
+   "base_hours": 8.0,
+   "page_hours": 4.3,
+   "hours": 12.3,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 1 April 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 43,
+   "base_hours": 8.0,
+   "page_hours": 5.2,
+   "hours": 13.2,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 31 March 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 39,
+   "base_hours": 8.0,
+   "page_hours": 4.7,
+   "hours": 12.7,
+   "tor_tags": [
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR1: Causes & Circumstances of Fire"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 30 March 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 36,
+   "base_hours": 8.0,
+   "page_hours": 4.3,
+   "hours": 12.3,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 26 March 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 27,
+   "base_hours": 8.0,
+   "page_hours": 3.2,
+   "hours": 11.2,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 24 March 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 27,
+   "base_hours": 8.0,
+   "page_hours": 3.2,
+   "hours": 11.2,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 20 March 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 26,
+   "base_hours": 8.0,
+   "page_hours": 3.1,
+   "hours": 11.1,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR7: Recommendations & Improvement Measures"
+   ]
+  },
+  "Transcript of Evidential Hearing held on 19 March 2026 (Draft)": {
+   "type": "hearing_transcript",
+   "pages": 32,
+   "base_hours": 8.0,
+   "page_hours": 3.8,
+   "hours": 11.8,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR7: Recommendations & Improvement Measures",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Transcript of the Direction Conference held on 5 February 2026": {
+   "type": "procedural",
+   "pages": 10,
+   "base_hours": 2.0,
+   "page_hours": 1.2,
+   "hours": 3.2,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR5: Systemic Issues (Collusion, Bid-rigging, Conflicts)",
+    "ToR6: Adequacy of Laws & Penalties",
+    "ToR7: Recommendations & Improvement Measures",
+    "General / Other",
+    "ToR2: Fire Service Installations & Equipment",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Notice on arrangements for public observation for sixth round of evidential hearings": {
+   "type": "notice",
+   "pages": 6,
+   "base_hours": 1.5,
+   "page_hours": 0.7,
+   "hours": 2.2,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Notice on arrangements for public observation for fifth round of evidential hearings": {
+   "type": "notice",
+   "pages": 6,
+   "base_hours": 1.5,
+   "page_hours": 0.7,
+   "hours": 2.2,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "List of Involved Parties (as at 8 May 2026)": {
+   "type": "other",
+   "pages": 2,
+   "base_hours": 4.0,
+   "page_hours": 0.2,
+   "hours": 4.2,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "General / Other"
+   ]
+  },
+  "Notice on arrangements for public observation for fourth round of evidential hearings": {
+   "type": "procedural",
+   "pages": 6,
+   "base_hours": 2.0,
+   "page_hours": 0.7,
+   "hours": 2.7,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "List of Involved Parties (as at 23 April 2026)": {
+   "type": "other",
+   "pages": 3,
+   "base_hours": 4.0,
+   "page_hours": 0.4,
+   "hours": 4.4,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR3: Building Maintenance & Renovation Works",
+    "ToR2: Fire Service Installations & Equipment"
+   ]
+  },
+  "Notice on arrangements for public observation for third round of evidential hearings": {
+   "type": "notice",
+   "pages": 6,
+   "base_hours": 1.5,
+   "page_hours": 0.7,
+   "hours": 2.2,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Notice on arrangements for public observation for second round of evidential hearings": {
+   "type": "procedural",
+   "pages": 6,
+   "base_hours": 2.0,
+   "page_hours": 0.7,
+   "hours": 2.7,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "List of Involved Parties (as at 31 March 2026)": {
+   "type": "other",
+   "pages": 2,
+   "base_hours": 4.0,
+   "page_hours": 0.2,
+   "hours": 4.2,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "General / Other"
+   ]
+  },
+  "List of Involved Parties (as at 25 March 2026)": {
+   "type": "other",
+   "pages": 2,
+   "base_hours": 4.0,
+   "page_hours": 0.2,
+   "hours": 4.2,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "General / Other"
+   ]
+  },
+  "List of Involved Parties (as at 18 March 2026)": {
+   "type": "other",
+   "pages": 2,
+   "base_hours": 4.0,
+   "page_hours": 0.2,
+   "hours": 4.2,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "General / Other"
+   ]
+  },
+  "List of Involved Parties (as at 17 March 2026)": {
+   "type": "other",
+   "pages": 2,
+   "base_hours": 4.0,
+   "page_hours": 0.2,
+   "hours": 4.2,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "General / Other"
+   ]
+  },
+  "Notice on arrangements for public observation for first round of evidential hearings": {
+   "type": "procedural",
+   "pages": 6,
+   "base_hours": 2.0,
+   "page_hours": 0.7,
+   "hours": 2.7,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Appointment of Experts by Independent Committee": {
+   "type": "procedural",
+   "pages": 1,
+   "base_hours": 2.0,
+   "page_hours": 0.1,
+   "hours": 2.1,
+   "tor_tags": [
+    "ToR1: Causes & Circumstances of Fire",
+    "ToR4: Supervision, Roles & Responsibilities",
+    "ToR6: Adequacy of Laws & Penalties"
+   ]
+  },
+  "Notice on arrangements for public observation at direction conference": {
+   "type": "notice",
+   "pages": 5,
+   "base_hours": 1.5,
+   "page_hours": 0.6,
+   "hours": 2.1,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Appointment of Counsel by the Independent Committee": {
+   "type": "procedural",
+   "pages": 1,
+   "base_hours": 2.0,
+   "page_hours": 0.1,
+   "hours": 2.1,
+   "tor_tags": [
+    "ToR4: Supervision, Roles & Responsibilities",
+    "General / Other"
+   ]
+  },
+  "Appointment of Counsel/Solicitors by the Independent Committee": {
+   "type": "procedural",
+   "pages": 1,
+   "base_hours": 2.0,
+   "page_hours": 0.1,
+   "hours": 2.1,
+   "tor_tags": [
+    "General / Other",
+    "ToR4: Supervision, Roles & Responsibilities"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 24 June 2026)": {
+   "type": "procedural",
+   "pages": 6,
+   "base_hours": 2.0,
+   "page_hours": 0.7,
+   "hours": 2.7,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 23 June 2026)": {
+   "type": "procedural",
+   "pages": 6,
+   "base_hours": 2.0,
+   "page_hours": 0.7,
+   "hours": 2.7,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 21 June 2026)": {
+   "type": "procedural",
+   "pages": 5,
+   "base_hours": 2.0,
+   "page_hours": 0.6,
+   "hours": 2.6,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 7 May 2026)": {
+   "type": "procedural",
+   "pages": 5,
+   "base_hours": 2.0,
+   "page_hours": 0.6,
+   "hours": 2.6,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 6 May 2026)": {
+   "type": "procedural",
+   "pages": 5,
+   "base_hours": 2.0,
+   "page_hours": 0.6,
+   "hours": 2.6,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 5 May 2026)": {
+   "type": "procedural",
+   "pages": 5,
+   "base_hours": 2.0,
+   "page_hours": 0.6,
+   "hours": 2.6,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 29 April 2026)": {
+   "type": "procedural",
+   "pages": 5,
+   "base_hours": 2.0,
+   "page_hours": 0.6,
+   "hours": 2.6,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 26 April 2026)": {
+   "type": "procedural",
+   "pages": 5,
+   "base_hours": 2.0,
+   "page_hours": 0.6,
+   "hours": 2.6,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 23 April 2026)": {
+   "type": "procedural",
+   "pages": 4,
+   "base_hours": 2.0,
+   "page_hours": 0.5,
+   "hours": 2.5,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 22 April 2026)": {
+   "type": "procedural",
+   "pages": 4,
+   "base_hours": 2.0,
+   "page_hours": 0.5,
+   "hours": 2.5,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 21 April 2026)": {
+   "type": "procedural",
+   "pages": 4,
+   "base_hours": 2.0,
+   "page_hours": 0.5,
+   "hours": 2.5,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 20 April 2026)": {
+   "type": "procedural",
+   "pages": 4,
+   "base_hours": 2.0,
+   "page_hours": 0.5,
+   "hours": 2.5,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 19 April 2026)": {
+   "type": "procedural",
+   "pages": 4,
+   "base_hours": 2.0,
+   "page_hours": 0.5,
+   "hours": 2.5,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 16 April 2026)": {
+   "type": "procedural",
+   "pages": 3,
+   "base_hours": 2.0,
+   "page_hours": 0.4,
+   "hours": 2.4,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 15 April 2026)": {
+   "type": "procedural",
+   "pages": 3,
+   "base_hours": 2.0,
+   "page_hours": 0.4,
+   "hours": 2.4,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 14 April 2026)": {
+   "type": "procedural",
+   "pages": 3,
+   "base_hours": 2.0,
+   "page_hours": 0.4,
+   "hours": 2.4,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 12 April 2026)": {
+   "type": "procedural",
+   "pages": 3,
+   "base_hours": 2.0,
+   "page_hours": 0.4,
+   "hours": 2.4,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 9 April 2026)": {
+   "type": "procedural",
+   "pages": 3,
+   "base_hours": 2.0,
+   "page_hours": 0.4,
+   "hours": 2.4,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 7 April 2026)": {
+   "type": "procedural",
+   "pages": 3,
+   "base_hours": 2.0,
+   "page_hours": 0.4,
+   "hours": 2.4,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 1 April 2026)": {
+   "type": "procedural",
+   "pages": 2,
+   "base_hours": 2.0,
+   "page_hours": 0.2,
+   "hours": 2.2,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 31 March 2026)": {
+   "type": "procedural",
+   "pages": 2,
+   "base_hours": 2.0,
+   "page_hours": 0.2,
+   "hours": 2.2,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 30 March 2026)": {
+   "type": "procedural",
+   "pages": 2,
+   "base_hours": 2.0,
+   "page_hours": 0.2,
+   "hours": 2.2,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 29 March 2026)": {
+   "type": "procedural",
+   "pages": 2,
+   "base_hours": 2.0,
+   "page_hours": 0.2,
+   "hours": 2.2,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 26 March 2026)": {
+   "type": "procedural",
+   "pages": 1,
+   "base_hours": 2.0,
+   "page_hours": 0.1,
+   "hours": 2.1,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 25 March 2026)": {
+   "type": "procedural",
+   "pages": 1,
+   "base_hours": 2.0,
+   "page_hours": 0.1,
+   "hours": 2.1,
+   "tor_tags": [
+    "General / Other"
+   ]
+  },
+  "Hearing Timetable for Witnesses to Give Evidence (as at 23 March 2026)": {
+   "type": "procedural",
+   "pages": 1,
+   "base_hours": 2.0,
+   "page_hours": 0.1,
+   "hours": 2.1,
+   "tor_tags": [
+    "General / Other"
+   ]
+  }
+ }
+}

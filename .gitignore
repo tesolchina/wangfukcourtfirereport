@@ -1,0 +1,27 @@
+# Heavy generated data (download via the crawler from the committee's site)
+data/pdfs/
+data/markdown/
+data/images/
+
+# Generated site output (rebuilt via codes/build_site.py)
+site_out/
+
+# Secrets — never commit
+.env
+**/.env
+*.key
+GoogleAccess.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+.venv/
+
+# OS / tools
+.DS_Store
+.ossutil_checkpoint/
+*.log
+.cache_ggshield

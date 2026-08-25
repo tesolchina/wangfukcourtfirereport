@@ -1,0 +1,93 @@
+# -*- coding: utf-8 -*-
+"""Official Chinese names/terms harvested from the government committee site
+(ic-wangfukcourtfire.gov.hk/chi/documents.html and /chi/index.html).
+Used by gen_cross_lang_v2.py to keep LLM summaries consistent with official
+usage. ONLY verified entries are included; any other name must stay in English
+(never transliterate)."""
+import json, os
+
+TERMS = {
+    "Wang Fuk Court": "大埔宏福苑",
+    "Independent Committee": "就大埔宏福苑火災成立的獨立委員會",
+    "IFITF / Inter-departmental Fire Investigation Task Force": "跨部門調查專組",
+    "Competition Commission": "競爭事務委員會",
+    "Competition Tribunal": "競爭事務審裁處",
+    "ICAC": "廉政公署",
+    "Police": "香港警務處",
+    "Urban Renewal Authority": "市區重建局",
+    "Development Bureau": "發展局",
+    "Fire Services Department": "消防處",
+    "Labour Department": "勞工處",
+    "Buildings Department": "屋宇署",
+    "Incorporated Owners of Wang Fuk Court": "宏福苑業主立案法團",
+    "12th Management Committee": "第十二屆管理委員會",
+    "witness statement": "證人供詞",
+    "closing address": "總結陳詞",
+    "opening address": "開場陳詞",
+    "hearing": "聽證會",
+    "direction conference": "指示會議",
+    "expert report": "專家報告",
+    "presentation slides": "簡報投影片",
+    "originating notice of application": "原訴申請通知書",
+    "improvement measures": "改善建議",
+}
+
+# people — verified from the official government document list (chi/documents.html)
+PEOPLE = {
+    "Lee Kwok Hung": "李國鴻", "Leung Man Chung": "梁文仲", "Leung Ping Kay": "梁秉基",
+    "Yim Choi Wah": "嚴財華", "Wong Luen Kuen": "王聯權", "Mui Siu Fung": "梅少峰",
+    "Wong Pik Kiu": "黃碧嬌", "Wong Chung Kee": "黃忠基", "Ho Kin Yip": "何建業",
+    "Ku Siu Ping": "古小平", "Yam Lap Yin": "任立賢", "Chan Yat Ho": "陳日豪",
+    "Yu Chak Sang": "茹澤生", "Poon Yuk Lung": "潘玉龍", "Chan Hau Man": "陳巧敏",
+    "Or Wai Yin": "柯煒妍", "Tse Kam Ming": "謝錦明", "Cheung Yuk Ching": "張玉清",
+    "Yeung Yan Kin": "楊恩健", "Tang Wing Wah": "鄧榮華", "Chan Hing Yung": "陳慶勇",
+    "Tung Wing Kay": "董永基", "Fok Chun Ming": "霍振明", "Ng Wing Kwong": "伍永光",
+    "Ho Chun Wai": "賀俊維", "Yung Kam Hung": "翁錦雄", "Yuen Tsz Lok": "袁子諾",
+    "Lee Man Pong": "李萬邦", "Lam Sau Ching": "林秀青", "Kong Cheung Fat": "江祥發",
+    "Tsui Moon Come": "徐滿柑", "Ng Pui Kwan": "吳培坤", "Cheng Ka Chun": "鄭嘉俊",
+    "Tsang Shuk Yin": "曾淑賢", "Wong Sze Lut": "黃思律", "Wong King Man": "黃景文",
+    "Lam Ho Chun": "林浩俊", "Cheung Lok Hang": "張樂恒", "Hui Kin On": "許健安",
+    "Keung Sai Ming": "姜世明", "Chung Kit Man": "鍾傑文", "Tong Hing Lun": "唐慶麟",
+    "Cheng Tsz Ying": "鄭芷盈", "Lam Man Yan": "林文欣", "Wong Pak Shing": "黃百盛",
+    "Law Kwok Shui": "羅國瑞", "Lee Shing Foo": "李承富", "Chung Sui Ha": "鍾瑞霞",
+    "Lok Sin Ying": "駱倩盈", "Li Chun Yin": "李俊賢", "Wong Kin Wa": "黃健華",
+    "Yip Ka Kui": "葉家駒", "Lo Hiu Kei": "羅曉琪", "Siu Tsz Ho": "蕭梓浩",
+    "Yeung Ching": "楊程", "Yu Man Yeung": "于文陽", "To Chi Wing": "杜志榮",
+    "Yuen Kwok Kit": "袁國傑", "Lee Wing Man": "李詠文", "Lam Kin Kwan": "林建軍",
+    "Ho Cheung Ming": "何璋明", "Li Chun Wah": "李春華", "Lee Ho Ying": "李可瀅",
+    "Lee Ngai Wah": "李毅華", "Lui Kan Man": "呂近文", "Lee Ka Yin": "李嘉淵",
+    "Chan Chung Sun": "陳仲新", "Cheung Lui": "張蕾", "Lai Ho Fai": "黎晧暉",
+    "Yu Siu Chuen": "余兆泉", "Lau Fu Kwok": "劉輔國", "Yik Chi Wang": "易志宏",
+    "Yung Siu Lun": "容兆倫", "Lam Wing Sze": "林詠詩", "Ho Kit Yee": "何潔儀",
+    "Lau Yuet Chun": "劉悅津", "Wong Cheung Hing": "黃長興", "Li King Yan": "李䜘訢",
+    "Chow Wing Yee": "周詠儀", "Leung Yee Mei": "梁綺薇", "Tse Yee Man": "蔡雅敏",
+}
+
+# companies / organisations — verified from the official document list
+COMPANIES = {
+    "Victory Fire Engineering": "宏泰消防工程有限公司",
+    "ISS EastPoint Properties": "置邦興業有限公司",
+    "Hop On Management": "合安管理有限公司",
+    "Hang Fung Construction": "恒豐營造工程有限公司",
+    "Hoi Tak Construction": "海德營造工程有限公司",
+    "Red Sun Construct (Asia)": "太陽建設（亞洲）工程有限公司",
+    "Tin Hung Engineering": "天雄工程公司",
+    "On Cheong Engineering": "安創工程公司",
+    "Lam Kee Construction Materials": "林記建築材料",
+    "Wang Hua Tian Engineering": "王華添工程公司",
+    "Wong & Lawyers": "黃廣安律師行",
+    "Fred & Willie Bros": "發利建設工程公司",
+}
+
+
+def to_json(path):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump({"terms": TERMS, "people": PEOPLE, "companies": COMPANIES},
+                  f, ensure_ascii=False, indent=1)
+
+
+if __name__ == "__main__":
+    out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                       "data", "official_zh_names.json")
+    to_json(out)
+    print("saved ->", out, "| people:", len(PEOPLE), "companies:", len(COMPANIES))

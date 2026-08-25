@@ -1,0 +1,2215 @@
+{
+ "2ndWitness Statement of Mr LEUNG Man Chung (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement focused on personal actions and communications related to maintenance work and fire system notifications, without any mention or indication of tender irregularities, collusion, conflicts of interest, or related systemic issues.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr LEUNG Man Chung (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement is a factual account by a subcontractor about his work scope and timeline, with no mention or indication of irregularities, conflicts, or suspicious tendering practices related to the renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "3rdWitness Statement of Mr LEUNG Ping Kay (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document focuses on phone call records and communication about repair progress without any mention or indication of tender irregularities, collusion, or conflicts of interest in the renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndSupplemental Witness Statement of Mr LEE Kwok Hung (Chinese only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "The witness discovered discrepancies between the signed contract and the tender documents, indicating confusion or misrepresentation about which documents were officially signed (paras 6-10).",
+   "The contract attachments on provided USBs were incomplete or blank, notably the 'material data' folder, suggesting possible document fabrication or withholding (paras 12-15).",
+   "Rapid approval of multiple material substitutions by the consultant and owners' corporation shortly after the renovation began, implying possible irregularities or collusion in contract modifications (para 5, 22).",
+   "Complaints raised about unreasonable and unusual contract terms embedded since the tender drafting stage, with the consultant (鴻毅) both drafting and overseeing the contract, raising conflict of interest concerns (paras 26-28).",
+   "The consultant and management appeared to rubber-stamp contract changes and payments without proper transparency or inspection, as evidenced by the witness's difficulty obtaining full contract documents and explanations (paras 13-15, 18-20)."
+  ],
+  "reasoning": "The evidence shows systemic tender irregularities, document withholding/fabrication, conflicts of interest with the consultant drafting and supervising the contract, and possible collusion in rapid approvals and contract modifications, all critical to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "doc_fraud",
+   "conflict_of_interest",
+   "rubber_stamping"
+  ],
+  "ok": true
+ },
+ "Reply from Mr WONG Luen Kuen (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a reply from Mr. Wong Luen Kuen but contains no concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues in the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Reply from王華添工程公司(Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a formal reply from 王華添工程公司 but contains no concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues in the renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr YIM Choi Wah, Alex (English only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "No separate written contract was entered into between PC&E and China Status for the project, only a quotation with company chop and an invoice for 50% deposit (paras 6-7).",
+   "China Status was repeatedly engaged by PC&E for multiple projects, suggesting a close ongoing relationship (para 8).",
+   "All communications between China Status and PC&E for this project were conducted solely via a WhatsApp group with only a few individuals, with no written correspondence outside this channel (para 11-12).",
+   "China Status submitted repeated Shutdown Notices (SONs) and extension applications to the Fire Services Department on behalf of PC&E, with suspensions lasting continuously until the fire, raising questions about oversight and rubber-stamping (paras 13-19)."
+  ],
+  "reasoning": "The evidence shows a lack of formal contracting, exclusive communication channels, and continuous suspension approvals without clear independent oversight, indicating potential tender irregularities and rubber-stamping relevant to systemic issues under ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "rubber_stamping"
+  ],
+  "ok": true
+ },
+ "Reply from On Cheong Engineering Limited (Chinese only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "The document states that the subcontracting agreement between On Cheong Engineering Limited and New South Construction Limited was made orally, with no written contract signed (Page 7, Question 2).",
+   "It is mentioned that On Cheong Engineering Limited did not directly sign any subcontracting agreement with the main contractor, Hong Yip Construction Engineering Limited (Page 7, Question 2).",
+   "The use of foam boards to cover windows was instructed verbally by a foreman from New South Construction Limited, with no written documentation provided (Page 7, Question 5.1)."
+  ],
+  "reasoning": "The document provides evidence of systemic issues such as the absence of written contracts, verbal agreements for subcontracting, and lack of documentation for critical instructions, which align with ToR5 concerns.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "document_irregularity",
+   "closed_subcontracting"
+  ],
+  "ok": true,
+  "reanalysed_after_ocr": true
+ },
+ "Reply from Messrs. Wong & Lawyers (Acting for Hang Fung Building Engineering Limited) (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a legal reply from a law firm representing a contractor and contains no substantive allegations or facts about tender irregularities, collusion, or conflicts of interest in the renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Reply from Lam Kee Construction Materials (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a supplier's reply focusing on order details, product specifications, and delivery processes without any indication of irregularities in tendering, conflicts of interest, or collusion related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Reply from Red Sun Construct (Asia) Engineering Limited (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a reply from Red Sun Construct (Asia) Engineering Limited but contains no concrete facts or claims about tender irregularities, collusion, conflicts of interest, or other systemic issues related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Reply from Messrs. Wong & Lawyers (Acting for Hoi Tak Construction Engineering Limited) (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a legal reply from a law firm representing a construction company, consisting mainly of formal legal language and procedural content without concrete facts or claims about tender irregularities, collusion, or conflicts of interest in the renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Reply from Tin Hung Engineering Company (Chinese only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "All work procedures were arranged by '大判' (the main contractor), and Tin Hung Engineering only followed instructions without involvement in tendering or subcontracting decisions.",
+   "Tin Hung Engineering did not cooperate with other companies besides the main contractor, indicating a possible closed subcontracting arrangement.",
+   "The main contractor's site managers directly managed Tin Hung's work and workforce deployment, suggesting centralized control without independent oversight."
+  ],
+  "reasoning": "The document reveals a subcontracting arrangement where the main contractor controls all work allocation and tendering, with Tin Hung Engineering acting only under instruction, indicating potential tender irregularities and lack of competitive subcontracting.",
+  "tor5_angles": [
+   "tender_irregularity"
+  ],
+  "ok": true
+ },
+ "Reply from Messrs. King & Company (Acting for Fred & Willie Bros Const Eng Co Limited) (English only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "The document details a subcontract agreement between Fred & Willie Bros Const Eng Co and Prestige Construction & Engineering Co. Ltd, including multiple invoices totaling several million HKD, suggesting financial transactions without clear evidence of work performed.",
+   "The company denies involvement in certain key renovation works (foamboard installation/removal, fire-rated window alterations) despite receiving substantial payments, implying possible discrepancies between work done and payments.",
+   "The document notes that records of persons who worked on site were collected by police, indicating potential investigation into actual work presence versus invoicing."
+  ],
+  "reasoning": "The evidence suggests possible tender irregularities and no-work-but-paid scenarios through subcontracting and invoicing practices, which are critical to ToR 5's focus on systemic issues in estate renovation works.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "no_work_but_paid"
+  ],
+  "ok": true
+ },
+ "Reply from the Development Bureau (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document focuses on scaffolding accident statistics, technical details, and construction practices without mentioning or implying any irregularities, conflicts of interest, or tendering issues related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Ms LAM Wing Sze, Emma (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement solely addresses police deployment details at the fire scene and contains no information about estate renovation tender processes or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Ms LAM Wing Sze, Emma (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a police witness statement focused on incident command and police deployment during the Wang Fuk Court fire, containing no information on renovation contractor selection, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Ms LI King Yan (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a police witness statement focusing on emergency response operations during the Wang Fuk Court fire, with no mention or indication of issues related to contractor selection, tendering, or renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Ms CHOW Wing Yee (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a police witness statement focused on emergency call handling procedures and division of labour during the fire incident, with no mention or indication of tender processes, contractor selection, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Ms HO Kit Yee (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a police witness statement focused on 999 call handling and incident logging related to the fire, with no mention or indication of issues related to contractor selection, tendering, or renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Ms CHAI Nga Man (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses solely on police procedures related to missing persons enquiries after the fire incident and contains no information about estate renovation works, contractor selection, or tender processes relevant to systemic issues under ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Ms CHAI Nga Man (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses solely on missing persons reports and operational details during the fire incident, with no mention or indication of issues related to renovation tendering, contractor selection, or conflicts of interest.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr TSANG Chun Ming (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses solely on the development of an interactive digital evidence interface and does not contain any information about renovation contractors, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Ms LAU Yuet Chun (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document solely provides updated graphical data on injury and fatality locations from the fire, with no mention or indication of renovation tender processes or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Ms LAU Yuet Chun (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a police witness statement focused solely on the locations and demographics of injured and deceased persons in the fire incident, with no mention of renovation works, contractors, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr WONG Cheung Hing (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses solely on forensic identification of fire fatalities and related procedural updates, with no mention or indication of issues related to renovation tendering, contractor selection, or systemic irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "3rdWitness Statement of Mr WONG Cheung Hing (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a police witness statement focused on fatality identification and investigation details related to the fire, with no substantive information on renovation contractor selection, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr WONG Cheung Hing (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement focused on identification of deceased persons and fatality data related to the fire, with no mention or indication of issues related to renovation tendering, contractor selection, or systemic irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "3rdWitness Statement of Ms LEUNG Yee Mei, April (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a police witness statement focused solely on injury data and rescue details related to the fire incident, with no mention or indication of issues related to contractor selection, tender processes, or conflicts of interest.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Ms LEUNG Yee Mei, April (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a police witness statement focused on injured persons and their medical details related to the fire incident, with no mention or indication of tender processes, contractor selection, or systemic irregularities in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr SIU Tsz Ho (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement does not contain concrete facts or claims about tender irregularities, collusion, or related systemic issues in the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "4thWitness Statement of Mr YIU Men Yeung (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document does not contain concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues in estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Presentation Slides by Professor Asif Sohail USMANI and Professor JIANG Liming (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a technical expert presentation focused on fire dynamics, fire spread analysis, and fire safety engineering without any mention or indication of procurement, contractor selection, or tender processes related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr YEUNG Ching (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement from a firefighter detailing their actions during the fire incident, with no mention of tender irregularities, collusion, or other systemic issues relevant to ToR5.",
+  "tor5_angles": [],
+  "ok": true,
+  "reanalysed_after_ocr": true
+ },
+ "Expert Report by Professor Asif Sohail USMANI and Professor JIANG Liming, Fire Engineering Experts appointed by the Independent Committee (English onl": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a technical expert report focused on fire engineering analysis and fire spread mechanisms, with no substantive content on contractor selection, tender processes, or related systemic issues under ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Presentation Slides by Dr TO Chi Wing (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a technical presentation focused on fire spread mechanisms and materials involved in the Wang Fuk Court fire, with no discussion or evidence related to contractor selection, tender processes, or conflicts of interest.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Presentation Slides by Mr YIU Men Yeung (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document focuses exclusively on fire casualties, fire spread, and evacuation circumstances without any mention or indication of contractor selection, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Presentation Slides by Professor YUEN Kwok Kit, Richard (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document focuses on scientific fire behavior analysis and testing of materials without any mention or indication of procurement, tendering, contractor selection, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Presentation Slides by Mr LAM Kin Kwan (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a presentation focused on fire investigation methodology, fire spread, response, and casualties, with no substantive information on renovation tender processes or contractor selection.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Final Investigation Report of the Inter-departmental Fire Investigation Task Force (Appendix A-27 is the Expert Report by Professor YUEN Kwok Kit, Ric": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a comprehensive fire investigation report focusing on the cause, spread, and response to the fire at Wang Fuk Court, with no substantive content on contractor selection, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Interim Investigation Report of the Inter-departmental Fire Investigation Task Force (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The interim investigation report focuses on fire cause, spread, and firefighting response without presenting concrete facts or claims about tender irregularities, collusion, or conflicts of interest in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Reply from Mr MUI Siu Fung to the solicitors of the Independent Committee (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [
+   "The document states that Mr. Mui Siu Fung did not participate in any substantive discussions or communications regarding the Wang Fuk Court Renovation Works, including the tendering process (paragraphs 7, 9, 11).",
+   "Mr. Mui confirmed he was not aware of any potential conflicts of interest, irregularities, or connected parties in the tendering process (paragraph 13).",
+   "He explicitly stated he had no prior relationship with Prestige, its directors, or consultants involved in the project (paragraph 14).",
+   "The document clarifies that Mr. Mui's role was limited to administrative assistance, such as helping to find meeting venues, and he did not provide advice or assistance on contractor selection, tender evaluation, or project oversight (paragraphs 8, 9, 27)."
+  ],
+  "reasoning": "The document provides no evidence of systemic issues such as collusion, bid-rigging, conflicts of interest, tender irregularities, or other concerns under ToR5. Mr. Mui's involvement was limited to administrative and procedural support, with no substantive role in the renovation works or tendering process.",
+  "tor5_angles": [],
+  "ok": true,
+  "reanalysed_after_ocr": true
+ },
+ "1streply from Ms WONG Pik Kiu to the solicitors of the Independent Committee (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a personal reply from Ms. Wong Pik Kiu without concrete facts or claims about tender irregularities, collusion, or conflicts of interest related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr WONG Chung Kee, Steve (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness denies involvement or knowledge of any tender or contractor-related issues, conflicts of interest, or malpractice, providing no substantive information on systemic issues relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndreply from Ms WONG Pik Kiu to the solicitors of the Independent Committee (Chinese only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "The document mentions allegations of 'fake proxies,' 'forged signatures,' and 'unauthorized voting,' which could indicate tender irregularities or document fabrication (Page 2, Paragraph 5).",
+   "It discusses accusations of using government subsidy information as 'bait' to collect proxies, which could suggest conflicts of interest or undue influence (Page 2, Paragraph 5b).",
+   "The document describes the process of collecting proxies, including allegations of door-to-door solicitation ('washing buildings'), which could imply systemic issues in proxy collection (Page 3, Paragraph 7).",
+   "The document references the use of specific colored paper and stamps for proxy forms to prevent forgery, indicating concerns about document irregularities (Page 4, Paragraph 8a).",
+   "It mentions that management company ISS verified proxy votes and invalidated some, suggesting oversight but also raising questions about the integrity of the process (Page 4, Paragraph 8c).",
+   "The document includes allegations of improper influence in voting decisions, such as assigning proxies to specific individuals without explicit owner consent (Page 4, Paragraph 8d)."
+  ],
+  "reasoning": "The document contains multiple allegations and descriptions of practices that suggest potential systemic issues such as document irregularities, conflicts of interest, and tender irregularities, directly relevant to ToR5.",
+  "tor5_angles": [
+   "document_irregularity",
+   "conflict_of_interest",
+   "tender_irregularity"
+  ],
+  "ok": true,
+  "reanalysed_after_ocr": true
+ },
+ "2ndWitness Statement of Mr HO Kin Yip (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses on site safety practices, smoking policies, fire-protection system maintenance, and operational oversight without providing concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr HO Kin Yip (English only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "Only 9 subcontractor quotations were located despite multiple requests for tender documents, suggesting incomplete records of the bidding process.",
+   "The witness describes efforts to retrieve documents but notes many relevant documents could not be found, indicating possible missing or withheld tender-related records.",
+   "The witness was a director and project manager involved in operational activities but was not a shareholder, which may hint at potential conflicts or unusual company governance affecting tender transparency."
+  ],
+  "reasoning": "The limited availability and retrieval of subcontractor quotations and tender supporting documents point to potential tender irregularities or document withholding, which are critical to investigating systemic issues under ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "doc_fraud",
+   "conflict_of_interest"
+  ],
+  "ok": true
+ },
+ "Witness Statement of Mr HO Cheung Ming (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement describes the procedural aspects of the tender approval meeting without indicating any irregularities, conflicts of interest, or suspicious conduct related to contractor selection or tender processes.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr HAU Wa Kin (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement does not contain concrete facts or claims about systemic issues such as collusion, bid-rigging, conflicts of interest, or tender irregularities in the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr LEE Chun Wah (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement only describes attendance and observations at an EGM with no indication of irregularities, collusion, or tender-related issues relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Ms LI Ka Yuen, Sandy (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement mainly describes the administrative takeover and appointment of a management company post-fire, without any concrete facts or claims about tender irregularities, collusion, or conflicts of interest in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr LUI Kan Man (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement mainly provides background on the witness's role and references to documents without any substantive details on tender processes, contractor selection, or irregularities related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr LIE Ngai Wa (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement describes the appointment of a consultant through a resolution at an EGM with no observed irregularities or procedural non-compliance, and explicitly states no advice was sought from HAD on tendering, indicating no evidence of systemic issues in contractor selection or tender irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Ms LI Ho Ying (English only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "The Incorporated Owners of Wang Fuk Court appointed Will Power Architects Company Limited (WP) as consultant for renovation works by a resolution passed at an EGM with 56.69% votes, without consulting or seeking advice from the Home Affairs Department regarding the tendering process or appointment of the consultant.",
+   "The witness, a Liaison Officer from HAD, observed no irregularity or non-compliance during the EGM but also did not participate or intervene in the tendering or selection process.",
+   "The statement notes that WP was appointed following an inspection under the Mandatory Building Inspection Scheme (MBIS), but there is no mention of a competitive tender or transparent selection process for the consultant role."
+  ],
+  "reasoning": "The evidence shows a lack of government oversight or advice in the consultant appointment and absence of a clear tendering process, raising concerns about tender irregularities and potential conflicts of interest in the renovation works selection.",
+  "tor5_angles": [
+   "tender_irregularity"
+  ],
+  "ok": true
+ },
+ "Witness Statement of Ms CHEUNG Lui (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a police witness statement focused on the operational response and evacuation efforts during the Wang Fuk Court fire, containing no information on contractor selection, tender processes, or any systemic irregularities related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr LAI Ho Fai, Edmund (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a police witness statement focused on the operational response to the fire incident, with no mention or indication of procurement, tendering, contractor selection, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr CHAN Chung San (English only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "LD publishes conviction records of contractors' safety offences publicly, but these records were only known to LD after the fire and not proactively provided to owners during tendering (para 9).",
+   "The statement discusses the role of LD in providing safety performance records to assist owners in selecting contractors, implying potential gaps in transparency or verification of bidders' backgrounds (Part A).",
+   "There is mention of the tendering process for renovation works at Wang Fuk Court and the timing of conviction records availability relative to contractor appointment, suggesting possible tender irregularities due to incomplete information (para 9)."
+  ],
+  "reasoning": "The evidence shows that safety conviction records of contractors were not proactively or timely provided to owners during the tendering process, which could facilitate tender irregularities or conflicts of interest by obscuring contractors' true safety performance.",
+  "tor5_angles": [
+   "tender_irregularity"
+  ],
+  "ok": true
+ },
+ "Witness Statement of Mr YU Siu Chuen (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses exclusively on police operational response and coordination during the fire incident, with no mention or indication of issues related to contractor selection, tender processes, or renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Ms LEUNG Yee Mei, April (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a police witness statement focused solely on victim and family interviews related to the fire incident, with no mention or indication of issues related to contractor selection, tender processes, or renovation irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "3rdWitness Statement of Mr YIU Men Yeung (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement focuses solely on consolidating and clarifying fatality and injury data related to the fire, without addressing any issues related to contractor selection, tender processes, or renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr LI Chun Yin (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement is primarily a personal employment and qualification declaration by an electrician with no mention of tender processes, contractor selection, irregularities, or conflicts of interest relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr WONG Kin Wa (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement does not contain concrete facts or claims about tender irregularities, collusion, or related systemic issues in the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Ms LOK Sin Ying (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement mainly describes the witness's role, routine coordination, and communication related to the renovation works and fire incident without any concrete facts or claims indicating collusion, bid-rigging, conflicts of interest, or tender irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr CHUNG Kit Man (Chinese only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "The witness is a director and engineer at Hong Tai Fire Engineering Co. Ltd., responsible for quotations and tendering, indicating insider knowledge of contractor selection processes.",
+   "Multiple identical or very similar closure and repair notices were submitted by Chung Wah Alex of Zhonghua Development Engineering Co. Ltd. for different blocks, with repeated extensions of maintenance periods, suggesting possible coordination or irregularities in tendering or contract execution.",
+   "The witness states Hong Tai and Hong Ye Construction Engineering Co. Ltd. are completely unrelated, implying potential compartmentalization or concealment of relationships among contractors."
+  ],
+  "reasoning": "The document reveals overlapping contractor activities and repeated procedural patterns in maintenance notices, implying possible tender irregularities or collusion in estate renovation works relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest"
+  ],
+  "ok": true
+ },
+ "Witness Statement of Mr YIP Ka Kui, Sdanni (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement of Mr Yip Ka Kui does not contain concrete facts or claims about systemic issues such as collusion, bid-rigging, conflicts of interest, or tender irregularities in the estate renovation works; it lacks substantive content on these matters relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Opening Address by Counsel for Hop On Management Company Limited (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is an opening address by the management company's counsel focusing on their appointment, professional qualifications, cooperation with the committee, and general management duties, without any concrete facts or claims about tender irregularities, collusion, or conflicts of interest in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Opening Address by Counsel for ISS EastPoint Properties Limited (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document mainly outlines ISS EPP's role and disclaimers regarding involvement in tendering or supervision of renovation works, with no concrete facts or claims about irregularities, collusion, or conflicts of interest in the tender process.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Ms LO Hiu Kei (Chinese only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "The witness stated that the maintenance fees were expensive, and during the renovation, all windows were sealed, causing poor ventilation and health issues (Page 4, Paragraph 16).",
+   "The witness observed that the windows were sealed with foam and scaffolding outside was often cluttered with debris, increasing fire risks (Page 4, Paragraph 17).",
+   "The witness mentioned that neither she, her brother, nor her mother were members of the Owners' Corporation or involved in maintenance meetings (Page 4, Paragraph 18)."
+  ],
+  "reasoning": "The document provides evidence of systemic issues such as potential tender irregularities and closed subcontracting, as the witness highlights concerns about expensive maintenance fees, sealed windows, and lack of involvement in decision-making processes.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "closed_subcontracting"
+  ],
+  "ok": true,
+  "reanalysed_after_ocr": true
+ },
+ "Opening Address by Counsel for Relevant Bureaux and Departments of the Government": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is an opening address providing background, government stance, and procedural overview without presenting any concrete facts or claims about tender irregularities, collusion, or conflicts of interest related to the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Rules of Procedure for Evidential Hearing (made at the direction conference on 5 February 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only sets out procedural rules for the evidential hearing and does not contain any substantive facts or claims about tender irregularities, collusion, or related systemic issues.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Opening Address by Mr Tsui Moon Come, Tony, Chairperson of the 12th Management Committee of the Incorporated Owners of Wang Fuk Court (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is an opening address focusing on the emotional impact of the fire, the formation and actions of the management committee, and efforts to increase transparency, without providing concrete facts or claims about tender irregularities or related systemic issues.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 17 July 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt contains only introductory remarks and procedural context without concrete facts or claims about systemic issues such as collusion, bid-rigging, conflicts of interest, or tender irregularities related to the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr YIU Men Yeung (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement focusing on the fire investigation process, fire dynamics analysis, and testing of materials, with no mention or indication of tender processes, contractor selection, or irregularities related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr YIU Men Yeung (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses on fire investigation procedures, fire cause analysis, and inter-departmental collaboration without mentioning or implying any irregularities in contractor selection, tendering, or renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Ir Dr TO Chi Wing (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a technical witness statement focused on fire origin, cause, and spread, with no substantive information on contractor selection, tender processes, or related irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Recommendations on improvement measures by the Government concerning Terms of Reference (1) and (2) of Independent Committee (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document focuses on government improvement measures related to fire safety management, training, and regulatory roles, without any concrete facts or claims about tender processes, contractor selection, or irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Closing Address by Counsel for the Committee (English only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "Chapter 9 is titled 'Bid-rigging and Associated Misconduct' and includes sections on 'Bid-Rigging and Anti-Competitive Conduct is Prevalent in the Market' and 'Suspected Bid-Rigging and Other Irregularities at Wang Fuk Court', indicating detailed findings on tender irregularities and collusive practices.",
+   "Chapter 2C 'Tender Process for the BMR Works' discusses how renovation contractors were selected, providing context on potential irregularities in the tender process.",
+   "Chapter 6 and 7 include analysis of contractor responsibilities and government oversight, highlighting failures such as rubber-stamping approvals and possible conflicts of interest."
+  ],
+  "reasoning": "The document contains explicit and detailed examination of bid-rigging, tender irregularities, and systemic misconduct in the renovation works at Wang Fuk Court, supported by multiple chapters analyzing contractor selection, government oversight, and market practices, making it highly relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "rubber_stamping"
+  ],
+  "ok": true
+ },
+ "Recommendations on improvement measures by nine Wang Fuk Court residents concerning Terms of Reference (1) and (2) of Independent Committee (Chinese o": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "市區重建局設立「招標妥」計劃初衷是減低圍標及不當操控風險，但其不介入價格異常投標，導致圍標風險存在且業主資訊不足（第17-18段）",
+   "顧問公司與註冊檢驗人員關係未在合約中披露，且註冊檢驗人員以散工形式聘用，居民及法團無法得知重要身份及變動，反映合約缺乏透明度（第2-7段）",
+   "居民反映難以取得招標文件及各投標公司回標文件，僅能接觸顧問公司編製的標價分析報告，限制業主監察招標程序及評估價格合理性，易引起公平性及透明度質疑（第34-37段）"
+  ],
+  "reasoning": "該文件揭示招標監管缺失、顧問公司與註冊檢驗人員關係不透明及業主無法有效監察招標文件，均指向潛在圍標、利益輸送及招標程序不公，直接關涉ToR 5的系統性問題。",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "other"
+  ],
+  "ok": true
+ },
+ "Synopsis of Closing Address by Counsel for the Relevant Bureaux and Departments of the Government (Chinese only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "宏業建築工程有限公司作為主承建商蓄意購買及使用未經阻燃認證的棚網以牟取更高利潤，並提供疑為偽造的測試證書及在巡查前選擇性更換棚網以欺騙監管機構",
+   "中華發展工程有限公司作為註冊消防裝置承辦商從未到訪現場，僅作為「橡皮圖章」提交關閉通知書，令消防處無從得知火警警報系統同時失效的事實",
+   "鴻毅建築師事務有限公司及其註冊檢驗人員完全沒有履行監督職責，無任何真正或有效的監督行為",
+   "置邦興業有限公司發出工作指示讓非持牌電工操作消防裝置，未能協調兩間同時受聘的消防裝置承辦商，對居民持續投訴僅扮演傳話人角色"
+  ],
+  "reasoning": "The document reveals systemic collusion, fraudulent practices, and regulatory failures among contractors, consultants, and management companies in the renovation works, demonstrating conflicts of interest, document falsification, unqualified personnel performing licensed work, and rubber-stamping approvals, all critical to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "doc_fraud",
+   "unqualified_person",
+   "rubber_stamping",
+   "conflict_of_interest"
+  ],
+  "ok": true
+ },
+ "Closing Address by Counsel for nine Wang Fuk Court residents (Chinese only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "宏福苑法團定期會議紀錄顯示居民多次質疑施工安全及材料阻燃性能，但承建商宏業仍堅持使用不具阻燃性能的棚網，並在獨立審查組巡查期間刻意掩飾真實情況，反映安全管理流於形式。",
+   "鴻毅建築師有限公司在招標評分中疑似刻意隱瞞宏業過往訴訟紀錄，令宏業獲得較高分數，暗示招標評審程序可能被操控以利宏業中標。",
+   "中華發展工程有限公司作為註冊消防承辦商，未派遣合資格人員實地視察工程，反覆提交延期申請（共85份），且承認做法違規但仍繼續，顯示其在申請過程中充當橡皮圖章，缺乏專業獨立判斷。",
+   "置邦興業有限公司在大維修承辦商投票中未核實授權票真偽，甚至對居民反映未授權投票事件未有妥善處理，反映投票程序存在嚴重缺失及監管不足。",
+   "獨立審查組多次提前通知承建商巡查日期及抽查方式，違反突擊巡查原則，令承建商有機會事先安排甚至修正現場，顯示監管存在嚴重疏忽及可能縱容。",
+   "獨立審查組依賴承建商提交的證書而不核實材料批次，且對棚網阻燃測試存在「測試至合格為止」的嫌疑，反映監管態度馬虎，缺乏嚴謹核實機制。"
+  ],
+  "reasoning": "該文件揭露多個承建商及監管機構在招標、施工監督、投票程序及巡查中存在操控、監管失職及程序不透明，直接涉及招標不公、利益衝突及監管失效，符合ToR 5對系統性問題的調查範疇。",
+  "tor5_angles": [
+   "tender_irregularity",
+   "rubber_stamping",
+   "conflict_of_interest",
+   "no_work_but_paid",
+   "doc_fraud"
+  ],
+  "ok": true
+ },
+ "Closing Address by Counsel for Victory Fire Engineering Limited (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document focuses on Victory Fire Engineering Limited's duties and compliance with regulatory frameworks, without providing evidence of systemic issues such as collusion, bid-rigging, or tender irregularities.",
+  "tor5_angles": [],
+  "ok": true,
+  "reanalysed_after_ocr": true
+ },
+ "Closing Address by Counsel for Mr LEUNG Ping Kay (English only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "Mr. Leung is a director of China Status, which prepares and submits tenders and quotations, and liaises with government departments, indicating his involvement in contractor selection processes [WS7/1877/§§11-12].",
+   "Mr. Leung had an established working relationship with Gordon Ho, director of Prestige Construction & Engineering Co. Limited (PC&E), a company involved in fire service installation works, suggesting potential overlapping interests or preferential dealings [WS7/1881/§§34-35].",
+   "Mr. Leung admitted that neither he nor China Status employees inspected the fire service installations before submitting shutdown applications, relying on PC&E to carry out inspections, which may indicate rubber-stamping or lack of proper oversight [WS2/1517/48; WS7/1884-1885/§§53-55]."
+  ],
+  "reasoning": "The document reveals potential conflicts of interest and tender irregularities through the close relationship between a director involved in tender submissions and a contractor performing works, combined with lack of proper inspection and oversight, which are key indicators of systemic issues under ToR 5.",
+  "tor5_angles": [
+   "conflict_of_interest",
+   "rubber_stamping",
+   "tender_irregularity"
+  ],
+  "ok": true
+ },
+ "Closing Address by the 12th Management Committee of the Incorporated Owners of Wang Fuk Court (Chinese only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "第6段指出招標平台資料未經核實，且不會稽查相關人士背景及彼此連繫，導致招標過程公正性無保障。",
+   "第7段提及承建商未清晰披露工程帳目、報價及追加費用，令業主難以全面審閱，暗示資金運用透明度不足。",
+   "第11段揭露授權票來源不易查證，簽署真偽難以核實，甚至存在第三方大量收集授權票，可能影響重大決議代表性。"
+  ],
+  "reasoning": "這些證據揭示招標過程缺乏監管和透明度，存在利益衝突及授權票被濫用的風險，直接關聯到招標不公、利益輸送及決策操控等系統性問題，符合ToR 5調查範疇。",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "other"
+  ],
+  "ok": true
+ },
+ "Closing Address by Counsel for ISS EastPoint Properties Limited (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document primarily outlines ISS EPP's roles, responsibilities, and coordination with contractors, emphasizing compliance with procedures and the absence of supervisory roles or fees, without presenting any concrete facts or claims indicating collusion, bid-rigging, conflicts of interest, or tender irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Closing Address by Counsel for Urban Renewal Authority (Chinese only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "市建局於2013年起推行新招標安排，由獨立註冊會計師處理招標程序並保密投標者身份，以回應圍標問題。",
+   "市建局發現市場存在不良顧問以異常低標價取得合約，然後與承建商勾結損害業主利益。",
+   "招標妥無法防止法團委員與承建商或顧問私下串通，平台匿名性及獨立會計師參與無法偵測此類不法行為。"
+  ],
+  "reasoning": "文件揭示招標程序中存在圍標、顧問與承建商勾結及私下串通等系統性問題，顯示招標及監管機制存在漏洞，直接涉及ToR 5的範疇。",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "other"
+  ],
+  "ok": true
+ },
+ "Recommendations by Professor Asif Sohail USMANI and Professor JIANG Liming, Fire Engineering Experts appointed by the Independent Committee (English o": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document focuses on technical and policy recommendations for fire safety and building regulations without addressing contractor selection, tender processes, or conflicts of interest relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Directions of the Chairman of the Independent Committee made at the hearing on 8 May 2026": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only outlines procedural directions and invites public input on systemic issues but contains no concrete evidence or specific facts about collusion, bid-rigging, conflicts of interest, or tender irregularities in the renovation works at Wang Fuk Court.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hong Kong Police Force’s witness statement on irregularities in building maintenance and renovation works (English only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "Since the launch of Reno Safe in September 2013 until 31 January 2026, a total of 4 cases were referred to the Competition Commission and the ICAC for suspected bid-rigging activities.",
+   "The Force receives building maintenance related enquiries and complaints via a 24-hour hotline, which are sometimes referred to Anti-Triad Units or other departments for follow-up, indicating ongoing investigations into irregularities.",
+   "The use of a risk assessment matrix by Anti-Triad Units to identify vulnerable buildings suggests systematic monitoring of potential criminal infiltration including collusion or tender irregularities in renovation works."
+  ],
+  "reasoning": "The document provides concrete facts about police investigations and referrals related to suspected bid-rigging and organized crime involvement in building maintenance tenders, showing systemic issues in contractor selection and tender processes relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "other"
+  ],
+  "ok": true
+ },
+ "Witness Statement of Mr LAU Fu Kwok (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement primarily outlines the roles, responsibilities, and regulatory framework of the Independent Checking Unit and does not provide concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues in estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr TE Chi Wang (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement primarily describes the Home Affairs Department's role, legal framework, and advisory functions in building management without providing concrete facts or claims about tender irregularities, collusion, or conflicts of interest in renovation works at Wang Fuk Court.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr YUNG Siu Lun (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document primarily explains the regulatory framework, roles, and procedures of the Minor Works Control System and the audit process without providing concrete facts or claims about collusion, bid-rigging, conflicts of interest, or tender irregularities related to the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "3rdWitness Statement of Mr KU Siu Ping (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document primarily details inspection procedures, manpower, and statutory responsibilities related to the renovation works without presenting any concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr YUNG Siu Lun (English only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "The statement details the Minor Works Control System (MWCS) and the role of the Independent Checking Unit (ICU) in managing and supervising minor works submissions, including vetting and auditing processes, which are crucial for detecting tender irregularities.",
+   "It describes the procedures for appointing Prescribed Registered Contractors (PRC) and Prescribed Building Professionals (PBP) for different classes of minor works, highlighting the regulatory framework that could be circumvented if unqualified persons perform licensed work.",
+   "The witness mentions the ICU's role in scrutinising recommendations for disciplinary and prosecution actions against contractors and professionals, implying oversight mechanisms that could reveal conflicts of interest or rubber-stamping if not properly enforced."
+  ],
+  "reasoning": "The statement provides substantive information on the administrative and supervisory framework governing minor works, including contractor appointment and submission vetting, which are directly relevant to identifying systemic issues such as tender irregularities, conflicts of interest, and unqualified persons performing licensed work under ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "unqualified_person",
+   "rubber_stamping",
+   "conflict_of_interest"
+  ],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr KU Siu Ping (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [
+   "The document discusses site inspections and correspondence related to air-conditioning hoods and architectural features, but does not mention systemic issues such as collusion, bid-rigging, or tender irregularities.",
+   "It states that the Registered Inspector and Registered Contractor are responsible for compliance with the Buildings Ordinance and there was no strong evidence they were not performing their duties."
+  ],
+  "reasoning": "The document provides details about inspections and correspondence but does not contain evidence of systemic issues like tender irregularities or conflicts of interest.",
+  "tor5_angles": [],
+  "ok": true,
+  "reanalysed_after_ocr": true
+ },
+ "1stWitness Statement of Mr KU Siu Ping (English only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "Part C explains the ICU's roles in drawing up tenders and appointment of consultants and Registered Contractors (RCs) (paragraph 5(3)) indicating the process of contractor selection.",
+   "Paragraph 9 states that the Building Authority (BA) has no involvement in the appointment of Registered Inspectors (RIs) and Registered Contractors (RCs), implying decentralized appointment which may allow irregularities.",
+   "The witness statement notes that the ICU manages and reviews practices, procedures, and guidelines for processing MBIS submissions (paragraph 1(b)), suggesting potential oversight or rubber-stamping issues."
+  ],
+  "reasoning": "The statement provides procedural details on contractor appointment and tendering processes, highlighting areas where systemic issues such as tender irregularities or rubber-stamping could occur, which are relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "rubber_stamping"
+  ],
+  "ok": true
+ },
+ "Witness Statement of Mr YAM Lap Yin, Brian (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement mainly describes the role and conduct of the Urban Renewal Authority staff in attending meetings and clarifies that they did not participate in or influence contractor selection or tender decisions, with no concrete facts or claims indicating collusion, bid-rigging, conflicts of interest, or tender irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr WONG Se King, Peter": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "The witness explains the procurement process for building repair works at Wang Fuk Court, including the roles of registered inspectors, consultants, and contractors, noting that often the same person acts as both inspector and consultant, which may create conflicts of interest.",
+   "The statement describes the URA's 'Smart Tender' scheme developed to address systemic issues in tendering for building rehabilitation, implying prior problems with tender irregularities and procurement transparency.",
+   "It is noted that contractors are appointed based on tenders prepared by consultants who may also be inspectors, raising concerns about potential rubber-stamping and lack of independent oversight in approving works."
+  ],
+  "reasoning": "The evidence shows structural vulnerabilities in the tendering and appointment process—such as overlapping roles of inspectors and consultants and the need for a new 'Smart Tender' system—indicating systemic tender irregularities and conflicts of interest relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "rubber_stamping"
+  ],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr CHAN Yat Ho, Matthew (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement mainly addresses procedural clarifications, communication about contract documents, and responses to resident inquiries without presenting concrete facts or claims about collusion, bid-rigging, conflicts of interest, or tender irregularities in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr YUE Chak Sang (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses on the Buildings Department's inspection practices and procedures without mentioning or implying any irregularities, collusion, or tender-related issues in the renovation works at Wang Fuk Court.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr CHAN Yat Ho, Matthew": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "RS Surveyors was assigned as Independent Consultant and confirmed no conflict of interest (para 11-12), but the URA disclaims accountability for RS Surveyors' services (para 15a), indicating potential gaps in oversight.",
+   "Tendering for Inspector and Consultant was conducted by OC-WFC itself, not via Smart Tender platform, and URA had no involvement in these procurements (para 16), suggesting possible lack of transparency or control.",
+   "URA monitors BSC performance via quarterly reviews and biannual evaluations (para 17), but no mention of direct supervision of tender fairness or contractor selection processes, implying possible rubber-stamping or insufficient scrutiny."
+  ],
+  "reasoning": "The statement reveals structural weaknesses and delegation of tendering responsibilities without URA oversight, which could enable tender irregularities or conflicts of interest, relevant to systemic issues under ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "rubber_stamping",
+   "conflict_of_interest"
+  ],
+  "ok": true
+ },
+ "1stWitness Statement of Mr YUE Chak Sang (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a technical witness statement focusing on regulatory roles, building material standards, and compliance procedures without mentioning or implying any irregularities in tendering, contractor selection, or conflicts of interest related to the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr PANG Yuk Lung, Michael (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a detailed witness statement outlining the regulatory framework, roles, and responsibilities of the Buildings Department and related professionals, without providing concrete facts or claims about collusion, bid-rigging, conflicts of interest, or tender irregularities in estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Ms CHAN Hau Man (English only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "Part F sets out the tendering process for appointment of consultant for the Wang Fuk Court Renovation, indicating detailed scrutiny of how consultants were selected.",
+   "Part G discusses allegations against WP's bid for acting as consultant, suggesting potential irregularities or conflicts in the tender process.",
+   "Part J and Part K cover complaints or reports concerning the appointment of contractor and the Owners Corporation's resolution to appoint PC&E as contractor, implying possible disputes or irregularities in contractor selection."
+  ],
+  "reasoning": "The statement provides detailed accounts of tendering and appointment processes with noted allegations and complaints, directly addressing potential systemic issues like tender irregularities, conflicts of interest, and questionable contractor appointments relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "other"
+  ],
+  "ok": true
+ },
+ "Witness Statement of Ms OR Wai Yin (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement mainly describes procedural details of the EGM and confirms no observed irregularities or consultations with HAD regarding contractor selection or licensing, without providing concrete facts or claims indicating systemic issues under ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndletter from Mr TSE Kam Ming to the solicitors of the Independent Committee (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document focuses on procedural and communication issues regarding verbal consultations and the use of foam boards in renovation works, without providing any concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues under ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stletter from Mr TSE Kam Ming to the solicitors of the Independent Committee (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The letter primarily addresses procedural and communication issues related to building inspections and does not contain concrete facts or claims about tender irregularities, collusion, or conflicts of interest in renovation works at Wang Fuk Court.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Ms CHEUNG Yuk Ching, Karen (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement primarily describes the regulatory framework, government strategies, and enforcement mechanisms for building inspections and maintenance without providing concrete facts or claims about tender irregularities, collusion, or conflicts of interest related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr YEUNG Yan Kin, Andy (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses on firefighting operational strategies and inter-departmental coordination post-fire, without addressing contractor selection, tender processes, or renovation works management relevant to systemic issues under ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr YEUNG Yan Kin, Andy (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement focuses on fire safety measures, inspection protocols, and enforcement actions post-incident, without addressing contractor selection, tender processes, or any irregularities related to renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "3rdWitness Statement of Mr TANG Wing Wah (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a detailed witness statement focused on firefighting operations, emergency response, and rescue efforts during the Wang Fuk Court fire, with no substantive information on contractor selection, tender processes, or renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr TANG Wing Wah (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement focused on firefighting operations, water and gas supply management, and incident command during the fire, with no mention or indication of contractor selection, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr TANG Wing Wah (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement focuses on firefighting operations, evacuation, and incident command without addressing contractor selection, tender processes, or renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr CHAN Derek Armstrong (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement focuses exclusively on the fire incident command, operational response, and firefighting tactics without any mention or indication of procurement, contractor selection, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr TUNG Wing Kei (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document focuses solely on technical assessments and procurement considerations of breathing apparatus equipment used by the Fire Services Department, without any mention or indication of tender irregularities, contractor selection issues, conflicts of interest, or related systemic problems.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr TUNG Wing Kei (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement focused on firefighting equipment operation and incident details, with no mention or indication of procurement, tendering, contractor selection, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr FOK Chun Ming (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document primarily details the Fire Services Department's complaint handling and enquiry classification procedures related to Wang Fuk Court, without any substantive information on contractor selection, tendering, or irregularities in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr NG Wing Kwong (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses on fire safety concerns and communication regarding polystyrene window covers and smoking hazards during renovation, without any mention or indication of tender irregularities, contractor selection, or conflicts of interest.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr FOK Chun Ming (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement focused on the Fire Services Department's emergency response command structure and actions during the Wang Fuk Court fire, with no mention or indication of issues related to contractor selection, tendering, conflicts of interest, or irregularities in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr YUNG Kam Hung, Michael (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement primarily outlines the division of responsibilities among government departments and technical fire safety provisions without mentioning or implying any irregularities or misconduct related to tendering, contractor selection, or conflicts of interest in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr HOR Herman (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement primarily details fire safety operational matters, complaint handling, and site inspections without any mention or indication of tender processes, contractor selection, pricing irregularities, or conflicts of interest related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr YUEN Tsz Lok, Murphy (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement primarily outlines the roles, responsibilities, and legislative framework of the Labour Department regarding occupational safety and health, without providing concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues in the renovation works at Wang Fuk Court.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "3rdWitness Statement of Mr LI Man Pong (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses on occupational safety inspection powers and procedures without addressing contractor selection, tender processes, or any irregularities related to renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr LI Man Pong (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses solely on the occupational safety investigation and accident reporting procedures without addressing any issues related to contractor selection, tender processes, or conflicts of interest relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr LI Man Pong (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement focused on occupational safety inspections, enforcement procedures, and complaint handling related to renovation works, without addressing contractor selection, tender processes, or conflicts of interest relevant to systemic issues under ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Ms LAM Sau Ching (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses on occupational safety inspections and surveillance visits at Wang Fuk Court, with no mention or indication of tender processes, contractor selection, pricing irregularities, conflicts of interest, or document fraud relevant to systemic issues under ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Ms LAM Sau Ching (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document focuses on occupational safety inspections, complaint investigations, and site conditions without addressing contractor selection, tender processes, or conflicts of interest related to renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr KONG Cheung Fat (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document text is largely unreadable or corrupted, with no clear substantive content on contractor selection, tender processes, or related irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr KONG Cheung Fat (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement with no concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Response of the 12th Management Committee of the Incorporated Owners of Wang Fuk Court for the term from 6 September 2024 to 6 January 2026 in relatio": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document mainly provides procedural and operational details about the management committee, contractor roles, meeting records, and site safety issues without concrete facts or claims indicating collusion, bid-rigging, conflicts of interest, or tender irregularities in the renovation works relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stSupplemental Witness Statement of Mr LEE Kwok Hung (Chinese only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "The witness describes multiple complaints about unreasonable contract terms and irregularities in the estate renovation contract, including misuse of contingency funds and improper shifting of contractor liabilities to the owners' corporation (paras 17-20).",
+   "The witness reports that the engineering consultant (鴻毅) failed to clarify or follow up on contract issues flagged by the Urban Renewal Authority's assessment report, indicating possible negligence or collusion (para 17).",
+   "The witness details that the contractor (宏業) charged the owners' corporation fees labeled as 'handling fees' that should have been borne by the contractor under the contract, suggesting tender irregularities and financial impropriety (para 18).",
+   "The witness recounts repeated refusals by the Independent Commission Against Corruption (ICAC) to accept or investigate complaints about the renovation works and contract irregularities, implying systemic failure to address potential corruption or conflicts of interest (paras 11-15)."
+  ],
+  "reasoning": "The document provides concrete examples of contract manipulation, improper cost shifting, ignored contractual obligations, and systemic refusal by anti-corruption authorities to investigate, all indicating tender irregularities, conflicts of interest, and possible collusion relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "rubber_stamping",
+   "other"
+  ],
+  "ok": true
+ },
+ "Witness Statement of Mr TSUI Moon Come (Chinese only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "工程合約中未就各項工程提供詳細分項報價，而是以整體金額列示，如升降機門油漆翻新報價為港幣992,000元卻沒有提供任何計算方式（第8頁第4點）",
+   "第⼀任管委會兩次提出的集資期似乎均非經會議議決，顯示決策程序不透明（第8頁第3點）",
+   "監察組取得招標平台帳戶登入資料並公開，居民發現宏業建築承建商牌照即將屆滿，且投標分析報告未披露宏業過往紀律處分紀錄，對評分機制提出疑問（第8-9頁第6、7點）"
+  ],
+  "reasoning": "該證人陳述揭露招標及集資過程中缺乏透明度、合約報價缺乏明細、評分機制及承建商資格存疑，均為招標及承包過程中可能存在的系統性問題，符合ToR 5對標準程序及利益衝突的調查範疇。",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "other"
+  ],
+  "ok": true
+ },
+ "Witness Statement of Mr LEE Kwok Hung (Chinese only)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "鄧先生在2024年1月28日的業主大會手持大量授權票，以超過8成票數通過選取宏業為承辦商及選擇大維修的方案三（第17段）。",
+   "宏業在招標文件中預先填寫備用金金額，且未收到任何報價前已填寫（第28段）。",
+   "宏業濫收工程備用金，鴻毅未有監督，且未對質詢作出解釋（第29段）。",
+   "宏業違反合約要求，搭建棚架棚腳觸地，並虛構活動通架收費（第31段）。",
+   "宏業將水電接駁費用轉嫁法團，鴻毅及法團容許此情況（第32段）。",
+   "宏業在非必要項目上花費過多，卻在必要項目上截減開支（第33段）。",
+   "宏業未交出保險單收據，並要求街坊簽署保密協議參閱，法團拒絕（第39-41段）。"
+  ],
+  "reasoning": "The document provides multiple instances of irregularities in tendering, conflicts of interest, and potential collusion, including pre-filled tender amounts, misuse of funds, and lack of transparency in documentation.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "rubber_stamping",
+   "conflict_of_interest",
+   "bid_rigging",
+   "document_irregularity"
+  ],
+  "ok": true,
+  "reanalysed_after_ocr": true
+ },
+ "Witness Statement of Mr NG Pui Kwan (Chinese only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "The witness states that their company, Hong Peng Engineering, acted only as a third-tier subcontractor with no formal written contracts, relying solely on oral agreements and instructions from higher-tier contractors, indicating a lack of formal tendering or transparent contract management.",
+   "Payments to the witness's company were made directly by a different company (Hai De Ying Jin Ltd) rather than through formal contractual channels, suggesting irregular financial arrangements.",
+   "The witness describes a close, long-term cooperative relationship with another subcontractor (Li Feng Construction) based on trust and verbal agreements, implying potential informal collusion or non-competitive subcontracting practices."
+  ],
+  "reasoning": "The evidence shows informal, oral-only subcontracting arrangements and unusual payment flows without formal contracts, which suggest systemic tender irregularities and potential conflicts of interest relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest"
+  ],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr CHENG Ka Chun (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a brief witness statement without concrete facts or claims about tender irregularities, collusion, or related systemic issues in estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr CHENG Ka Chun (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement focused on police disaster victim identification procedures and operations during the Wang Fuk Court fire, containing no information on estate renovation tendering or contractor selection processes.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Ms TSANG Shuk Yin (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement focused on police operations and casualty enquiries related to the Wang Fuk Court fire, with no mention or indication of issues related to contractor selection, tender processes, or conflicts of interest in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "3rdWitness Statement of Mr WONG Sze Lut, Sunny (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement focuses exclusively on fire service operational procedures and safety advice during the Wang Fuk Court fire, with no mention or indication of issues related to contractor selection, tender processes, or conflicts of interest relevant to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr WONG Sze Lut, Sunny (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document focuses exclusively on emergency call handling protocols and operational details of the Fire Services Department during the Wang Fuk Court fire, with no mention or indication of issues related to contractor selection, tendering, or renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr WONG Sze Lut, Sunny (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement from a Fire Services Department officer focusing on fire response protocols and casualty management, with no mention or indication of issues related to contractor selection, tendering, or renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr WONG King Man (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement focused on fire incident command and rescue operations, containing no information on contractor selection, tender processes, or renovation works relevant to systemic issues under ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr LAM Ho Chun (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement of Mr Lam Ho Chun does not contain concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues in the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr CHEUNG Lok Hang (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement does not contain concrete facts or claims about tender irregularities, collusion, or conflicts of interest related to the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr HUI Kin On (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [
+   "The document focuses on the fire incident timeline, firefighting tactics, and observations by the witness.",
+   "There is no mention of tender irregularities, collusion, bid-rigging, or other systemic issues related to ToR5."
+  ],
+  "reasoning": "The witness statement pertains solely to the operational response to the fire and does not address systemic issues like tender irregularities or conflicts of interest.",
+  "tor5_angles": [],
+  "ok": true,
+  "reanalysed_after_ocr": true
+ },
+ "5thWitness Statement of Mr KEUNG Sai Ming (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document contains no concrete facts or claims regarding contractor selection, tender processes, conflicts of interest, or irregularities related to the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "4thWitness Statement of Mr KEUNG Sai Ming (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document does not contain concrete facts or claims about systemic issues such as collusion, bid-rigging, conflicts of interest, or tender irregularities related to the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "3rdWitness Statement of Mr KEUNG Sai Ming (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document focuses on technical details of fire alarm system status and firefighting operations during the Wang Fuk Court fire without addressing contractor selection, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr KEUNG Sai Ming (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement without concrete facts or claims about tender irregularities, collusion, or related systemic issues in estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr KEUNG Sai Ming (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a lengthy witness statement but contains no concrete facts or claims about systemic issues such as collusion, bid-rigging, conflicts of interest, or tender irregularities in the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr LEUNG Ping Kay (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement that does not contain concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues in the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr LEUNG Ping Kay (English only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document primarily describes the professional background of Mr. Leung Ping Kay, the operations of China Status, and the procedures for applying for Shut Down Notices (SDNs). It does not provide evidence of systemic issues such as collusion, bid-rigging, conflicts of interest, tender irregularities, or other irregularities relevant to ToR5.",
+  "tor5_angles": [],
+  "ok": true,
+  "reanalysed_after_ocr": true
+ },
+ "2ndWitness Statement of Mr CHUNG Kit Man (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement that does not contain concrete facts or claims about tender irregularities, collusion, or related systemic issues in the renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr TONG Hing Lun (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The statement mainly describes the witness's personal work activities and observations related to fire system maintenance without mentioning or implying any irregularities in tendering, contractor selection, conflicts of interest, or document manipulation relevant to systemic issues under ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Ms CHENG Tsz Ying (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement focused on employment and management issues related to a former security staff member, with no concrete facts or claims about contractor selection, tender processes, or systemic irregularities in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr LAM Man Yan (Chinese only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "The witness describes that the major renovation works ('翻新大維修') at Wang Fuk Court were handled by Prestige Construction & Engineering Co., Limited (宏業), but his role did not include oversight of these works, indicating possible gaps in supervision.",
+   "There was a tender process for replacement parts of the water tank valves, with a company named '駿昇' winning the contract, but details about the tender process or pricing are not elaborated, raising questions about transparency.",
+   "The witness notes that the fire pump rooms were locked and controlled by a limited number of people, and that he did not enter or inspect these areas regularly, suggesting potential for rubber-stamping or lack of proper inspection in maintenance approvals."
+  ],
+  "reasoning": "The statement reveals limited oversight and unclear tender details for renovation and maintenance works, indicating potential systemic issues such as tender irregularities and rubber-stamping relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "rubber_stamping"
+  ],
+  "ok": true
+ },
+ "1stWitness Statement of Ms CHENG Tsz Ying (Chinese only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "法團透過由市區重建局維持的招標妥平台委派註冊檢驗人員及聘請建築顧問，招標程序由鴻毅負責並準備所有招標文件，法團從多份標書中選出總承建商宏業。",
+   "ISS EPP及其員工只負責行政工作，未參與招標決策，招標過程由法團及市建局監督。",
+   "工程監督(CoW)聘用過程中，宏業於2024年5月已開始聘請CoW，但法團正式聘用CoW則於2025年5月，存在時間差異。"
+  ],
+  "reasoning": "The document reveals that the tendering and contractor selection processes were managed by multiple parties with limited transparency and involvement from ISS EPP, with potential timing irregularities in hiring site supervisors, indicating possible procedural weaknesses or irregularities relevant to systemic tender issues under ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity"
+  ],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 6 May 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 5 May 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a hearing timetable listing witnesses and their roles without substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 29 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 26 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without substantive information on tender processes or irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 22 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 23 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 21 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without any substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 20 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a hearing timetable listing witnesses and their roles without substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 19 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without any substantive information on tender processes, contractor selection, or irregularities related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 16 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a hearing timetable listing witnesses and their roles without substantive details on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 15 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a hearing timetable listing witnesses and their roles without substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 14 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without substantive information on tender processes or systemic irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 12 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without any substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 9 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without any substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 7 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a hearing timetable listing witnesses and their roles without substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 1 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without any substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 31 March 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 30 March 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 29 March 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a hearing timetable listing witnesses and their roles without any substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 26 March 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles, without any substantive information on tender processes or systemic issues.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 25 March 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a hearing timetable listing witnesses and their roles, without any substantive information on tender processes or systemic issues related to renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 23 March 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only lists a hearing timetable with names and roles of witnesses, without any substantive information on tender processes or systemic issues.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "2ndWitness Statement of Mr WONG Pak Shing (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is a witness statement focusing on personnel interactions and operational issues related to the fire alarm system, without any mention or indication of tender processes, contractor selection, conflicts of interest, or irregularities in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "1stWitness Statement of Mr WONG Pak Shing (Chinese only)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The witness statement mainly describes the witness's role as a security officer, routine communication processes, and general observations about renovation works without any concrete facts or claims indicating collusion, bid-rigging, conflicts of interest, or tender irregularities in the renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Witness Statement of Mr LAW Kwok Shui (Chinese only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "ISS EPP's electrician, Mr. Law, was instructed to assist the main contractor Hung Yip Construction Co. Ltd. (宏業建築工程有限公司) in draining fire service tanks during the major renovation without direct involvement or oversight in the tender or contractor selection process (paras 18-22).",
+   "Five out of eight work orders related to draining fire service tanks during renovation are missing, indicating possible document irregularities (para 18).",
+   "Mr. Law noted that he was not involved in supervising or verifying the renovation works and that fire service equipment maintenance was handled by licensed fire service contractors, yet he accompanied unlicensed personnel to operate critical fire safety equipment (paras 10, 19-22)."
+  ],
+  "reasoning": "The evidence shows potential tender and operational irregularities, including missing documentation and unqualified personnel involvement in licensed fire service work, which are relevant to systemic issues under ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "doc_fraud",
+   "unqualified_person"
+  ],
+  "ok": true
+ },
+ "Witness Statement of Mr LEE Shing Foo (Chinese only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "The witness describes that the renovation contractor '宏業建築工程有限公司' (Wang Yip Construction Engineering Co. Ltd.) was involved in the major renovation works including draining fire service water tanks, with multiple work orders issued but only some found by police, indicating possible missing documentation.",
+   "The witness notes that management staff issued work orders directly to the electrician and contractor via phone or WhatsApp without formal documented tender or selection process, suggesting informal or irregular communication channels.",
+   "The witness states that some complex tasks related to fire service equipment were carried out by contractor staff who did not know which switches controlled the water tanks and required assistance from unlicensed staff, implying unqualified persons performing licensed work."
+  ],
+  "reasoning": "The evidence shows informal and possibly undocumented work order issuance, missing work order records, and unqualified personnel involvement in licensed fire service tasks, which are indicative of tender irregularities, document irregularities, and unqualified persons performing work, all relevant to systemic issues under ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "doc_fraud",
+   "unqualified_person"
+  ],
+  "ok": true
+ },
+ "Witness Statement of Ms CHUNG Sui Ha (Chinese only)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "The witness states the renovation contractor '宏業建築工程有限公司' was appointed by the owners' corporation for the '翻新大維修' project starting July 2024, but she has no knowledge of the tender process or contractor selection details.",
+   "She notes that the same group of workers from 宏業 had been working continuously for about a month without special or suspicious incidents, and that visitor registration was inconsistently applied (some workers not re-registered).",
+   "She describes that the security team was instructed to be vigilant about external workers but does not mention any oversight or inspection of the contractor's work quality or compliance, indicating possible rubber-stamping or lack of supervision."
+  ],
+  "reasoning": "The statement reveals limited transparency and oversight in contractor selection and site supervision, inconsistent visitor registration practices, and a lack of detailed knowledge about tendering or inspection processes, which are indicative of potential tender irregularities and rubber-stamping relevant to systemic issues under ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "rubber_stamping"
+  ],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 16 July 2026 (Draft)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "Residents' representative alleges Will Power, the consultant, failed to supervise and acted as a rubberstamp, signing documents without proper inspection.",
+   "Prestige allegedly concealed litigation records to obtain the highest score and win the bid, indicating manipulation of the tender assessment process.",
+   "Complaints that the Independent Checking Unit (ICU) and other government bodies overly relied on certificates from contractors without proper verification, enabling potential misrepresentation."
+  ],
+  "reasoning": "The evidence shows multiple systemic issues including rubber-stamping by consultants, manipulation of tender scoring by contractors, and inadequate oversight by government units, all pointing to tender irregularities and conflicts of interest relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "rubber_stamping",
+   "conflict_of_interest"
+  ],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 15 July 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt contains procedural and introductory remarks without concrete facts or claims about systemic issues such as collusion, bid-rigging, conflicts of interest, or tender irregularities related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 25 June 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt focuses solely on expert fire safety engineering testimony and technical explanations of fire dynamics, without any mention or indication of procurement, tendering, contractor selection, or related irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 24 June 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript focuses on scientific analysis and fire investigation experiments related to the fire spread and materials involved, without discussing contractor selection, tender processes, or any procurement irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 22 June 2026 (Draft)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "The Committee acknowledges past evidence concerning bid-rigging and illegal behaviours related to Wang Fuk Court but states these were limited to the estate itself and could not prove large-scale bid-rigging in building renovation works.",
+   "Police and ICAC have made arrests related to Will Power and Prestige involving charges including collusion to defraud, money laundering, and manslaughter, indicating serious criminal conduct linked to renovation contractors.",
+   "The Committee decided not to summon individual witnesses for systemic collusion or bid-rigging but relies on law enforcement investigations and reports, highlighting ongoing concerns about tender irregularities and collusion in the industry."
+  ],
+  "reasoning": "The transcript reveals that investigations and arrests have been made for collusion and fraud related to contractors involved in estate renovation, and the Committee explicitly references these systemic issues and law enforcement findings, making it highly relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "collusion"
+  ],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 8 May 2026 (Draft)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "HAD organises regular briefing sessions involving ICAC, Competition Commission, URA, and others to inform owners about bid-rigging and related issues in building management tenders.",
+   "Owners and MCs at Wang Fuk Court had disputes and complaints against contractors but lacked professional knowledge to resolve them, and no application was made to the HAD panel of advisors for dispute resolution.",
+   "The witness confirms that the HAD provides free legal advice and promotes services to assist owners with building management disputes, including those potentially involving tender irregularities."
+  ],
+  "reasoning": "The document reveals systemic issues in the tender and contractor dispute resolution process, highlighting owner complaints, lack of professional oversight, and the existence of advisory mechanisms that were not utilized, indicating potential gaps in preventing or addressing tender irregularities and collusion.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "other"
+  ],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 7 May 2026 (Draft)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "The Minor Works Control System (MWCS) is described as a self-regulation system relying on prescribed building professionals (PBP) and prescribed registered contractors (PRC) to carry out inspections and be responsible for design and completion of works, reducing direct regulatory oversight.",
+   "The ICU's Minor Works Team (MWT) is responsible for managing minor works submissions and approvals but there is no requirement for regular inspections under the MWCS, potentially allowing rubber-stamping or insufficient oversight.",
+   "Complaints about minor works are handled by a different team (MBIS) rather than the MWT, and there is no evidence of follow-up on enquiries or complaints within the MWT, indicating possible gaps in monitoring and enforcement."
+  ],
+  "reasoning": "The evidence shows systemic weaknesses in the oversight and approval process of minor works, including reliance on self-regulation, limited inspections, and fragmented complaint handling, which create opportunities for tender irregularities, rubber-stamping, and conflicts of interest relevant to ToR 5.",
+  "tor5_angles": [
+   "rubber_stamping",
+   "tender_irregularity",
+   "conflict_of_interest"
+  ],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 6 May 2026 (Draft)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "Mr Ku Siu Ping acknowledges that bid-rigging and collusion between consultants and contractors are known illegal activities in major renovation works, as reported in the media and community.",
+   "He confirms that contractors sometimes include non-MBIS improvement works in tenders, potentially misleading owners about mandatory versus voluntary works.",
+   "He admits awareness of non-compliant practices by contractors that could affect safety, implying possible corner-cutting or regulatory breaches."
+  ],
+  "reasoning": "The witness confirms the existence of known systemic issues such as bid-rigging, collusion, and misleading tender practices in renovation projects, which are core concerns of ToR 5, even though no direct evidence of these occurred at Wang Fuk Court is admitted.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "other"
+  ],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 30 April 2026 (Draft)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "The URA's role was limited to providing a DIY tool-kit and an electronic tendering platform only for contractor selection, while the appointment of the Registered Inspector (RI) was outside URA's scope and handled solely by the Owners' Corporation (OC), indicating fragmented oversight.",
+   "The OC had to put up newspaper ads for RI engagement, and the URA only received bid summaries from the property management company, suggesting potential gaps in transparency and control over tendering processes.",
+   "There were numerous bids for the RI role (24 initially, then 35), but the URA's involvement was limited to providing templates and summaries without direct tender management or verification, raising risks of irregularities or conflicts of interest in RI selection."
+  ],
+  "reasoning": "The evidence shows systemic tender irregularities and fragmented responsibilities in contractor and RI selection processes, with limited URA oversight and reliance on OC and property management, creating vulnerabilities to collusion, bid-rigging, or conflicts of interest relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "rubber_stamping"
+  ],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 27 April 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt focuses on regulatory frameworks and procedural explanations by a Buildings Department official without presenting any concrete facts or claims about collusion, bid-rigging, conflicts of interest, or tender irregularities related to the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 24 April 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript focuses on the fire incident response and operational details without discussing contractor selection, tender processes, or any irregularities related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 23 April 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript focuses on technical details of firefighting equipment and operational considerations without any mention or indication of procurement, tendering, contractor selection, or related irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 22 April 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt focuses on fire safety roles, complaint handling, and departmental responsibilities without discussing contractor selection, tender processes, or any irregularities related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 21 April 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript focuses on Labour Department inspections, complaint handling, and enforcement related to occupational safety during renovation works, without any mention or indication of tender irregularities, collusion, conflicts of interest, or related systemic issues.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 17 April 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt focuses on a worker's testimony about tile replacement work and safety practices, with no mention or indication of tender processes, contractor selection, pricing irregularities, or conflicts of interest relevant to systemic issues under ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 20 April 2026 (Draft)": {
+  "relevant": true,
+  "confidence": "high",
+  "evidence": [
+   "Mr Kong Cheung Fat testified that the old incorporated owners had an agreement that made it difficult for outsiders to join the management committee, indicating possible collusion or control over decision-making.",
+   "At the 28 January 2024 EGM to pass a resolution to engage Prestige as contractor, there were disputes and concerns raised by owners about the procedures, suggesting irregularities in the tender or selection process.",
+   "Mr Kong described a team of volunteers associated with a key figure who behaved rudely and controlled ballot paper distribution during the contractor selection meeting, implying manipulation or undue influence in the voting process."
+  ],
+  "reasoning": "The evidence shows systemic control and exclusion in the management committee elections and contractor selection, with procedural disputes and possible manipulation of voting, indicating tender irregularities and conflicts of interest relevant to ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "conflict_of_interest",
+   "other"
+  ],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 16 April 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt focuses on witness testimony about the fire event and rescue attempts, without any mention or indication of systemic issues related to tendering, contractor selection, or conflicts of interest in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 15 April 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt focuses on procedural and operational details of the fire services response and witness introductions, with no substantive discussion of contractor selection, tender processes, or related irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 13 April 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript focuses exclusively on firefighting operations and witness testimony about the fire incident, with no substantive discussion of contractor selection, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 10 April 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt focuses on technical explanations of fire service installations and the roles of officials without any mention or indication of tender irregularities, collusion, conflicts of interest, or related systemic issues in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 8 April 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript focuses on technical and operational details of fire safety inspections and repair works without addressing contractor selection, tender processes, conflicts of interest, or irregularities in estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 2 April 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt focuses on procedural matters, meeting attendance, and petition handling without any concrete facts or claims about tender processes, contractor selection, or irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 31 March 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript focuses on technical details of fire alarm system inspections and compliance without discussing contractor selection, tender processes, or any irregularities related to renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 1 April 2026 (Draft)": {
+  "relevant": true,
+  "confidence": "medium",
+  "evidence": [
+   "The contract between the owners and Prestige for maintenance work including water tank repairs was substantial (6.16 million) and involved discussions about reducing the scope to save money, indicating potential irregularities in contract management.",
+   "Minutes drafted by Ms Lok show coordination between the Incorporated Owners, Prestige, and Will Power regarding suspension and sequencing of water tank repair work, suggesting possible manipulation or lack of transparency in work approval.",
+   "Residents expressed concerns about the necessity of water tank repairs, but Prestige insisted on the work, raising questions about the justification and possible rubber-stamping of contracts without proper inspection."
+  ],
+  "reasoning": "The evidence reveals suspicious contract management practices, possible lack of competitive tendering or scope manipulation, and potential rubber-stamping of work approvals, all of which are relevant to systemic tender irregularities and conflicts of interest under ToR 5.",
+  "tor5_angles": [
+   "tender_irregularity",
+   "rubber_stamping",
+   "conflict_of_interest"
+  ],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 30 March 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt focuses on eyewitness testimony about the fire event and does not contain any information about contractor selection, tender processes, conflicts of interest, or irregularities related to renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 26 March 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript contains resident testimonies about maintenance conditions and observations but does not provide concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues in renovation works relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 24 March 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt contains only general opening statements about the investigation process and government stance without any concrete facts or claims about tender irregularities, collusion, or related systemic issues.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 20 March 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt contains only procedural statements about fairness, transparency, and the investigation process without any substantive details or allegations related to tender irregularities, collusion, conflicts of interest, or related systemic issues in the renovation works at Wang Fuk Court.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of Evidential Hearing held on 19 March 2026 (Draft)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript excerpt contains only introductory procedural remarks about the hearing, investigation scope, and timelines without any concrete facts or claims about tender irregularities, collusion, or related systemic issues in renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Transcript of the Direction Conference held on 5 February 2026": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The transcript only outlines the establishment, scope, and procedural setup of the Independent Committee, without providing any concrete facts or claims about tender irregularities, collusion, conflicts of interest, or related systemic issues in the estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Notice on arrangements for public observation for sixth round of evidential hearings": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document solely covers procedural arrangements and house rules for public observation of evidential hearings, without any substantive information on tender processes or contractor conduct related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Notice on arrangements for public observation for fifth round of evidential hearings": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document solely details procedural arrangements and house rules for public observation of evidential hearings, without any substantive information on contractor selection, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "List of Involved Parties (as at 8 May 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only lists involved parties and their positions without any substantive information on tender processes, contractor selection, or irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "List of Involved Parties (as at 23 April 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only lists involved parties and their positions without any substantive information on tender processes, contractor selection, or irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Notice on arrangements for public observation for fourth round of evidential hearings": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document solely covers procedural arrangements and house rules for public observation of evidential hearings, without any substantive information on estate renovation works, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Notice on arrangements for public observation for second round of evidential hearings": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only details procedural arrangements for public observation of evidential hearings and house rules, containing no substantive information on contractor selection, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Notice on arrangements for public observation for third round of evidential hearings": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document solely details logistical arrangements and house rules for public observation of evidential hearings, containing no substantive information on tender processes, contractor selection, or related irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "List of Involved Parties (as at 25 March 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only lists involved parties and their positions without any substantive information on tender processes, contractor selection, or irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "List of Involved Parties (as at 31 March 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only lists involved parties and their positions without any substantive information on tender processes, contractor selection, or irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "List of Involved Parties (as at 18 March 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only lists involved parties and their positions without any substantive information on tender processes, contractor selection, or irregularities related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "List of Involved Parties (as at 17 March 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only lists involved parties and their positions without any substantive information on tender processes, contractor selection, or irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Notice on arrangements for public observation for first round of evidential hearings": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only details procedural arrangements for public observation of evidential hearings and house rules, containing no substantive information on contractor selection, tender processes, or irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Notice on arrangements for public observation at direction conference": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only outlines procedural and security arrangements for public observation at the direction conference, with no substantive information on renovation works, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Appointment of Experts by Independent Committee": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only announces the appointment of experts and outlines their roles without providing any substantive information on tender processes, contractor selection, or irregularities related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Appointment of Counsel by the Independent Committee": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document solely concerns the appointment of legal counsel by the Independent Committee and does not contain any substantive information about the renovation works, tender processes, or related irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Appointment of Counsel/Solicitors by the Independent Committee": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document only concerns the appointment of counsel/solicitors by the Independent Committee and does not contain any substantive information about tender processes, contractor selection, or systemic irregularities related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 24 June 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a hearing timetable listing witnesses and their roles without substantive information on tender processes or irregularities relevant to ToR 5.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 23 June 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without any substantive information on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 21 June 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a hearing timetable listing witnesses and their roles without substantive details on tender processes or irregularities.",
+  "tor5_angles": [],
+  "ok": true
+ },
+ "Hearing Timetable for Witnesses to Give Evidence (as at 7 May 2026)": {
+  "relevant": false,
+  "confidence": "high",
+  "evidence": [],
+  "reasoning": "The document is solely a timetable listing witnesses and their roles without substantive information on tender processes or irregularities related to estate renovation works.",
+  "tor5_angles": [],
+  "ok": true
+ }
+}

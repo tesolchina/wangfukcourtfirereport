@@ -1,0 +1,932 @@
+{
+ "generated": "2026-08-26",
+ "methodology": "News items gathered via Brave Search API (8 queries, EN + 繁體中文) and full-text reading of key reporting: HKFP timeline (2025-12-17), HKFP first-10-days hearing findings (2026-04-12), HKFP closing-address report (2026-07-17), The Standard reforms piece (2026-05-12). 65 unique articles identified across international and Hong Kong media. Themes are mapped to the Committee's Terms of Reference; the same events appear in the inquiry documents available on this site.",
+ "fire_facts": {
+  "estate": "Wang Fuk Court (宏福苑), Tai Po — completed 1983 under the Home Ownership Scheme; 8 blocks, 31 storeys each; ~2,000 flats; ~4,600 residents (2021 census)",
+  "fire_date": "2025-11-26, 14:51 FSD alerted; escalated No.3 15:02, No.4 15:34, No.5 18:22; under control ~15:00 next day; extinguished 10:18 28 Nov (43+ hours)",
+  "death_toll": "168 killed (incl. one firefighter) per committee closing address; earlier official figures: 160+ (9 Dec 2025), 6 unaccounted at that time",
+  "renovation": "HK$330M renovation (2016 Mandatory Building Inspection order; Will Power Architects consultancy; Prestige Construction main contractor; works began July 2024; household levy HK$160k-180k)",
+  "cause": "Committee counsel: lit cigarette on flat roof of light well outside flats 104-105, Wang Cheong House, ignited combustible cartons (based on govt laboratory + Fire Investigation Task Force preliminary report)"
+ },
+ "timeline": [
+  {
+   "date": "2016",
+   "event": "Mandatory Building Inspection Scheme order issued to Wang Fuk Court owners' corporation",
+   "tor": [
+    "ToR3"
+   ]
+  },
+  {
+   "date": "2019-01",
+   "event": "Will Power Architects awarded inspection project",
+   "tor": [
+    "ToR3"
+   ]
+  },
+  {
+   "date": "2021-12",
+   "event": "Will Power chosen to supervise the repair works",
+   "tor": [
+    "ToR3",
+    "ToR4"
+   ]
+  },
+  {
+   "date": "2023-early",
+   "event": "Three renovation plans proposed; most extensive ~HK$300M",
+   "tor": [
+    "ToR3"
+   ]
+  },
+  {
+   "date": "2024-01",
+   "event": "595 owners/authorised reps (30% of shareholders) vote; most expensive plan chosen; Prestige Construction appointed; cost rises to HK$330M",
+   "tor": [
+    "ToR3",
+    "ToR5"
+   ]
+  },
+  {
+   "date": "2024-07",
+   "event": "Renovation begins: bamboo scaffolding, protective netting, foam boards over windows; residents complain of fire hazards",
+   "tor": [
+    "ToR3"
+   ]
+  },
+  {
+   "date": "2024-08",
+   "event": "Photo of cigarette butt on exterior wall posted; residents urge contractor supervision of smoking workers",
+   "tor": [
+    "ToR1",
+    "ToR4"
+   ]
+  },
+  {
+   "date": "2024-09",
+   "event": "Photos of burning foam board; residents oust owners' committee; Labour Department complaint filed",
+   "tor": [
+    "ToR3",
+    "ToR4"
+   ]
+  },
+  {
+   "date": "2024-10/11",
+   "event": "ICU (Housing Bureau) test reports find 'no non-compliance' / 'no combustible' features in netting; Labour Dept replies to complaints",
+   "tor": [
+    "ToR4",
+    "ToR6"
+   ]
+  },
+  {
+   "date": "2024-07 to 2025-11",
+   "event": "Labour Dept inspects 16 times, issues 6 improvement notices, 3 prosecutions (fines up to HK$18,000); last inspection 20 Nov 2025 — six days before the fire",
+   "tor": [
+    "ToR4",
+    "ToR6"
+   ]
+  },
+  {
+   "date": "2025-11-26",
+   "event": "Fire at 14:51; 7 of 8 blocks ablaze; firefighter Ho Wai-ho dies; death toll climbs 4→13→36→55→128 across two days",
+   "tor": [
+    "ToR1",
+    "ToR2"
+   ]
+  },
+  {
+   "date": "2025-11-27",
+   "event": "Police arrest 3 Prestige directors/consultant on suspicion of manslaughter; CE John Lee: 36 dead, 279 missing",
+   "tor": [
+    "ToR5"
+   ]
+  },
+  {
+   "date": "2025-11-28",
+   "event": "ICAC arrests 8 incl. 2 Will Power directors; 7 of 20 netting samples fail fire-safety tests; substandard netting + foam boards blamed for rapid spread",
+   "tor": [
+    "ToR2",
+    "ToR3",
+    "ToR5"
+   ]
+  },
+  {
+   "date": "2025-12-01/02",
+   "event": "13→15 arrests for manslaughter; CE Lee: 'systemic issues' — 'inappropriate connected interests, conflicts of roles and corrupt collusion'; judge-led independent review committee announced",
+   "tor": [
+    "ToR5",
+    "ToR7"
+   ]
+  },
+  {
+   "date": "2025-12-12",
+   "event": "High Court Judge David Lok appointed to lead Independent Committee; 9-month reporting window",
+   "tor": [
+    "ToR7"
+   ]
+  },
+  {
+   "date": "2026-03-19",
+   "event": "Public hearings begin; cause: likely lit cigarette; 168 deaths confirmed",
+   "tor": [
+    "ToR1"
+   ]
+  },
+  {
+   "date": "2026-04-12",
+   "event": "First-10-days findings: alarms off (unqualified electrician), foam boards brushed off, FSD 'standard procedure' inspection missed deactivated systems, 85 shutdown-renewal notices, proxy-vote irregularities",
+   "tor": [
+    "ToR2",
+    "ToR3",
+    "ToR4",
+    "ToR5"
+   ]
+  },
+  {
+   "date": "2026-05-12",
+   "event": "Fourth round (24 hearings, 77 witnesses) concludes; govt pre-emptively rolls out 6-point reform plan; Lok: no confirmed citywide bid-rigging pattern yet",
+   "tor": [
+    "ToR7"
+   ]
+  },
+  {
+   "date": "2026-07-17",
+   "event": "Closing submissions: 627-page address; 'continuous fraud, bad materials, false certificates, blatant lying'; govt has 'unshirkable responsibility'; hearings close; committee continues processing evidence",
+   "tor": [
+    "ToR4",
+    "ToR5",
+    "ToR6",
+    "ToR7"
+   ]
+  }
+ ],
+ "themes": [
+  {
+   "id": "T1",
+   "title": "Cause of fire: smoking on renovation works",
+   "tor": [
+    "ToR1"
+   ],
+   "coverage": "Committee counsel identified a lit cigarette on the light-well roof as the probable ignition source; CCTV showed workers smoking on the day of the fire. Media repeatedly connected the cause to supervision failures at the renovation site.",
+   "media": [
+    "HKFP 2026-03-19 'most likely caused by smoking'",
+    "星島 2026-08-08 '宏福苑大火或由煙頭引起'",
+    "BBC中文 首場聽證會"
+   ],
+   "gaps": "Witness statements and lab reports on ignition sequencing are in the documents; media has not shown the light-well layout or carton storage chain as clearly as the Committee's own exhibits.",
+   "related_docs": [
+    "Consolidated-Expert-Report-of-Prof-Usmani-_-Prof-Jiang-Fire-Engineering-Experts-for-the-IC-Redacted",
+    "Witness-Statement-Cheung_Lok_Hang"
+   ],
+   "keywords": [
+    "smoking",
+    "cigarette",
+    "ignition",
+    "light well",
+    "fire cause",
+    "fire origin",
+    "fire spread",
+    "煙頭"
+   ]
+  },
+  {
+   "id": "T2",
+   "title": "Disabled fire alarms, hydrants and hose reels",
+   "tor": [
+    "ToR2"
+   ],
+   "coverage": "An unqualified electrician (ISS EastPoint) switched off main power in all 8 blocks to empty fire water tanks; fire alarms did not sound; hoses did not work; fire-safety contractors (Victory Fire, China Status) were unaware or did not follow up; 85 shutdown-renewal notices submitted without site visits.",
+   "media": [
+    "HKFP 2026-04-12 hearings",
+    "SCMP 'Tai Po fire: corrupt players exploited loopholes'",
+    "Reddit/HKFP 'firm alarm was turned off'"
+   ],
+   "gaps": "Media rarely explains the FSD shutdown-notification regime in detail; the notice trail is fully visible in the inquiry documents (China Status statements).",
+   "related_docs": [
+    "Consolidated-Expert-Report-of-Prof-Usmani-_-Prof-Jiang-Fire-Engineering-Experts-for-the-IC-Redacted",
+    "Witness-Statement-2-Leung_Man_Chung-Victory-Fire"
+   ],
+   "keywords": [
+    "alarm",
+    "sprinkler",
+    "hydrant",
+    "hose reel",
+    "fire service installation",
+    "water tank",
+    "pump room",
+    "消防",
+    "警鐘"
+   ]
+  },
+  {
+   "id": "T3",
+   "title": "Flammable foam boards and non-retardant netting",
+   "tor": [
+    "ToR2",
+    "ToR3"
+   ],
+   "coverage": "Styrofoam boards over windows fuelled fire spread and blocked residents' views; non-fire-retardant nets replaced typhoon-damaged nets (Prestige + Gain Profit); ICU classified boards 'temporary' despite a year of use; govt later banned combustible exterior materials.",
+   "media": [
+    "HKFP timeline + hearings",
+    "The Standard 2026-05-12",
+    "NBC 'Substandard work and evasion of oversight'"
+   ],
+   "gaps": "Material test reports and ICU correspondence are primary sources media cites but rarely publishes in full.",
+   "related_docs": [
+    "Consolidated-Expert-Report-of-Prof-Usmani-_-Prof-Jiang-Fire-Engineering-Experts-for-the-IC-Redacted"
+   ],
+   "keywords": [
+    "foam",
+    "styrofoam",
+    "netting",
+    "scaffold",
+    "cladding",
+    "window board",
+    "棚網",
+    "發泡"
+   ]
+  },
+  {
+   "id": "T4",
+   "title": "Supervision vacuum: rubber-stamp inspectors and contractors",
+   "tor": [
+    "ToR4"
+   ],
+   "coverage": "Registered inspector for Will Power and China Status 'acted as mere rubber stamps'; management company had 'limited power'; unclear which department enforces no-smoking rules; FSD inspection 5 weeks before fire missed deactivated alarms; ICU advance notices let Prestige prepare for checks.",
+   "media": [
+    "HKFP closing address 2026-07-17",
+    "SCMP 'missed checks at Wang Fuk Court'",
+    "HKFP 'Not good enough' 2026-05-01"
+   ],
+   "gaps": "The precise statutory duties of each regulator vs the honour system are under-explained in most coverage; the documents contain the department-by-department statements.",
+   "related_docs": [
+    "Closing-Address-Gov"
+   ],
+   "keywords": [
+    "inspection",
+    "supervision",
+    "rubber stamp",
+    "labour department",
+    "fire services department",
+    "independent checking unit",
+    "icu",
+    "regulatory",
+    "巡查",
+    "監管"
+   ]
+  },
+  {
+   "id": "T5",
+   "title": "Collusion, bid-rigging and proxy votes",
+   "tor": [
+    "ToR5"
+   ],
+   "coverage": "ICAC arrests over renovation corruption; 'inappropriate connected interests, conflicts of roles and corrupt collusion' (CE Lee); abnormal tender prices; pervasive unauthorised proxy votes at owners' meetings (>50% proxies typical); DAB district councillor was consultant to owners' corporation 2021-24.",
+   "media": [
+    "SCMP 2026 'corrupt players exploited loopholes'",
+    "HKFP hearings 2026-04-12",
+    "CBC/AP/BBC on charges"
+   ],
+   "gaps": "Competition Commission material and tender documents are on the Committee site; media coverage is arrest-led, not document-led.",
+   "related_docs": [
+    "CC-originating-notice-of-application"
+   ],
+   "keywords": [
+    "collusion",
+    "bid-rig",
+    "tender",
+    "proxy vote",
+    "icac",
+    "corruption",
+    "connected interest",
+    "competition",
+    "圍標"
+   ]
+  },
+  {
+   "id": "T6",
+   "title": "Adequacy of laws, penalties and the honour system",
+   "tor": [
+    "ToR6"
+   ],
+   "coverage": "'Honour system' of self-regulation 'effectively leaving them without oversight' (Dawes); fines as low as HK$18,000 for safety breaches; unclear jurisdiction over construction-site smoking; cladding regulations inapplicable to 'temporary' boards.",
+   "media": [
+    "HKFP closing 2026-07-17",
+    "SCMP 'systemic failure' 2026",
+    "CNA 'Lesson written in blood'"
+   ],
+   "gaps": "Most coverage quotes the problem; the Committee documents contain the actual statutes, codes and penalty schedules to evaluate it.",
+   "related_docs": [
+    "Closing-Address-Gov"
+   ],
+   "keywords": [
+    "law",
+    "penalty",
+    "regulation",
+    "ordinance",
+    "honour system",
+    "prosecution",
+    "legislation",
+    "法例"
+   ]
+  },
+  {
+   "id": "T7",
+   "title": "Reforms and recommendations",
+   "tor": [
+    "ToR7"
+   ],
+   "coverage": "Govt 6-point pre-emptive reform: 4-monthly inspections for large projects, tech-driven random audits, mandatory supervision plans + prosecution for negligence, material testing + ban on combustible exteriors, phased construction for multi-block estates, inter-departmental collaboration. Dawes: widen URA Smart Tender Scheme, compulsory litigation-record disclosure, proxy-vote reform. Hearings closed 17 Jul 2026; final report pending.",
+   "media": [
+    "The Standard 2026-05-12",
+    "HKFP closing 2026-07-17",
+    "The Standard 2026-07-22 'reforms ahead of final report'"
+   ],
+   "gaps": "None of the pre-emptive reforms had been stress-tested publicly against the Committee's actual recommendations at time of writing — a live question for the final report.",
+   "related_docs": [
+    "Closing-Address-Gov"
+   ],
+   "keywords": [
+    "reform",
+    "recommendation",
+    "smart tender",
+    "improvement",
+    "sweeping",
+    "改革"
+   ]
+  }
+ ],
+ "coverage_gaps": [
+  "No dedicated data-driven explainer that links each news claim to the underlying inquiry document (this site's purpose).",
+  "Light-well ignition sequence and carton storage chain shown in Committee exhibits rarely reproduced with page-level citations.",
+  "FSD shutdown-notification regime (14-day renewals, 85 notices) under-explained in general coverage.",
+  "The ICU 'temporary use' classification of foam boards is mostly mentioned in passing; the correspondence trail is in the documents.",
+  "Proxy-vote irregularities are reported but not connected to the wider owners' corporation decision trail (tender approvals).",
+  "Chinese-language coverage lags on the technical expert reports (Usmani/Jiang fire engineering) that anchor the cause narrative."
+ ],
+ "insights": [
+  "The seven ToR categories map 1:1 onto the news themes — meaning the Committee's own structure is the missing navigation layer for the public record.",
+  "News coverage is event-led (arrests, hearings); the documentary record is richer than any single report — e.g. the 85-notice shutdown trail and ICU correspondence are primary evidence that only the Committee site publishes.",
+  "The 'honour system' critique recurs across departments (ICU, FSD, BD, Labour) — a systemic thread that cuts across ToR4/ToR6 and is best shown by reading department statements side by side.",
+  "Fire-safety contractor behaviour (rubber-stamping, no site visits) is a distinct pattern from the renovation contractor fraud — two parallel failure chains that meet in the disabled fire systems (ToR2).",
+  "Smoking-caused fires on renovation sites: the Wang Fuk case is likely not unique; the documents may support a systemic-risk argument for the final report."
+ ],
+ "articles": [
+  {
+   "title": "Tai Po fire timeline: Wang Fuk Court's HK$330 million renovation, ignored warnings and aftermath",
+   "source": "Hong Kong Free Press",
+   "date": "2025-12-17",
+   "url": "https://hongkongfp.com/2025/12/17/tai-po-fire-timeline-wang-fuk-courts-hk330-mil/",
+   "lang": "EN",
+   "tor": [
+    "ToR3",
+    "ToR4",
+    "ToR5"
+   ]
+  },
+  {
+   "title": "Tai Po fire inquiry: Key findings from first 10 days of Wang Fuk Court hearings",
+   "source": "Hong Kong Free Press",
+   "date": "2026-04-12",
+   "url": "https://hongkongfp.com/2026/04/12/tai-po-fire-inquiry-key-findings-from-first-10-days-of-wang-fuk-court-hearings/",
+   "lang": "EN",
+   "tor": [
+    "ToR1",
+    "ToR2",
+    "ToR4",
+    "ToR5"
+   ]
+  },
+  {
+   "title": "Tai Po fire: Gov't has 'unshirkable responsibility' over fatal blaze, lawyer says as probe concludes",
+   "source": "Hong Kong Free Press",
+   "date": "2026-07-17",
+   "url": "https://hongkongfp.com/2026/07/17/tai-po-fire-govt-has-unshirkable-responsibilit/",
+   "lang": "EN",
+   "tor": [
+    "ToR4",
+    "ToR6",
+    "ToR7"
+   ]
+  },
+  {
+   "title": "Deadly Wang Fuk Court fire 'most likely' caused by smoking, public inquiry hears",
+   "source": "Hong Kong Free Press",
+   "date": "2026-03-19",
+   "url": "https://hongkongfp.com/2026/03/19/deadly-wang-fuk-court-fire-most-likely-caused-",
+   "lang": "EN",
+   "tor": [
+    "ToR1"
+   ]
+  },
+  {
+   "title": "'Not good enough': Key points from gov't departments' testimony at Tai Po fire inquiry",
+   "source": "Hong Kong Free Press",
+   "date": "2026-05-01",
+   "url": "https://hongkongfp.com/2026/05/01/not-good-enough-key-points-from-govt-departmen",
+   "lang": "EN",
+   "tor": [
+    "ToR4"
+   ]
+  },
+  {
+   "title": "Govt unveils sweeping reforms after Wang Fuk Court fire inquiry exposes deep industry failures",
+   "source": "The Standard",
+   "date": "2026-05-12",
+   "url": "https://www.thestandard.com.hk/news/article/331855/Govt-unveils-sweeping-reforms",
+   "lang": "EN",
+   "tor": [
+    "ToR7"
+   ]
+  },
+  {
+   "title": "Wang Fuk Court hearing completed: Construction firms exposed for deliberate violations; government pushes reforms ahead of final report",
+   "source": "The Standard",
+   "date": "2026-07-22",
+   "url": "https://www.thestandard.com.hk/",
+   "lang": "EN",
+   "tor": [
+    "ToR5",
+    "ToR7"
+   ]
+  },
+  {
+   "title": "Tai Po fire: corrupt players exploited loopholes in regulations, inquiry hears",
+   "source": "South China Morning Post",
+   "date": "2026",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3361010/tai-po-fire-corrupt-",
+   "lang": "EN",
+   "tor": [
+    "ToR5",
+    "ToR6"
+   ]
+  },
+  {
+   "title": "Tai Po probe: missed checks at Wang Fuk Court due to late notice of new guidelines",
+   "source": "South China Morning Post",
+   "date": "2026",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3352680/high-risk-wang-fuk-c",
+   "lang": "EN",
+   "tor": [
+    "ToR4"
+   ]
+  },
+  {
+   "title": "Wang Fuk Court fire result of 'systemic failure' in policy, experts tell hearing",
+   "source": "South China Morning Post",
+   "date": "2026",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3358358/wang-fuk-court-fire-",
+   "lang": "EN",
+   "tor": [
+    "ToR6"
+   ]
+  },
+  {
+   "title": "Heroism and grief: 6 residents' stories from Wang Fuk Court fire hearings",
+   "source": "South China Morning Post",
+   "date": "2026",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3353000/heroism-and-grief-6-",
+   "lang": "EN",
+   "tor": [
+    "ToR1"
+   ]
+  },
+  {
+   "title": "7 people, 2 firms face manslaughter, other charges over deadly Wang Fuk Court fire",
+   "source": "SCMP video",
+   "date": "2026",
+   "url": "https://www.scmp.com/video/hong-kong/3356774/7-people-2-firms-face-manslaughter-",
+   "lang": "EN",
+   "tor": [
+    "ToR5"
+   ]
+  },
+  {
+   "title": "Wang Fuk Court: Hong Kong authorities lay first charges over deadly fire",
+   "source": "BBC News",
+   "date": "2026",
+   "url": "https://www.bbc.com/news/articles/c04yldyezyeo",
+   "lang": "EN",
+   "tor": [
+    "ToR5"
+   ]
+  },
+  {
+   "title": "Hong Kong charges 7 people, 2 firms over deadly fire that killed 168 people",
+   "source": "CBC News",
+   "date": "2026",
+   "url": "https://www.cbc.ca/news/world/hong-kong-apartment-fire-charges-wang-fuk-court-9.",
+   "lang": "EN",
+   "tor": [
+    "ToR5"
+   ]
+  },
+  {
+   "title": "Substandard work and evasion of oversight helped fuel deadly Hong Kong fire, investigators say",
+   "source": "NBC News",
+   "date": "2026",
+   "url": "https://www.nbcnews.com/world/hong-kong/hong-kong-inferno-fire-wang-fuk-court-su",
+   "lang": "EN",
+   "tor": [
+    "ToR3",
+    "ToR4"
+   ]
+  },
+  {
+   "title": "Series of failures led to deadly Hong Kong fire, lawyer says as hearings begin",
+   "source": "NBC News",
+   "date": "2026",
+   "url": "https://www.nbcnews.com/world/asia/series-failures-led-deadly-hong-kong-fire-law",
+   "lang": "EN",
+   "tor": [
+    "ToR4"
+   ]
+  },
+  {
+   "title": "What an Inquiry into Hong Kong's Deadly Apartment Fire Has Revealed",
+   "source": "The New York Times",
+   "date": "2026-05-04",
+   "url": "https://www.nytimes.com/2026/05/04/world/asia/hong-kong-apartment-fire-investiga",
+   "lang": "EN",
+   "tor": [
+    "ToR1",
+    "ToR4"
+   ]
+  },
+  {
+   "title": "'Lesson written in blood': How Hong Kong's deadly Wang Fuk Court fire exposed systemic failures",
+   "source": "Channel News Asia",
+   "date": "2026",
+   "url": "https://www.channelnewsasia.com/asia/hong-kong-fire-wang-fuk-court-tai-po-system",
+   "lang": "EN",
+   "tor": [
+    "ToR6"
+   ]
+  },
+  {
+   "title": "Hong Kong's Wang Fuk Court fire and the global lessons for high-rise safety",
+   "source": "International Fire & Safety Journal",
+   "date": "2026",
+   "url": "https://internationalfireandsafetyjournal.com/wang-fuk-court-fire-lessons/",
+   "lang": "EN",
+   "tor": [
+    "ToR2",
+    "ToR7"
+   ]
+  },
+  {
+   "title": "Witness statements published by Wang Fuk inquiry",
+   "source": "RTHK",
+   "date": "2026-07-30",
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1864309-20260730.htm",
+   "lang": "EN",
+   "tor": [
+    "ToR4"
+   ]
+  },
+  {
+   "title": "香港宏福苑大火：死亡數增至156人，外傭10人死亡30人失蹤，「頭七」悼念在多地舉行",
+   "source": "BBC News 中文",
+   "date": "2025-12",
+   "url": "https://www.bbc.com/zhongwen/articles/clykevkpvz7o/trad",
+   "lang": "TC",
+   "tor": [
+    "ToR1"
+   ]
+  },
+  {
+   "title": "香港宏福苑火災首場聽證會：勞工處多次巡查未發現吸煙，棚網承建商被指大火後試圖隱瞞",
+   "source": "BBC News 中文",
+   "date": "2026-03",
+   "url": "https://www.bbc.com/zhongwen/articles/c3dzd71xkjxo/trad",
+   "lang": "TC",
+   "tor": [
+    "ToR1",
+    "ToR4"
+   ]
+  },
+  {
+   "title": "宏福苑聽證會・第五輪總結｜不升格法定委員會 專家總結系統失效",
+   "source": "HK01",
+   "date": "2026",
+   "url": "https://www.hk01.com/",
+   "lang": "TC",
+   "tor": [
+    "ToR6",
+    "ToR7"
+   ]
+  },
+  {
+   "title": "宏福苑大火｜獨立委員會公開多份調查報告 大量災場相片曝光 還原起火經過",
+   "source": "星島日報",
+   "date": "2026",
+   "url": "https://www.stheadline.com/society/3601845/",
+   "lang": "TC",
+   "tor": [
+    "ToR1"
+   ]
+  },
+  {
+   "title": "宏福苑大火或由煙頭引起",
+   "source": "星島日報",
+   "date": "2026-08-08",
+   "url": "https://www.singtaousa.com/2026/08/08/news/world/hong-fook-yuan-fire-cause/",
+   "lang": "TC",
+   "tor": [
+    "ToR1"
+   ]
+  },
+  {
+   "title": "宏福苑大火調查 涉事分判商否認曾發現或接獲工人吸煙報告",
+   "source": "星島日報",
+   "date": "2026-08-12",
+   "url": "https://www.singtaousa.com/2026/08/12/news/china/hong-fu-court-fire-subcontracto",
+   "lang": "TC",
+   "tor": [
+    "ToR1",
+    "ToR4"
+   ]
+  },
+  {
+   "title": "大埔火災｜獨委會要求執法部門提交圍標調查報告 專家：務實合理做法",
+   "source": "巴士的報 Bastille Post",
+   "date": "2026",
+   "url": "https://www.bastillepost.com/hongkong/article/15983483-",
+   "lang": "TC",
+   "tor": [
+    "ToR5"
+   ]
+  },
+  {
+   "title": "大埔火災：獨立委員會與獨立調查委員會之比較和選擇",
+   "source": "綠豆 Green Bean Media",
+   "date": "2025-12",
+   "url": "https://greenbean.media/大埔火災/",
+   "lang": "TC",
+   "tor": [
+    "ToR7"
+   ]
+  },
+  {
+   "title": "香港宏福苑大火 委員會報告指政府監管不足、責無旁貸",
+   "source": "看中國 Secret China",
+   "date": "2026-07-18",
+   "url": "https://www.secretchina.com/news/b5/2026/07/18/1102177.html",
+   "lang": "TC",
+   "tor": [
+    "ToR4"
+   ]
+  },
+  {
+   "title": "香港宏福苑大火跨部門調查專組最終調查報告公布：認定系意外，煙頭最可能為火源",
+   "source": "封面新聞 The Cover",
+   "date": "2026",
+   "url": "https://www.thecover.cn/news/xafR5OArXwWH90qSdq8Jkw==",
+   "lang": "SC",
+   "tor": [
+    "ToR1"
+   ]
+  },
+  {
+   "title": "Tai Po fire: Gov't has 'unshirkable responsibility' — closing submissions of counsel",
+   "source": "HKFP (Closing-Address-Gov.pdf mirrored on this site)",
+   "date": "2026-07-17",
+   "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/docs/Closing-Address-Gov.pdf",
+   "lang": "EN",
+   "tor": [
+    "ToR4",
+    "ToR5",
+    "ToR6",
+    "ToR7"
+   ]
+  },
+  {
+   "title": "Hong Kong rules out Wang Fuk Court buy-back extension as 100 owners hesitate",
+   "source": "South China Morning Post",
+   "date": "2026-08-23",
+   "lang": "EN",
+   "tor": [
+    "ToR7"
+   ],
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3364951/hong-kong-rules-out-wang-fuk-court-buy-back-extension-100-owners-hesitate"
+  },
+  {
+   "title": "Government still weighing decision on restricting proxy voters, official says",
+   "source": "South China Morning Post",
+   "date": "2026-08-22",
+   "lang": "EN",
+   "tor": [
+    "ToR5"
+   ],
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3364921/government-still-weighing-decision-restricting-proxy-voters-hong-kong-official-says"
+  },
+  {
+   "title": "SCMP Letters: the accessibility of the Wang Fuk Court fire inquiry documents (our letter)",
+   "source": "South China Morning Post",
+   "date": "2026-08-19",
+   "lang": "EN",
+   "tor": [
+    "ToR7"
+   ],
+   "url": "https://www.scmp.com/comment/letters"
+  },
+  {
+   "title": "Committee probing Tai Po fire delays submission of report to end of October",
+   "source": "South China Morning Post",
+   "date": "2026-08-18",
+   "lang": "EN",
+   "tor": [
+    "ToR7"
+   ],
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3364385/committee-probing-tai-po-fire-delays-submission-report-end-october"
+  },
+  {
+   "title": "Supplier says subcontractor ordered non-fire-retardant nets before Tai Po blaze",
+   "source": "South China Morning Post",
+   "date": "2026-08-13",
+   "lang": "EN",
+   "tor": [
+    "ToR2",
+    "ToR3"
+   ],
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3363936/supplier-says-subcontractor-ordered-non-fire-retardant-nets-tai-po-blaze"
+  },
+  {
+   "title": "Lawmakers flag gaps in proposed changes to building management rules after Tai Po fire",
+   "source": "South China Morning Post",
+   "date": "2026-08-13",
+   "lang": "EN",
+   "tor": [
+    "ToR5",
+    "ToR7"
+   ],
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3363886/lawmakers-flag-gaps-proposed-changes-building-management-rules-after-tai-po-fire"
+  },
+  {
+   "title": "8% of Wang Fuk Court owners yet to accept buy-back as deadline looms",
+   "source": "South China Morning Post",
+   "date": "2026-08-09",
+   "lang": "EN",
+   "tor": [
+    "ToR7"
+   ],
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3363445/8-owners-fire-hit-hong-kong-estate-yet-accept-buy-back-deadline-nears"
+  },
+  {
+   "title": "Tai Po inquiry sheds more light on final moments of firefighter Ho Wai-ho",
+   "source": "South China Morning Post",
+   "date": "2026-08-08",
+   "lang": "EN",
+   "tor": [
+    "ToR1"
+   ],
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3363336/tai-po-inquiry-sheds-more-light-final-moments-firefighter-ho-wai-ho"
+  },
+  {
+   "title": "Hong Kong tests thermal drones to catch illegal smoking at construction sites",
+   "source": "South China Morning Post",
+   "date": "2026-08-05",
+   "lang": "EN",
+   "tor": [
+    "ToR4",
+    "ToR6"
+   ],
+   "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3363030/hong-kong-tests-thermal-drones-catch-illegal-smoking-construction-sites"
+  },
+  {
+   "title": "2 fire service contractors linked to Tai Po tragedy still running, open new contracts",
+   "source": "South China Morning Post",
+   "date": "2026-08-03",
+   "lang": "EN",
+   "tor": [
+    "ToR2",
+    "ToR5"
+   ],
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3362710/2-fire-service-contractors-linked-tai-po-tragedy-still-running-open-new-contracts"
+  },
+  {
+   "title": "Tai Po fire: contractor's 2 directors deny all allegations in witness statements",
+   "source": "South China Morning Post",
+   "date": "2026-07-30",
+   "lang": "EN",
+   "tor": [
+    "ToR5"
+   ],
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3362308/tai-po-fire-contractors-2-directors-deny-all-allegations-witness-statements"
+  },
+  {
+   "title": "Hong Kong's competition watchdog tightens tender clauses to target bid-rigging",
+   "source": "South China Morning Post",
+   "date": "2026-07-24",
+   "lang": "EN",
+   "tor": [
+    "ToR5",
+    "ToR6"
+   ],
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3361629/hong-kongs-competition-watchdog-tightens-tender-clauses-target-bid-rigging"
+  }
+ ],
+ "latest_developments": [
+  {
+   "date": "2026-08-23",
+   "event": "Government rules out extending the buy-back deadline (31 Aug) as ~100 owners have yet to accept; compensation may fall if flats are acquired by legal means.",
+   "source": "SCMP",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3364951/hong-kong-rules-out-wang-fuk-court-buy-back-extension-100-owners-hesitate",
+   "tor": [
+    "ToR7"
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "event": "Government still weighing whether to restrict proxy voting at owners' meetings - a reform gap the inquiry evidence highlighted.",
+   "source": "SCMP",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3364921/government-still-weighing-decision-restricting-proxy-voters-hong-kong-official-says",
+   "tor": [
+    "ToR5"
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "event": "Our letter on the accessibility of the inquiry documents is published in SCMP Letters - see the Our Letter page.",
+   "source": "SCMP Letters",
+   "url": "https://www.scmp.com/comment/letters",
+   "tor": []
+  },
+  {
+   "date": "2026-08-18",
+   "event": "The Committee's final report is delayed until the end of October; it will present its findings and recommendations after the hearings that closed on 17 July.",
+   "source": "SCMP",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3364385/committee-probing-tai-po-fire-delays-submission-report-end-october",
+   "tor": [
+    "ToR7"
+   ]
+  },
+  {
+   "date": "2026-08-13",
+   "event": "Inquiry documents show supplier Gain Profit ordered non-fire-retardant netting before the blaze; lawmakers flag gaps in the proposed building-management rules.",
+   "source": "SCMP",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3363936/supplier-says-subcontractor-ordered-non-fire-retardant-nets-tai-po-blaze",
+   "tor": [
+    "ToR2",
+    "ToR3",
+    "ToR5"
+   ]
+  },
+  {
+   "date": "2026-08-08",
+   "event": "Committee releases the task force's interim report on the death of firefighter Ho Wai-ho, including images of his gear.",
+   "source": "SCMP",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3363336/tai-po-inquiry-sheds-more-light-final-moments-firefighter-ho-wai-ho",
+   "tor": [
+    "ToR1"
+   ]
+  },
+  {
+   "date": "2026-08-05",
+   "event": "Labour Department begins testing thermal drones to catch illegal smoking at construction sites; AI added later.",
+   "source": "SCMP",
+   "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3363030/hong-kong-tests-thermal-drones-catch-illegal-smoking-construction-sites",
+   "tor": [
+    "ToR4",
+    "ToR6"
+   ]
+  },
+  {
+   "date": "2026-08-03",
+   "event": "SCMP investigation finds two fire-service contractors linked to the tragedy (China Status, Victory Fire) are still in business and taking new contracts.",
+   "source": "SCMP",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3362710/2-fire-service-contractors-linked-tai-po-tragedy-still-running-open-new-contracts",
+   "tor": [
+    "ToR2",
+    "ToR5"
+   ]
+  },
+  {
+   "date": "2026-07-30",
+   "event": "Two contractor directors deny all allegations in witness statements published by the inquiry.",
+   "source": "SCMP / RTHK",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3362308/tai-po-fire-contractors-2-directors-deny-all-allegations-witness-statements",
+   "tor": [
+    "ToR5"
+   ]
+  },
+  {
+   "date": "2026-07-24",
+   "event": "Competition watchdog tightens tender clauses to target bid-rigging - bidders must sign statutory declarations against collusion.",
+   "source": "SCMP",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3361629/hong-kongs-competition-watchdog-tightens-tender-clauses-target-bid-rigging",
+   "tor": [
+    "ToR5",
+    "ToR6"
+   ]
+  },
+  {
+   "date": "2026-07-18",
+   "event": "Final report delayed to late October; the committee needs more time to organise the evidence.",
+   "source": "SCMP",
+   "url": "https://www.scmp.com/news/hong-kong/politics/article/3361060/tai-po-fire-inquiry-panel-delay-submitting-final-report-late-october-source",
+   "tor": [
+    "ToR7"
+   ]
+  }
+ ]
+}

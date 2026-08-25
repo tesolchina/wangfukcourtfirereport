@@ -1,0 +1,221 @@
+{
+ "Reply-On-Cheong": {
+  "pages": 8,
+  "chars": 7606,
+  "sources": {
+   "llm": 8
+  },
+  "done": "2026-08-17T15:36:01"
+ },
+ "Witness-Statement-Siu_Tsz_Ho-Redacted": {
+  "pages": 4,
+  "chars": 1328,
+  "sources": {
+   "llm": 4
+  },
+  "done": "2026-08-17T15:36:10"
+ },
+ "Witness-Statement-Yeung_Ching-Redacted": {
+  "pages": 4,
+  "chars": 1306,
+  "sources": {
+   "llm": 4
+  },
+  "done": "2026-08-17T15:36:19"
+ },
+ "Witness-Statement-4-Yiu_Men_Yeung-Redacted": {
+  "pages": 27,
+  "chars": 21348,
+  "sources": {
+   "llm": 27
+  },
+  "done": "2026-08-17T15:37:12"
+ },
+ "Reply-Mui_Siu_Fung": {
+  "pages": 5,
+  "chars": 6344,
+  "sources": {
+   "llm": 5
+  },
+  "done": "2026-08-17T15:37:31"
+ },
+ "Reply-2-Wong_Pik_Kiu": {
+  "pages": 9,
+  "chars": 11699,
+  "sources": {
+   "llm": 9
+  },
+  "done": "2026-08-17T15:38:07"
+ },
+ "Reply-1-Wong_Pik_Kiu": {
+  "pages": 7,
+  "chars": 10195,
+  "sources": {
+   "llm": 7
+  },
+  "done": "2026-08-17T15:38:31"
+ },
+ "Witness-Statement-Hau_Wa_Kin": {
+  "pages": 13,
+  "chars": 16255,
+  "sources": {
+   "llm": 13
+  },
+  "done": "2026-08-17T15:38:58"
+ },
+ "Closing-Address-Victory-Fire": {
+  "pages": 19,
+  "chars": 27529,
+  "sources": {
+   "llm": 19
+  },
+  "done": "2026-08-17T15:45:52"
+ },
+ "Witness-Statement-2-Ku_Siu_Ping": {
+  "pages": 15,
+  "chars": 25050,
+  "sources": {
+   "llm": 15
+  },
+  "done": "2026-08-17T15:46:30"
+ },
+ "Witness-Statement-Lee_Kwok_Hung": {
+  "pages": 13,
+  "chars": 8334,
+  "sources": {
+   "llm": 13
+  },
+  "done": "2026-08-17T15:47:11"
+ },
+ "Witness-Statement-2-Cheng_Ka_Chun": {
+  "pages": 3,
+  "chars": 4078,
+  "sources": {
+   "llm": 3
+  },
+  "done": "2026-08-17T15:47:19"
+ },
+ "Witness-Statement-Lam_Ho_Chun": {
+  "pages": 6,
+  "chars": 7266,
+  "sources": {
+   "llm": 6
+  },
+  "done": "2026-08-17T15:47:32"
+ },
+ "Witness-Statement-Cheung_Lok_Hang": {
+  "pages": 5,
+  "chars": 5275,
+  "sources": {
+   "llm": 5
+  },
+  "done": "2026-08-17T15:47:41"
+ },
+ "Witness-Statement-Hui_Kin_On": {
+  "pages": 8,
+  "chars": 13148,
+  "sources": {
+   "llm": 8
+  },
+  "done": "2026-08-17T15:48:01"
+ },
+ "Witness-Statement-5-Keung_Sai_Ming": {
+  "pages": 13,
+  "chars": 17895,
+  "sources": {
+   "llm": 13
+  },
+  "done": "2026-08-17T15:48:27"
+ },
+ "Witness-Statement-4-Keung_Sai_Ming": {
+  "pages": 14,
+  "chars": 22320,
+  "sources": {
+   "llm": 14
+  },
+  "done": "2026-08-17T15:48:59"
+ },
+ "Witness-Statement-2-Keung_Sai_Ming": {
+  "pages": 8,
+  "chars": 11511,
+  "sources": {
+   "llm": 8
+  },
+  "done": "2026-08-17T15:49:18"
+ },
+ "Witness-Statement-1-Keung_Sai_Ming": {
+  "pages": 47,
+  "chars": 73088,
+  "sources": {
+   "llm": 47
+  },
+  "done": "2026-08-17T15:50:58"
+ },
+ "Witness-Statement-2-Leung_Ping_Kay": {
+  "pages": 16,
+  "chars": 23664,
+  "sources": {
+   "llm": 16
+  },
+  "done": "2026-08-17T15:51:31"
+ },
+ "Witness-Statement-1-Leung_Ping_Kay": {
+  "pages": 9,
+  "chars": 15743,
+  "sources": {
+   "llm": 8,
+   "tesseract": 1
+  },
+  "done": "2026-08-17T16:04:10"
+ },
+ "Witness-Statement-2-Chung_Kit_Man": {
+  "pages": 4,
+  "chars": 2155,
+  "sources": {
+   "llm": 4
+  },
+  "done": "2026-08-17T16:04:21"
+ },
+ "Witness-Statement-Wong_Kin_Wa": {
+  "pages": 4,
+  "chars": 2018,
+  "sources": {
+   "llm": 3,
+   "tesseract": 1
+  },
+  "done": "2026-08-17T16:17:05"
+ },
+ "Witness-Statement-Yip_Ka_Kui_Sdanni": {
+  "pages": 15,
+  "chars": 9471,
+  "sources": {
+   "llm": 15
+  },
+  "done": "2026-08-17T16:18:12"
+ },
+ "Witness-Statement-Lo_Hiu_Kei": {
+  "pages": 5,
+  "chars": 1758,
+  "sources": {
+   "llm": 4,
+   "tesseract": 1
+  },
+  "done": "2026-08-17T16:30:51"
+ },
+ "Appointment-of-counsel-_English_": {
+  "pages": 1,
+  "chars": 650,
+  "sources": {
+   "llm": 1
+  },
+  "done": "2026-08-17T16:30:56"
+ },
+ "Appointment-of-counsel-and-solicitors-_English_": {
+  "pages": 1,
+  "chars": 722,
+  "sources": {
+   "llm": 1
+  },
+  "done": "2026-08-17T16:31:01"
+ }
+}
