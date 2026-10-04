@@ -628,6 +628,7 @@ NAV = [
     ("work.html", "Work & Effort", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
     ("news.html", "News & Coverage", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
     ("letter.html", "Our Letter", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
+    ("engagement/legcoDraft.html", "Engagement", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
     ("images.html", "All Images", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
     ("about.html", "About & Credits", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
 ]
@@ -1648,11 +1649,217 @@ def build_letter():
         <li><strong><a href="tor.html">ToR Perspectives</a></strong> — themed narratives that cite the documents behind each task.</li>
         <li><strong><a href="news.html">News &amp; Coverage</a></strong> — how the media covered the fire, mapped to the record.</li>
         <li><strong><a href="about.html">About &amp; Credits</a></strong> — methodology, image filtering and the OCR burden.</li>
+        <li><strong><a href="engagement/legcoDraft.html">LegCo engagement</a></strong> — the draft report to the Panel on Security, and how AI prepared it.</li>
         <li><strong><a href="https://github.com/tesolchina/wangfukcourtfirereport" target="_blank" rel="noopener">Source code ↗</a></strong> — open source, under <code>projects/FireReport</code>.</li>
       </ul>
     </section>
     """
     return page("Our Letter", "letter.html", body, "Our letter to SCMP on the accessibility of the inquiry documents")
+
+# ----------------------------------------------------------------------------
+# Engagement — LegCo draft
+# ----------------------------------------------------------------------------
+def build_legco_draft():
+    """Engagement page for LegCo members: why the original record is hard to
+    use, the alternative we built, what the deeper reading reveals, the draft
+    report to the Panel on Security, and how AI prepared it."""
+    body = """
+    <section class="page-head lg-hero">
+      <div class="hero-badge">FOR LEGCO MEMBERS · DRAFT REPORT READY · OCTOBER 2026</div>
+      <h1>The record is public.<br>The answers are hard to find.</h1>
+      <p>The Independent Committee has published everything online — 243 documents, 6,377 pages,
+      1.9 million words. But the material is filed by the sequence of the committee's work, not by
+      the seven questions in its Terms of Reference. We rebuilt the record around those questions —
+      and drafted the report to the Panel on Security.</p>
+      <div class="hero-actions">
+        <a class="btn btn-dark" href="https://github.com/tesolchina/wangfukcourtfirereport/blob/main/docs/legco_panel_security_report.md" target="_blank" rel="noopener">Read the draft report ↗</a>
+        <a class="btn btn-ghost" href="documents.html">Explore the reorganized record →</a>
+        <a class="btn btn-ghost" href="https://www.ic-wangfukcourtfire.gov.hk/eng/index.html" target="_blank" rel="noopener">Original committee site ↗</a>
+      </div>
+    </section>
+    <section class="stats">
+      <div class="stat-card"><div class="stat-value">243</div><div class="stat-label">documents published by the Committee</div></div>
+      <div class="stat-card"><div class="stat-value">6,377</div><div class="stat-label">pages of evidence</div></div>
+      <div class="stat-card"><div class="stat-value">1.9M</div><div class="stat-label">words — statements, transcripts, expert reports</div></div>
+      <div class="stat-card"><div class="stat-value">~1,800</div><div class="stat-label">photographs and diagrams</div></div>
+      <div class="stat-card"><div class="stat-value">7</div><div class="stat-label">Terms-of-Reference tasks tagged on every document</div></div>
+    </section>
+
+    <section class="block narrow" id="problem">
+      <div class="block-head"><h2>Why the original site is hard to use</h2></div>
+      <div class="note-block warn" style="margin-top:1rem">
+        <p>The committee's own menu — About the Committee, Timetable for Hearings, Key Documents,
+        Transcripts — mirrors how it worked, not what the public needs to know. Anyone chasing
+        evidence on sprinkler failure or tender collusion must wade through page after page, with no
+        overview of how the documents relate to the seven Terms of Reference. And a keyword search
+        cannot bridge the gap: the strongest evidence on tender irregularities sits in documents
+        that never use those words.</p>
+      </div>
+      <div class="lg-compare">
+        <div class="col">
+          <h4>How the record is filed</h4>
+          <ul>
+            <li>About the Committee</li>
+            <li>Timetable for Hearings</li>
+            <li>Key Documents</li>
+            <li>Transcripts — by hearing date</li>
+            <li>Documents — by filing sequence</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>What people actually ask</h4>
+          <ul>
+            <li>Why did the fire alarms fail?</li>
+            <li>Who verified the netting and the boards?</li>
+            <li>Was the renovation tender rigged?</li>
+            <li>Who was supposed to supervise — and didn't?</li>
+            <li>Are the existing laws and penalties adequate?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="lg-quote">Every document is public — but the questions people ask are the ones
+      the archive makes hardest to answer.
+      <small>— our letter to the editor, South China Morning Post, 19 August 2026 (<a href="letter.html">read it here</a>)</small></div>
+    </section>
+
+    <section class="block narrow" id="alternative">
+      <div class="block-head"><h2>An alternative is feasible — and already built</h2></div>
+      <p class="block-sub">A web crawler collected every document; PDFs were converted to text with
+      all 8,785 embedded images extracted; the 27 documents that arrived only as scans were read by
+      OCR; and large language models read, summarised and tagged every document against the seven
+      Terms-of-Reference tasks. The result is a free, bilingual, open-source companion to the
+      committee's site.</p>
+      <div class="insights">
+        <a class="insight-card lg-card-link" href="documents.html">
+          <div class="insight-kicker">MAP &amp; DOCUMENTS</div>
+          <p>Every one of the 243 documents on a page of its own — summary, key points, table of
+          contents, link to the original PDF — and an interactive map of how they relate to each task.</p>
+        </a>
+        <a class="insight-card lg-card-link" href="search.html">
+          <div class="insight-kicker">FULL-TEXT SEARCH</div>
+          <p>Search across all 1.9 million words, with page-level snippets that jump straight to the
+          passage in the original document.</p>
+        </a>
+        <a class="insight-card lg-card-link" href="tor.html">
+          <div class="insight-kicker">ToR PERSPECTIVES</div>
+          <p>Seven themed narratives — one per Terms-of-Reference task — citing the documents behind
+          every point.</p>
+        </a>
+        <a class="insight-card lg-card-link" href="news.html">
+          <div class="insight-kicker">NEWS &amp; COVERAGE</div>
+          <p>How the media covered the fire, mapped against the documentary record — including what
+          the coverage missed.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="block narrow" id="insights">
+      <div class="block-head"><h2>What the deeper reading reveals</h2></div>
+      <p class="block-sub">Findings from reading all 243 documents in full — most of them invisible
+      to a keyword search of the committee's own site.</p>
+      <div class="insights">
+        <div class="insight-card">
+          <div class="insight-kicker">UNEVEN DISTRIBUTION</div>
+          <p>Supervision responsibilities appear in <b>195 documents</b>; the adequacy of laws in
+          <b>77</b>. Bid-rigging and collusion — what residents most want explained — appear in
+          <b>99 documents</b> in the full text, against 8 and 11 in a summary-level first pass.</p>
+        </div>
+        <div class="insight-card">
+          <div class="insight-kicker">EVIDENCE WITHOUT THE WORDS</div>
+          <p>A fire-service contractor filed <b>85 shutdown-renewal notices without ever visiting
+          the estate</b>; a renovation subcontract was agreed <b>orally, with no written contract</b>;
+          a contract attachment's material-data folder was <b>empty</b>. None of these documents says
+          "bid-rigging" — a keyword search would never surface them.</p>
+        </div>
+        <div class="insight-card">
+          <div class="insight-kicker">THE HONOUR-SYSTEM THREAD</div>
+          <p>The independent checking unit gave advance notice of inspections; an FSD inspection five
+          weeks before the fire missed the deactivated alarms; a registered inspector was described
+          in evidence as a rubber stamp. The same pattern recurs across regulators.</p>
+        </div>
+        <div class="insight-card">
+          <div class="insight-kicker">TWO FAILURE CHAINS, ONE OUTCOME</div>
+          <p>Renovation-contractor fraud and fire-safety-contractor behaviour are two distinct
+          failure chains. They meet in the fire systems that were switched off — alarms deactivated
+          in <b>seven of the eight blocks</b>, fire-service water tanks emptied.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block narrow" id="report">
+      <div class="block-head"><h2>The draft report to the Panel on Security</h2></div>
+      <p class="block-sub">Modelled on the 2021 minibus-safety letter to the Panel on Transport
+      (LC Paper No. CB(4)1353/20-21(01)): a short letter, our published SCMP letter as the appendix,
+      and a sources table linking every factual claim. Addressed to
+      <code>panel_s@legco.gov.hk</code>.</p>
+      <div class="lg-asks">
+        <div class="lg-ask"><div class="lg-ask-num">a</div><p><b>Brief the Panel.</b> Invite the Security Bureau and the Fire Services Department to present the Committee's findings and recommendations as soon as the report is published — and table the report to the Panel.</p></div>
+        <div class="lg-ask"><div class="lg-ask-num">b</div><p><b>Fix the shutdown regime.</b> A contractor filed 85 shutdown-renewal notices without any site visit. Ask how shutdowns and restorations of fire service installations will in future be verified by physical inspection.</p></div>
+        <div class="lg-ask"><div class="lg-ask-num">c</div><p><b>Contractor accountability.</b> Ask what mechanisms can suspend or debar contractors implicated in the inquiry pending prosecutions — two fire-service contractors linked to the tragedy were still taking new contracts in August 2026.</p></div>
+        <div class="lg-ask"><div class="lg-ask-num">d</div><p><b>A public implementation timetable.</b> For the Committee's recommendations, including legislative amendments under its third term of reference on the adequacy of existing laws and penalties — with progress reported back to the Panel.</p></div>
+        <div class="lg-ask"><div class="lg-ask-num">e</div><p><b>Present the record by ToR.</b> So that members and the public can trace each recommendation to the underlying evidence — the accessibility concern in our published letter.</p></div>
+      </div>
+      <div class="note-block" style="margin-top:1rem">
+        <h3>Timing</h3>
+        <p>The Committee's report is due by the <strong>end of October 2026</strong> (extension
+        granted on 18 August 2026). The letter is timed to land in the week the report is published,
+        so the Panel can put the briefing on its next agenda.</p>
+      </div>
+      <p style="margin-top:1rem"><a class="link" href="https://github.com/tesolchina/wangfukcourtfirereport/blob/main/docs/legco_panel_security_report.md" target="_blank" rel="noopener">Read the full draft with the sources table ↗</a> ·
+      <a class="link" href="https://github.com/tesolchina/wangfukcourtfirereport/issues/1" target="_blank" rel="noopener">Discussion on GitHub ↗</a> ·
+      <a class="link" href="letter.html">Our published SCMP letter →</a></p>
+    </section>
+
+    <section class="block narrow" id="how">
+      <div class="block-head"><h2>How AI prepared this report</h2></div>
+      <p class="block-sub">The draft was prepared by an AI agent in a single working session under
+      Dr Simon Wang's direction, instructed through the public GitHub issue. The full session log is
+      attached to the issue; the steps below summarise it.</p>
+      <div class="timeline lg-steps">
+        <div class="tl-item"><div class="tl-date">1 · Task intake</div><div class="tl-body"><p>Read the GitHub issue and the instruction; identified the sample paper to follow — the 2021 minibus-safety letter to the Panel on Transport.</p></div></div>
+        <div class="tl-item"><div class="tl-date">2 · Template study</div><div class="tl-body"><p>Downloaded the sample paper PDF, extracted its text and learned its structure — letter, appendix, sign-off.</p></div></div>
+        <div class="tl-item"><div class="tl-date">3 · Project memory</div><div class="tl-body"><p>Read the repository README, the published SCMP letter and its sixteen draft versions, and the press record.</p></div></div>
+        <div class="tl-item"><div class="tl-date">4 · Evidence mining</div><div class="tl-body"><p>Queried the project's own analysis data — fire facts, themes, ToR coverage counts, latest developments — rather than re-reading 6,377 pages.</p></div></div>
+        <div class="tl-item"><div class="tl-date">5 · Primary-source verification</div><div class="tl-body"><p>Checked every key fact against the committee's site and news sources; rendered the JavaScript-only LegCo panel page in a headless browser to verify the panel's email address and the CB(2) paper series.</p></div></div>
+        <div class="tl-item"><div class="tl-date">6 · Citation discipline</div><div class="tl-body"><p>Built a twelve-row sources table linking every factual claim in the letter to its authoritative source.</p></div></div>
+        <div class="tl-item"><div class="tl-date">7 · Drafting with guardrails</div><div class="tl-body"><p>Modelled the letter on the sample; kept legal liabilities outside the asks, per the Committee's own scope note; left co-signatories as a placeholder for the editors' list.</p></div></div>
+        <div class="tl-item"><div class="tl-date">8 · Publication</div><div class="tl-body"><p>Posted the full text to GitHub issue #1 and committed the file to both repositories — public by design, as the issue itself notes.</p></div></div>
+      </div>
+      <div class="lg-duo">
+        <div class="col">
+          <h4>What the human decided</h4>
+          <ul>
+            <li>The task, the audience and the sample to follow</li>
+            <li>The editor contacts for co-signatories</li>
+            <li>Review, signature and the decision to submit</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>What the AI did</h4>
+          <ul>
+            <li>Gathered and verified the evidence, source by source</li>
+            <li>Drafted the letter, the five asks and the appendix</li>
+            <li>Built the sources table and the submission notes</li>
+            <li>Published to the issue and committed to both repos</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="lg-cta">
+      <h2>For LegCo members: the briefing this record deserves</h2>
+      <p>168 people died at Wang Fuk Court. The evidence of what failed — and what must change — is
+      already public. We ask the Panel on Security to follow up the Committee's findings with the
+      Security Bureau, and to make the implementation of its recommendations public and trackable.</p>
+      <div class="hero-actions">
+        <a class="btn btn-dark lg-btn-light" href="https://github.com/tesolchina/wangfukcourtfirereport/blob/main/docs/legco_panel_security_report.md" target="_blank" rel="noopener">Read the draft report ↗</a>
+        <a class="btn btn-ghost" href="documents.html">Explore the record →</a>
+        <a class="btn btn-ghost" href="mailto:simonwanghkteacher@gmail.com">Contact Dr Simon Wang</a>
+      </div>
+    </section>
+    """
+    return page("Engagement — LegCo Draft", "engagement/legcoDraft.html", body,
+                "For LegCo members: the inquiry record is public but hard to navigate — an alternative is feasible, and the draft report to the Panel on Security is ready")
 
 
 # ----------------------------------------------------------------------------
@@ -2462,12 +2669,47 @@ code{background:#f1f5f9;padding:.1rem .35rem;border-radius:6px;font-size:.8em}
 .dev-item .dev-date{flex-shrink:0;font-family:'Space Grotesk',monospace;font-size:.78rem;font-weight:600;color:var(--acc2)}
 .dev-item p{font-size:.88rem;color:#334155;line-height:1.6}
 .dev-item .dev-src{font-size:.72rem;color:var(--mut)}
+/* engagement (LegCo draft) page */
+.lg-hero h1{font-size:clamp(2.2rem,5vw,3.4rem);line-height:1.05}
+.lg-hero p{font-size:1.05rem;max-width:680px}
+.lg-card-link{display:block;text-decoration:none;color:inherit;transition:transform .15s,box-shadow .15s}
+.lg-card-link:hover{transform:translateY(-3px);box-shadow:0 14px 28px -12px rgb(15 23 42/.18)}
+.lg-card-link p{font-size:.9rem;color:#475569;line-height:1.65}
+.lg-compare{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.1rem 0}
+.lg-compare .col{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.25rem}
+.lg-compare h4{font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin-bottom:.6rem}
+.lg-compare ul{list-style:none;font-size:.88rem;color:#334155}
+.lg-compare li{padding:.3rem 0 .3rem 1rem;position:relative;border-bottom:1px dashed var(--line)}
+.lg-compare li:last-child{border-bottom:none}
+.lg-compare .col h4+ul li::before{content:'—';position:absolute;left:0;color:var(--acc2)}
+.lg-quote{border-left:4px solid var(--acc2);background:#fff;border-radius:0 14px 14px 0;padding:1rem 1.4rem;font-size:1.05rem;line-height:1.65;color:var(--ink);margin:1.25rem 0}
+.lg-quote small{display:block;margin-top:.5rem;color:var(--mut);font-size:.78rem}
+.lg-asks{display:flex;flex-direction:column;gap:.7rem;margin-top:1rem}
+.lg-ask{display:flex;gap:.9rem;background:#fff;border:1px solid var(--line);border-radius:14px;padding:.95rem 1.1rem;align-items:flex-start}
+.lg-ask-num{flex-shrink:0;width:30px;height:30px;border-radius:10px;background:var(--ink);color:#fff;display:grid;place-items:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:.85rem;text-transform:uppercase}
+.lg-ask p{font-size:.9rem;color:#334155;line-height:1.6}
+.lg-ask b{color:var(--ink)}
+.lg-steps{margin-top:1rem}
+.lg-duo{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.25rem}
+.lg-duo .col{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.25rem}
+.lg-duo h4{font-size:.95rem;margin-bottom:.5rem}
+.lg-duo ul{list-style:none;font-size:.85rem;color:#475569}
+.lg-duo li{padding:.3rem 0 .3rem 1rem;position:relative}
+.lg-duo li::before{content:'—';position:absolute;left:0;color:var(--acc2)}
+.lg-cta{background:var(--ink);color:#e2e8f0;border-radius:18px;padding:1.6rem 1.8rem;margin-top:2.5rem}
+.lg-cta h2{color:#fff;font-size:1.4rem;letter-spacing:-.02em}
+.lg-cta p{color:#cbd5e1;font-size:.92rem;max-width:640px;margin:.5rem 0 1.1rem}
+.lg-cta .btn-ghost{background:transparent;color:#fff;border-color:#334155}
+.lg-cta .btn-ghost:hover{border-color:#94a3b8}
+.lg-btn-light{background:#fff;color:var(--ink)!important}
+.lg-btn-light:hover{background:#e2e8f0}
+@media(max-width:760px){.lg-compare,.lg-duo{grid-template-columns:1fr}}
 """
 
 
 def fix_abs_links(html):
     """Convert site-relative links to root-absolute so pages in subfolders work."""
-    for prefix in ["index.html", "map.html", "documents.html", "tor.html", "news.html", "about.html", "work.html", "search.html", "assets/", "doc/", "tor/", "zh/"]:
+    for prefix in ["index.html", "map.html", "documents.html", "tor.html", "news.html", "about.html", "work.html", "search.html", "assets/", "doc/", "tor/", "zh/", "engagement/", "letter.html", "images.html"]:
         html = html.replace(f'href="{prefix}', f'href="/{prefix}')
     return html
 
@@ -2484,7 +2726,9 @@ def main():
         "about.html": build_about(),
         "news.html": build_news(),
         "letter.html": build_letter(),
+        "engagement/legcoDraft.html": build_legco_draft(),
     }
+    os.makedirs(os.path.join(OUT, "engagement"), exist_ok=True)
     for name, content in pages.items():
         open(os.path.join(OUT, name), "w").write(fix_abs_links(content))
     # full-text search assets: shared JS + prebuilt inverted index
