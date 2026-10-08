@@ -36,6 +36,8 @@ ToR5 vs 11 under a summary-level first pass).
 ├── codes/                  # all scripts (Python + shell)
 │   ├── fire_crawler.py     # discover pages & PDFs, download everything
 │   ├── crawler_auditor.py  # static + live audit: verify nothing was missed
+│   ├── audit_updates.py    # re-crawl check: new pages + revised/removed PDFs vs manifest
+│   ├── audit_coverage2.py  # coverage check: Chinese-site PDFs, non-PDF assets, new dated content
 │   ├── pdf_processor.py    # PDF -> Markdown + extract images (PyMuPDF)
 │   ├── ocr_gaps.py / ocr_scanned.py / ocr_gaps_tess.py  # OCR of scanned pages
 │   ├── image_triage.py / image_vision.py  # classify + describe images (vision LLM)
@@ -65,6 +67,34 @@ ToR5 vs 11 under a summary-level first pass).
 extracted images (`data/pdfs`, `data/markdown`, `data/images`) — download them from
 the Committee's site with `codes/fire_crawler.py` + `codes/pdf_processor.py`
 (≈1.8 GB total), or read them directly on the live site.
+
+## Coverage & update audits
+
+Run these after the Committee updates its site (e.g. when the final report is
+published) to find what changed and what our corpus is missing. Both are
+read-only: they fetch the live site and compare against `data/manifest.json`,
+and download nothing.
+
+```bash
+python3 codes/crawler_auditor.py   # live PDF URLs vs manifest (missing / extra)
+python3 codes/audit_updates.py     # new pages (BFS) + revised/removed PDFs (size diff)
+python3 codes/audit_coverage2.py   # Chinese-site PDFs, non-PDF assets, post-crawl dated content
+```
+
+What each check covers:
+
+| Script | Checks |
+|---|---|
+| `crawler_auditor.py` | PDF URLs linked from the five key EN pages vs the manifest |
+| `audit_updates.py` | discovers all internal pages from the 8 start pages (flags new sections); GETs every manifest PDF and flags size changes (revisions) or removals |
+| `audit_coverage2.py` | PDFs linked only from the Chinese `/chi/` pages (the EN pages never link them); non-PDF file assets; dated content newer than the crawl |
+
+Reference result (audit of 2026-10-08 vs the 2026-08-16 crawl): EN site
+unchanged — 0 new pages, 0 new/changed/removed PDFs; one gap found: **80
+Chinese-language PDFs** (26 hearing transcripts, 24 witness timetables, 8
+notices, 6 lists of involved parties, plus appointments/addresses/Rules of
+Procedure) are linked only from `/chi/` and are not yet in our corpus. They are
+text-based PDFs (no OCR needed). See issue #4 for the full breakdown.
 
 ## Rebuild the site locally
 
