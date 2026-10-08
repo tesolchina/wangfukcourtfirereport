@@ -49,6 +49,56 @@
       "url": "https://www.ic-wangfukcourtfire.gov.hk/eng/textsize.html",
       "title": "Independent Committee in relation to the fire at Wang Fuk Court in Tai Po - How to Change Text Size",
       "discovered_at": "2026-08-16T01:14:09.291043Z"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/chi/index.html",
+      "title": "就大埔宏福苑火災成立的獨立委員會 - 關於委員會",
+      "discovered_at": "2026-10-08T05:51:40.321683Z"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/chi/documents.html",
+      "title": "就大埔宏福苑火災成立的獨立委員會 - 主要文件",
+      "discovered_at": "2026-10-08T05:51:40.760235Z"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "title": "就大埔宏福苑火災成立的獨立委員會 - 紀錄本",
+      "discovered_at": "2026-10-08T05:51:41.198013Z"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/chi/notices.html",
+      "title": "就大埔宏福苑火災成立的獨立委員會 - 重要告示",
+      "discovered_at": "2026-10-08T05:51:41.650108Z"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "title": "就大埔宏福苑火災成立的獨立委員會 - 通告及新聞公報",
+      "discovered_at": "2026-10-08T05:51:42.081685Z"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "title": "就大埔宏福苑火災成立的獨立委員會 - 聽證會時間表",
+      "discovered_at": "2026-10-08T05:51:42.507810Z"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/chi/membership.html",
+      "title": "就大埔宏福苑火災成立的獨立委員會 - 委員",
+      "discovered_at": "2026-10-08T05:51:42.926033Z"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/chi/secretariat.html",
+      "title": "就大埔宏福苑火災成立的獨立委員會 - 秘書處",
+      "discovered_at": "2026-10-08T05:51:43.342770Z"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/chi/textsize.html",
+      "title": "就大埔宏福苑火災成立的獨立委員會 - 如何變更字型大小",
+      "discovered_at": "2026-10-08T05:51:43.768048Z"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/chi/privacy.html",
+      "title": "就大埔宏福苑火災成立的獨立委員會 - 私隱政策",
+      "discovered_at": "2026-10-08T05:51:44.234193Z"
     }
   ],
   "pdfs": [
@@ -73641,7 +73691,1844 @@
       "num_images": 0,
       "images": [],
       "processed_at": "2026-08-16T09:44:13.526995"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/docs/CC-press-release-(Chi).pdf",
+      "local_path": "pdfs/CC-press-release-_Chi_.pdf",
+      "link_text": "競爭事務委員會就一宗樓宇維修合謀案件入稟競爭事務審裁處的新聞稿",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/documents.html",
+      "downloaded": true,
+      "size": 1058254,
+      "md_path": "markdown/CC-press-release-_Chi_.md",
+      "num_pages": 6,
+      "num_images": 72,
+      "images": [
+        {
+          "page": 1,
+          "index_on_page": 1,
+          "filename": "CC-press-release-_Chi__p001_img001.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p001_img001.jpeg",
+          "size": 117538,
+          "description": null
+        },
+        {
+          "page": 2,
+          "index_on_page": 1,
+          "filename": "CC-press-release-_Chi__p002_img001.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p002_img001.jpeg",
+          "size": 117538,
+          "description": null
+        },
+        {
+          "page": 3,
+          "index_on_page": 1,
+          "filename": "CC-press-release-_Chi__p003_img001.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p003_img001.jpeg",
+          "size": 117538,
+          "description": null
+        },
+        {
+          "page": 4,
+          "index_on_page": 1,
+          "filename": "CC-press-release-_Chi__p004_img001.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p004_img001.jpeg",
+          "size": 117538,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 1,
+          "filename": "CC-press-release-_Chi__p005_img001.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img001.jpeg",
+          "size": 18203,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 2,
+          "filename": "CC-press-release-_Chi__p005_img002.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img002.jpeg",
+          "size": 23091,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 3,
+          "filename": "CC-press-release-_Chi__p005_img003.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img003.jpeg",
+          "size": 26022,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 4,
+          "filename": "CC-press-release-_Chi__p005_img004.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img004.jpeg",
+          "size": 10031,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 5,
+          "filename": "CC-press-release-_Chi__p005_img005.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img005.jpeg",
+          "size": 14758,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 6,
+          "filename": "CC-press-release-_Chi__p005_img006.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img006.jpeg",
+          "size": 25266,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 7,
+          "filename": "CC-press-release-_Chi__p005_img007.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img007.jpeg",
+          "size": 11506,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 8,
+          "filename": "CC-press-release-_Chi__p005_img008.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img008.jpeg",
+          "size": 13736,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 9,
+          "filename": "CC-press-release-_Chi__p005_img009.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img009.jpeg",
+          "size": 5412,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 10,
+          "filename": "CC-press-release-_Chi__p005_img010.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img010.jpeg",
+          "size": 5048,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 11,
+          "filename": "CC-press-release-_Chi__p005_img011.png",
+          "local_path": "images/CC-press-release-_Chi__p005_img011.png",
+          "size": 118,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 12,
+          "filename": "CC-press-release-_Chi__p005_img012.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img012.jpeg",
+          "size": 15734,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 13,
+          "filename": "CC-press-release-_Chi__p005_img013.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img013.jpeg",
+          "size": 12498,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 14,
+          "filename": "CC-press-release-_Chi__p005_img014.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img014.jpeg",
+          "size": 15757,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 15,
+          "filename": "CC-press-release-_Chi__p005_img015.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img015.jpeg",
+          "size": 7396,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 16,
+          "filename": "CC-press-release-_Chi__p005_img016.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img016.jpeg",
+          "size": 13737,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 17,
+          "filename": "CC-press-release-_Chi__p005_img017.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img017.jpeg",
+          "size": 12405,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 18,
+          "filename": "CC-press-release-_Chi__p005_img018.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img018.jpeg",
+          "size": 17480,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 19,
+          "filename": "CC-press-release-_Chi__p005_img019.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img019.jpeg",
+          "size": 7608,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 20,
+          "filename": "CC-press-release-_Chi__p005_img020.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img020.jpeg",
+          "size": 8966,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 21,
+          "filename": "CC-press-release-_Chi__p005_img021.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img021.jpeg",
+          "size": 8588,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 22,
+          "filename": "CC-press-release-_Chi__p005_img022.png",
+          "local_path": "images/CC-press-release-_Chi__p005_img022.png",
+          "size": 16459,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 23,
+          "filename": "CC-press-release-_Chi__p005_img023.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img023.jpeg",
+          "size": 5604,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 24,
+          "filename": "CC-press-release-_Chi__p005_img024.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img024.jpeg",
+          "size": 6029,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 25,
+          "filename": "CC-press-release-_Chi__p005_img025.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img025.jpeg",
+          "size": 6072,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 26,
+          "filename": "CC-press-release-_Chi__p005_img026.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img026.jpeg",
+          "size": 4599,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 27,
+          "filename": "CC-press-release-_Chi__p005_img027.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img027.jpeg",
+          "size": 8091,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 28,
+          "filename": "CC-press-release-_Chi__p005_img028.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img028.jpeg",
+          "size": 5854,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 29,
+          "filename": "CC-press-release-_Chi__p005_img029.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img029.jpeg",
+          "size": 7768,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 30,
+          "filename": "CC-press-release-_Chi__p005_img030.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img030.jpeg",
+          "size": 1476,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 31,
+          "filename": "CC-press-release-_Chi__p005_img031.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img031.jpeg",
+          "size": 7336,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 32,
+          "filename": "CC-press-release-_Chi__p005_img032.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img032.jpeg",
+          "size": 8560,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 33,
+          "filename": "CC-press-release-_Chi__p005_img033.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img033.jpeg",
+          "size": 33610,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 34,
+          "filename": "CC-press-release-_Chi__p005_img034.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img034.jpeg",
+          "size": 5958,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 35,
+          "filename": "CC-press-release-_Chi__p005_img035.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img035.jpeg",
+          "size": 6169,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 36,
+          "filename": "CC-press-release-_Chi__p005_img036.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img036.jpeg",
+          "size": 34265,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 37,
+          "filename": "CC-press-release-_Chi__p005_img037.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img037.jpeg",
+          "size": 21254,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 38,
+          "filename": "CC-press-release-_Chi__p005_img038.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img038.jpeg",
+          "size": 21540,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 39,
+          "filename": "CC-press-release-_Chi__p005_img039.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img039.jpeg",
+          "size": 20296,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 40,
+          "filename": "CC-press-release-_Chi__p005_img040.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p005_img040.jpeg",
+          "size": 2365,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 1,
+          "filename": "CC-press-release-_Chi__p006_img001.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img001.png",
+          "size": 16384,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 2,
+          "filename": "CC-press-release-_Chi__p006_img002.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img002.png",
+          "size": 14913,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 3,
+          "filename": "CC-press-release-_Chi__p006_img003.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img003.png",
+          "size": 14874,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 4,
+          "filename": "CC-press-release-_Chi__p006_img004.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img004.png",
+          "size": 99,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 5,
+          "filename": "CC-press-release-_Chi__p006_img005.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img005.png",
+          "size": 100,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 6,
+          "filename": "CC-press-release-_Chi__p006_img006.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img006.png",
+          "size": 101,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 7,
+          "filename": "CC-press-release-_Chi__p006_img007.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img007.png",
+          "size": 101,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 8,
+          "filename": "CC-press-release-_Chi__p006_img008.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img008.png",
+          "size": 101,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 9,
+          "filename": "CC-press-release-_Chi__p006_img009.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img009.png",
+          "size": 101,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 10,
+          "filename": "CC-press-release-_Chi__p006_img010.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img010.png",
+          "size": 14901,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 11,
+          "filename": "CC-press-release-_Chi__p006_img011.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img011.png",
+          "size": 100,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 12,
+          "filename": "CC-press-release-_Chi__p006_img012.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img012.png",
+          "size": 101,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 13,
+          "filename": "CC-press-release-_Chi__p006_img013.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img013.jpeg",
+          "size": 61041,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 14,
+          "filename": "CC-press-release-_Chi__p006_img014.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img014.jpeg",
+          "size": 11603,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 15,
+          "filename": "CC-press-release-_Chi__p006_img015.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img015.jpeg",
+          "size": 8671,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 16,
+          "filename": "CC-press-release-_Chi__p006_img016.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img016.jpeg",
+          "size": 9844,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 17,
+          "filename": "CC-press-release-_Chi__p006_img017.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img017.jpeg",
+          "size": 7972,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 18,
+          "filename": "CC-press-release-_Chi__p006_img018.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img018.jpeg",
+          "size": 49137,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 19,
+          "filename": "CC-press-release-_Chi__p006_img019.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img019.jpeg",
+          "size": 52958,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 20,
+          "filename": "CC-press-release-_Chi__p006_img020.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img020.png",
+          "size": 2973,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 21,
+          "filename": "CC-press-release-_Chi__p006_img021.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img021.png",
+          "size": 189,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 22,
+          "filename": "CC-press-release-_Chi__p006_img022.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img022.jpeg",
+          "size": 14890,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 23,
+          "filename": "CC-press-release-_Chi__p006_img023.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img023.jpeg",
+          "size": 10810,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 24,
+          "filename": "CC-press-release-_Chi__p006_img024.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img024.jpeg",
+          "size": 19294,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 25,
+          "filename": "CC-press-release-_Chi__p006_img025.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img025.jpeg",
+          "size": 10151,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 26,
+          "filename": "CC-press-release-_Chi__p006_img026.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img026.jpeg",
+          "size": 10188,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 27,
+          "filename": "CC-press-release-_Chi__p006_img027.jpeg",
+          "local_path": "images/CC-press-release-_Chi__p006_img027.jpeg",
+          "size": 15939,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 28,
+          "filename": "CC-press-release-_Chi__p006_img028.png",
+          "local_path": "images/CC-press-release-_Chi__p006_img028.png",
+          "size": 201,
+          "description": null
+        }
+      ],
+      "processed_at": "2026-10-08T13:52:55.716741"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/docs/Notice-Directions-on-8-May-2026-(Chi).pdf",
+      "local_path": "pdfs/Notice-Directions-on-8-May-2026-_Chi_.pdf",
+      "link_text": "獨立委員會主席於2026年5月8日聽證會中作出的指示",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/documents.html",
+      "downloaded": true,
+      "size": 189543,
+      "md_path": "markdown/Notice-Directions-on-8-May-2026-_Chi_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:55.730365"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/docs/Witness-Statement-Translation-Wong_Se_King.pdf",
+      "local_path": "pdfs/Witness-Statement-Translation-Wong_Se_King.pdf",
+      "link_text": "王思敬先生的證人供詞",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/documents.html",
+      "downloaded": true,
+      "size": 1385885,
+      "md_path": "markdown/Witness-Statement-Translation-Wong_Se_King.md",
+      "num_pages": 15,
+      "num_images": 15,
+      "images": [
+        {
+          "page": 1,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p001_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p001_img001.png",
+          "size": 170655,
+          "description": null
+        },
+        {
+          "page": 2,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p002_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p002_img001.png",
+          "size": 170328,
+          "description": null
+        },
+        {
+          "page": 3,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p003_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p003_img001.png",
+          "size": 159042,
+          "description": null
+        },
+        {
+          "page": 4,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p004_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p004_img001.png",
+          "size": 151256,
+          "description": null
+        },
+        {
+          "page": 5,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p005_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p005_img001.png",
+          "size": 185488,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p006_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p006_img001.png",
+          "size": 195824,
+          "description": null
+        },
+        {
+          "page": 7,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p007_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p007_img001.png",
+          "size": 191031,
+          "description": null
+        },
+        {
+          "page": 8,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p008_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p008_img001.png",
+          "size": 185941,
+          "description": null
+        },
+        {
+          "page": 9,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p009_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p009_img001.png",
+          "size": 172848,
+          "description": null
+        },
+        {
+          "page": 10,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p010_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p010_img001.png",
+          "size": 147141,
+          "description": null
+        },
+        {
+          "page": 11,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p011_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p011_img001.png",
+          "size": 149412,
+          "description": null
+        },
+        {
+          "page": 12,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p012_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p012_img001.png",
+          "size": 170398,
+          "description": null
+        },
+        {
+          "page": 13,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p013_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p013_img001.png",
+          "size": 196118,
+          "description": null
+        },
+        {
+          "page": 14,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p014_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p014_img001.png",
+          "size": 201811,
+          "description": null
+        },
+        {
+          "page": 15,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-Translation-Wong_Se_King_p015_img001.png",
+          "local_path": "images/Witness-Statement-Translation-Wong_Se_King_p015_img001.png",
+          "size": 91645,
+          "description": null
+        }
+      ],
+      "processed_at": "2026-10-08T13:52:57.383444"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/docs/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew.pdf",
+      "local_path": "pdfs/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew.pdf",
+      "link_text": "陳日豪先生的第一份證人供詞",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/documents.html",
+      "downloaded": true,
+      "size": 1198084,
+      "md_path": "markdown/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew.md",
+      "num_pages": 11,
+      "num_images": 10,
+      "images": [
+        {
+          "page": 1,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p001_img001.png",
+          "local_path": "images/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p001_img001.png",
+          "size": 138584,
+          "description": null
+        },
+        {
+          "page": 2,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p002_img001.png",
+          "local_path": "images/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p002_img001.png",
+          "size": 154542,
+          "description": null
+        },
+        {
+          "page": 3,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p003_img001.png",
+          "local_path": "images/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p003_img001.png",
+          "size": 152879,
+          "description": null
+        },
+        {
+          "page": 4,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p004_img001.png",
+          "local_path": "images/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p004_img001.png",
+          "size": 185102,
+          "description": null
+        },
+        {
+          "page": 6,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p006_img001.png",
+          "local_path": "images/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p006_img001.png",
+          "size": 195842,
+          "description": null
+        },
+        {
+          "page": 7,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p007_img001.png",
+          "local_path": "images/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p007_img001.png",
+          "size": 168263,
+          "description": null
+        },
+        {
+          "page": 8,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p008_img001.png",
+          "local_path": "images/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p008_img001.png",
+          "size": 152636,
+          "description": null
+        },
+        {
+          "page": 9,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p009_img001.png",
+          "local_path": "images/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p009_img001.png",
+          "size": 169584,
+          "description": null
+        },
+        {
+          "page": 10,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p010_img001.png",
+          "local_path": "images/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p010_img001.png",
+          "size": 136180,
+          "description": null
+        },
+        {
+          "page": 11,
+          "index_on_page": 1,
+          "filename": "Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p011_img001.png",
+          "local_path": "images/Witness-Statement-1-Translation-Chan_Yat_Ho_Matthew_p011_img001.png",
+          "size": 45715,
+          "description": null
+        }
+      ],
+      "processed_at": "2026-10-08T13:52:58.443305"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/docs/Opening-Address-(Chi)-Relevant-Bureaux-and-Departments-of-Government_20260324.pdf",
+      "local_path": "pdfs/Opening-Address-_Chi_-Relevant-Bureaux-and-Departments-of-Government_20260324.pdf",
+      "link_text": "政府相關政策局與部門代表大律師的開場陳詞",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/documents.html",
+      "downloaded": true,
+      "size": 773820,
+      "md_path": "markdown/Opening-Address-_Chi_-Relevant-Bureaux-and-Departments-of-Government_20260324.md",
+      "num_pages": 20,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:58.478661"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/docs/Opening-Address-(Chi)-Committee-Counsel_20260319.pdf",
+      "local_path": "pdfs/Opening-Address-_Chi_-Committee-Counsel_20260319.pdf",
+      "link_text": "委員會代表大律師的開場陳詞",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/documents.html",
+      "downloaded": true,
+      "size": 600823,
+      "md_path": "markdown/Opening-Address-_Chi_-Committee-Counsel_20260319.md",
+      "num_pages": 15,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:58.522543"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/docs/Rules-of-Procedure-(Chinese).pdf",
+      "local_path": "pdfs/Rules-of-Procedure-_Chinese_.pdf",
+      "link_text": "聽證會程序規則（譯本）（2026年2月5日指示會議時作出）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/documents.html",
+      "downloaded": true,
+      "size": 290634,
+      "md_path": "markdown/Rules-of-Procedure-_Chinese_.md",
+      "num_pages": 7,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:58.540449"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260717.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260717.pdf",
+      "link_text": "2026年7月17日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1120359,
+      "md_path": "markdown/Transcript-_Chinese__20260717.md",
+      "num_pages": 41,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:58.682546"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260716.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260716.pdf",
+      "link_text": "2026年7月16日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1044309,
+      "md_path": "markdown/Transcript-_Chinese__20260716.md",
+      "num_pages": 50,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:58.823703"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260715.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260715.pdf",
+      "link_text": "2026年7月15日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 789411,
+      "md_path": "markdown/Transcript-_Chinese__20260715.md",
+      "num_pages": 24,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:58.908447"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260625.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260625.pdf",
+      "link_text": "2026年6月25日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 843099,
+      "md_path": "markdown/Transcript-_Chinese__20260625.md",
+      "num_pages": 31,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:59.013527"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260624.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260624.pdf",
+      "link_text": "2026年6月24日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 991381,
+      "md_path": "markdown/Transcript-_Chinese__20260624.md",
+      "num_pages": 49,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:59.155953"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260622.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260622.pdf",
+      "link_text": "2026年6月22日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 944300,
+      "md_path": "markdown/Transcript-_Chinese__20260622.md",
+      "num_pages": 60,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:59.321318"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260508.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260508.pdf",
+      "link_text": "2026年5月8日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 853121,
+      "md_path": "markdown/Transcript-_Chinese__20260508.md",
+      "num_pages": 58,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:59.444333"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260507.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260507.pdf",
+      "link_text": "2026年5月7日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 690033,
+      "md_path": "markdown/Transcript-_Chinese__20260507.md",
+      "num_pages": 38,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:59.531812"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260506.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260506.pdf",
+      "link_text": "2026年5月6日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1066220,
+      "md_path": "markdown/Transcript-_Chinese__20260506.md",
+      "num_pages": 92,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:59.718635"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260430.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260430.pdf",
+      "link_text": "2026年4月30日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 977082,
+      "md_path": "markdown/Transcript-_Chinese__20260430.md",
+      "num_pages": 79,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:52:59.862645"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260427.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260427.pdf",
+      "link_text": "2026年4月27日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1022467,
+      "md_path": "markdown/Transcript-_Chinese__20260427.md",
+      "num_pages": 72,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:00.017744"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260424.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260424.pdf",
+      "link_text": "2026年4月24日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 902316,
+      "md_path": "markdown/Transcript-_Chinese__20260424.md",
+      "num_pages": 50,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:00.130835"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260423.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260423.pdf",
+      "link_text": "2026年4月23日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 841472,
+      "md_path": "markdown/Transcript-_Chinese__20260423.md",
+      "num_pages": 41,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:00.226491"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260422.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260422.pdf",
+      "link_text": "2026年4月22日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 878247,
+      "md_path": "markdown/Transcript-_Chinese__20260422.md",
+      "num_pages": 58,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:00.348373"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260421.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260421.pdf",
+      "link_text": "2026年4月21日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 923878,
+      "md_path": "markdown/Transcript-_Chinese__20260421.md",
+      "num_pages": 64,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:00.476370"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260420.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260420.pdf",
+      "link_text": "2026年4月20日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 847577,
+      "md_path": "markdown/Transcript-_Chinese__20260420.md",
+      "num_pages": 46,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:00.577779"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260417.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260417.pdf",
+      "link_text": "2026年4月17日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1052087,
+      "md_path": "markdown/Transcript-_Chinese__20260417.md",
+      "num_pages": 74,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:00.723762"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260416.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260416.pdf",
+      "link_text": "2026年4月16日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 939017,
+      "md_path": "markdown/Transcript-_Chinese__20260416.md",
+      "num_pages": 60,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:00.837887"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260415.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260415.pdf",
+      "link_text": "2026年4月15日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1140699,
+      "md_path": "markdown/Transcript-_Chinese__20260415.md",
+      "num_pages": 83,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:01.003440"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260413.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260413.pdf",
+      "link_text": "2026年4月13日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1153094,
+      "md_path": "markdown/Transcript-_Chinese__20260413.md",
+      "num_pages": 64,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:01.188406"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260410.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260410.pdf",
+      "link_text": "2026年4月10日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1494105,
+      "md_path": "markdown/Transcript-_Chinese__20260410.md",
+      "num_pages": 95,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:01.442982"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260408.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260408.pdf",
+      "link_text": "2026年4月8日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 847223,
+      "md_path": "markdown/Transcript-_Chinese__20260408.md",
+      "num_pages": 106,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:01.611528"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260402.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260402.pdf",
+      "link_text": "2026年4月2日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 757562,
+      "md_path": "markdown/Transcript-_Chinese__20260402.md",
+      "num_pages": 75,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:01.754844"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260401.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260401.pdf",
+      "link_text": "2026年4月1日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1351163,
+      "md_path": "markdown/Transcript-_Chinese__20260401.md",
+      "num_pages": 97,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:02.007592"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260331.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260331.pdf",
+      "link_text": "2026年3月31日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1378665,
+      "md_path": "markdown/Transcript-_Chinese__20260331.md",
+      "num_pages": 89,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:02.238419"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260330.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260330.pdf",
+      "link_text": "2026年3月30日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1197653,
+      "md_path": "markdown/Transcript-_Chinese__20260330.md",
+      "num_pages": 76,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:02.426548"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260326.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260326.pdf",
+      "link_text": "2026年3月26日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1133000,
+      "md_path": "markdown/Transcript-_Chinese__20260326.md",
+      "num_pages": 57,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:02.562271"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260324.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260324.pdf",
+      "link_text": "2026年3月24日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 1050094,
+      "md_path": "markdown/Transcript-_Chinese__20260324.md",
+      "num_pages": 48,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:02.728527"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260320.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260320.pdf",
+      "link_text": "2026年3月20日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 794190,
+      "md_path": "markdown/Transcript-_Chinese__20260320.md",
+      "num_pages": 38,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:02.845429"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260319.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260319.pdf",
+      "link_text": "2026年3月19日的聽證會紀錄本（草稿）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 866980,
+      "md_path": "markdown/Transcript-_Chinese__20260319.md",
+      "num_pages": 41,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:02.978507"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/transcripts/Transcript-(Chinese)_20260205.pdf",
+      "local_path": "pdfs/Transcript-_Chinese__20260205.pdf",
+      "link_text": "2026年2月5日指示會議紀錄本",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/transcripts.html",
+      "downloaded": true,
+      "size": 543760,
+      "md_path": "markdown/Transcript-_Chinese__20260205.md",
+      "num_pages": 16,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.025179"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/Notice-6th-round-of-EHs-Chinese.pdf",
+      "local_path": "pdfs/Notice-6th-round-of-EHs-Chinese.pdf",
+      "link_text": "公眾人士旁聽第六輪聽證會的安排通告",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 277408,
+      "md_path": "markdown/Notice-6th-round-of-EHs-Chinese.md",
+      "num_pages": 5,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.042158"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/Notice-5th-round-of-EHs-Chinese.pdf",
+      "local_path": "pdfs/Notice-5th-round-of-EHs-Chinese.pdf",
+      "link_text": "公眾人士旁聽第五輪聽證會的安排通告",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 275840,
+      "md_path": "markdown/Notice-5th-round-of-EHs-Chinese.md",
+      "num_pages": 5,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.058688"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/List-of-involved-parties-(Chi)-(as-at-8-May).pdf",
+      "local_path": "pdfs/List-of-involved-parties-_Chi_-_as-at-8-May_.pdf",
+      "link_text": "涉事各方名單 (截至2026年5月8日)",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 286327,
+      "md_path": "markdown/List-of-involved-parties-_Chi_-_as-at-8-May_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.070368"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/Notice-4th-round-of-EHs-Chinese.pdf",
+      "local_path": "pdfs/Notice-4th-round-of-EHs-Chinese.pdf",
+      "link_text": "公眾人士旁聽第四輪聽證會的安排通告",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 352445,
+      "md_path": "markdown/Notice-4th-round-of-EHs-Chinese.md",
+      "num_pages": 5,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.087370"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/List-of-involved-parties-(Chi)-(as-at-23-April).pdf",
+      "local_path": "pdfs/List-of-involved-parties-_Chi_-_as-at-23-April_.pdf",
+      "link_text": "涉事各方名單 (截至2026年4月23日)",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 564941,
+      "md_path": "markdown/List-of-involved-parties-_Chi_-_as-at-23-April_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.101060"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/Notice-3rd-round-of-EHs-Chinese.pdf",
+      "local_path": "pdfs/Notice-3rd-round-of-EHs-Chinese.pdf",
+      "link_text": "公眾人士旁聽第三輪聽證會的安排通告",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 274059,
+      "md_path": "markdown/Notice-3rd-round-of-EHs-Chinese.md",
+      "num_pages": 5,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.116197"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/Notice-2nd-round-of-EHs-Chinese.pdf",
+      "local_path": "pdfs/Notice-2nd-round-of-EHs-Chinese.pdf",
+      "link_text": "公眾人士旁聽第二輪聽證會的安排通告",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 273377,
+      "md_path": "markdown/Notice-2nd-round-of-EHs-Chinese.md",
+      "num_pages": 5,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.131967"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/List-of-involved-parties-(Chi)-(as-at-31-March).pdf",
+      "local_path": "pdfs/List-of-involved-parties-_Chi_-_as-at-31-March_.pdf",
+      "link_text": "涉事各方名單 (截至2026年3月31日)",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 287545,
+      "md_path": "markdown/List-of-involved-parties-_Chi_-_as-at-31-March_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.142534"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/List-of-involved-parties-(Chi)-(as-at-25-March).pdf",
+      "local_path": "pdfs/List-of-involved-parties-_Chi_-_as-at-25-March_.pdf",
+      "link_text": "涉事各方名單 (截至2026年3月25日)",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 280718,
+      "md_path": "markdown/List-of-involved-parties-_Chi_-_as-at-25-March_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.153477"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/List-of-involved-parties-(Chinese)-(as-at-18-March).pdf",
+      "local_path": "pdfs/List-of-involved-parties-_Chinese_-_as-at-18-March_.pdf",
+      "link_text": "涉事各方名單 (截至2026年3月18日)",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 672846,
+      "md_path": "markdown/List-of-involved-parties-_Chinese_-_as-at-18-March_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.168482"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/List-of-involved-parties-(Chinese)-(as-at-17-March).pdf",
+      "local_path": "pdfs/List-of-involved-parties-_Chinese_-_as-at-17-March_.pdf",
+      "link_text": "涉事各方名單 (截至2026年3月17日)",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 237836,
+      "md_path": "markdown/List-of-involved-parties-_Chinese_-_as-at-17-March_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.179207"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/Notice-1st-round-of-EHs-Chinese.pdf",
+      "local_path": "pdfs/Notice-1st-round-of-EHs-Chinese.pdf",
+      "link_text": "公眾人士旁聽第一輪聽證會的安排通告",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 274752,
+      "md_path": "markdown/Notice-1st-round-of-EHs-Chinese.md",
+      "num_pages": 5,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.194519"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/Appointment-of-experts-Prof-Usmani-and-Prof-Jiang-(Chinese).pdf",
+      "local_path": "pdfs/Appointment-of-experts-Prof-Usmani-and-Prof-Jiang-_Chinese_.pdf",
+      "link_text": "獨立委員會委任專家",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 120695,
+      "md_path": "markdown/Appointment-of-experts-Prof-Usmani-and-Prof-Jiang-_Chinese_.md",
+      "num_pages": 1,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.199562"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/Notice-Direction-conference-(Chinese).pdf",
+      "local_path": "pdfs/Notice-Direction-conference-_Chinese_.pdf",
+      "link_text": "公眾人士旁聽指示會議的安排通告",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 290488,
+      "md_path": "markdown/Notice-Direction-conference-_Chinese_.md",
+      "num_pages": 4,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.216177"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/Appointment-of-counsel-(Chinese).pdf",
+      "local_path": "pdfs/Appointment-of-counsel-_Chinese_.pdf",
+      "link_text": "獨立委員會委任代表大律師",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 360045,
+      "md_path": "markdown/Appointment-of-counsel-_Chinese_.md",
+      "num_pages": 1,
+      "num_images": 1,
+      "images": [
+        {
+          "page": 1,
+          "index_on_page": 1,
+          "filename": "Appointment-of-counsel-_Chinese__p001_img001.jpeg",
+          "local_path": "images/Appointment-of-counsel-_Chinese__p001_img001.jpeg",
+          "size": 354700,
+          "description": null
+        }
+      ],
+      "processed_at": "2026-10-08T13:53:03.218342"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/Appointment-of-counsel-and-solicitors-(Chinese).pdf",
+      "local_path": "pdfs/Appointment-of-counsel-and-solicitors-_Chinese_.pdf",
+      "link_text": "獨立委員會委任代表大律師／代表律師",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/press.html",
+      "downloaded": true,
+      "size": 372914,
+      "md_path": "markdown/Appointment-of-counsel-and-solicitors-_Chinese_.md",
+      "num_pages": 1,
+      "num_images": 1,
+      "images": [
+        {
+          "page": 1,
+          "index_on_page": 1,
+          "filename": "Appointment-of-counsel-and-solicitors-_Chinese__p001_img001.jpeg",
+          "local_path": "images/Appointment-of-counsel-and-solicitors-_Chinese__p001_img001.jpeg",
+          "size": 367506,
+          "description": null
+        }
+      ],
+      "processed_at": "2026-10-08T13:53:03.220004"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-24-June)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-24-June_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年6月24日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 250818,
+      "md_path": "markdown/Witness-timetable-_as-at-24-June_-_Chi_.md",
+      "num_pages": 5,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.237372"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-23-June)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-23-June_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年6月23日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 246780,
+      "md_path": "markdown/Witness-timetable-_as-at-23-June_-_Chi_.md",
+      "num_pages": 5,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.257449"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-21-June)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-21-June_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年6月21日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 244335,
+      "md_path": "markdown/Witness-timetable-_as-at-21-June_-_Chi_.md",
+      "num_pages": 5,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.275223"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-7-May)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-7-May_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年5月7日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 253369,
+      "md_path": "markdown/Witness-timetable-_as-at-7-May_-_Chi_.md",
+      "num_pages": 5,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.294209"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-6-May)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-6-May_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年5月6日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 239284,
+      "md_path": "markdown/Witness-timetable-_as-at-6-May_-_Chi_.md",
+      "num_pages": 5,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.312327"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-5-May)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-5-May_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年5月5日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 247785,
+      "md_path": "markdown/Witness-timetable-_as-at-5-May_-_Chi_.md",
+      "num_pages": 5,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.330630"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-29-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-29-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月29日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 244972,
+      "md_path": "markdown/Witness-timetable-_as-at-29-April_-_Chi_.md",
+      "num_pages": 4,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.347953"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-26-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-26-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月26日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 222429,
+      "md_path": "markdown/Witness-timetable-_as-at-26-April_-_Chi_.md",
+      "num_pages": 4,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.364301"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-23-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-23-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月23日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 211432,
+      "md_path": "markdown/Witness-timetable-_as-at-23-April_-_Chi_.md",
+      "num_pages": 4,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.379572"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-22-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-22-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月22日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 208367,
+      "md_path": "markdown/Witness-timetable-_as-at-22-April_-_Chi_.md",
+      "num_pages": 4,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.394970"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-21-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-21-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月21日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 205724,
+      "md_path": "markdown/Witness-timetable-_as-at-21-April_-_Chi_.md",
+      "num_pages": 4,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.409146"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-20-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-20-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月20日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 198136,
+      "md_path": "markdown/Witness-timetable-_as-at-20-April_-_Chi_.md",
+      "num_pages": 4,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.423590"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-19-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-19-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月19日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 189711,
+      "md_path": "markdown/Witness-timetable-_as-at-19-April_-_Chi_.md",
+      "num_pages": 3,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.436136"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-16-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-16-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月16日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 188285,
+      "md_path": "markdown/Witness-timetable-_as-at-16-April_-_Chi_.md",
+      "num_pages": 3,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.448681"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-15-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-15-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月15日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 227981,
+      "md_path": "markdown/Witness-timetable-_as-at-15-April_-_Chi_.md",
+      "num_pages": 3,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.461663"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-14-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-14-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月14日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 178715,
+      "md_path": "markdown/Witness-timetable-_as-at-14-April_-_Chi_.md",
+      "num_pages": 3,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.472994"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-12-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-12-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月12日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 213245,
+      "md_path": "markdown/Witness-timetable-_as-at-12-April_-_Chi_.md",
+      "num_pages": 3,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.485161"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-9-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-9-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月9日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 157759,
+      "md_path": "markdown/Witness-timetable-_as-at-9-April_-_Chi_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.493806"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-7-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-7-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月7日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 118159,
+      "md_path": "markdown/Witness-timetable-_as-at-7-April_-_Chi_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.501017"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-1-April)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-1-April_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年4月1日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 141515,
+      "md_path": "markdown/Witness-timetable-_as-at-1-April_-_Chi_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.508493"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-31-March)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-31-March_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年3月31日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 120618,
+      "md_path": "markdown/Witness-timetable-_as-at-31-March_-_Chi_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.515442"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-30-March)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-30-March_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年3月30日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 118298,
+      "md_path": "markdown/Witness-timetable-_as-at-30-March_-_Chi_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.522398"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-29-March)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-29-March_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年3月29日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 170145,
+      "md_path": "markdown/Witness-timetable-_as-at-29-March_-_Chi_.md",
+      "num_pages": 2,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.531083"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-26-March)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-26-March_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年3月26日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 135416,
+      "md_path": "markdown/Witness-timetable-_as-at-26-March_-_Chi_.md",
+      "num_pages": 1,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.537404"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-25-March)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-25-March_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年3月25日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 134409,
+      "md_path": "markdown/Witness-timetable-_as-at-25-March_-_Chi_.md",
+      "num_pages": 1,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.543074"
+    },
+    {
+      "url": "https://www.ic-wangfukcourtfire.gov.hk/pdf/timetable/Witness-timetable-(as-at-23-March)-(Chi).pdf",
+      "local_path": "pdfs/Witness-timetable-_as-at-23-March_-_Chi_.pdf",
+      "link_text": "證人於聽證會作供的時間表（截至2026年3月23日）",
+      "found_on": "https://www.ic-wangfukcourtfire.gov.hk/chi/timetable.html",
+      "downloaded": true,
+      "size": 109817,
+      "md_path": "markdown/Witness-timetable-_as-at-23-March_-_Chi_.md",
+      "num_pages": 1,
+      "num_images": 0,
+      "images": [],
+      "processed_at": "2026-10-08T13:53:03.547806"
     }
   ],
-  "last_run": "2026-08-16T01:16:10.932015Z"
+  "last_run": "2026-10-08T05:52:41.047977Z"
 }

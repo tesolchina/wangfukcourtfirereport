@@ -26,6 +26,7 @@ from bs4 import BeautifulSoup
 
 # Config
 BASE_URL = "https://www.ic-wangfukcourtfire.gov.hk/eng/"
+CHI_BASE_URL = "https://www.ic-wangfukcourtfire.gov.hk/chi/"  # Chinese site: links 80 PDFs the EN pages never link (issue #4)
 DOMAIN = "ic-wangfukcourtfire.gov.hk"
 # Project root: works whether this script lives at the project root or in codes/
 _HERE = Path(__file__).resolve().parent
@@ -145,7 +146,10 @@ def crawl():
     visited = set(p["url"] for p in manifest.get("pages", []))
     pdf_index = {p["url"]: p for p in manifest.get("pdfs", [])}
 
+    # Seed both language sites: the lang switch is JS-only (href="#"), so the
+    # Chinese pages are never discovered from the English pages and vice versa.
     to_visit = [urljoin(BASE_URL, p) for p in START_PAGES]
+    to_visit += [urljoin(CHI_BASE_URL, p) for p in START_PAGES]
     all_pages = set(to_visit)
     all_pdfs = []
 

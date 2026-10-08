@@ -24,6 +24,10 @@ DATA = os.path.join(ROOT, "data")
 OUT = os.path.join(ROOT, "site_out")
 
 INDEX = json.load(open(os.path.join(DATA, "index.json")))["docs"]
+try:
+    ZH_INDEX = json.load(open(os.path.join(DATA, "index_zh.json")))["docs"]
+except (FileNotFoundError, KeyError):
+    ZH_INDEX = []  # Chinese corpus optional; see codes/build_zh_index.py
 ANALYSIS = json.load(open(os.path.join(DATA, "analysis.json")))
 NEWS = json.load(open(os.path.join(DATA, "news_analysis.json")))
 
@@ -623,6 +627,7 @@ def ana(doc):
 NAV = [
     ("index.html", "Home", "M0 0h24v24H0z", "M3 12l9-9 9 9M5 10v10h5v-6h4v6h5V10"),
     ("documents.html", "Map & Documents", "M3 12l9-9 9 9M5 10v10h5v-6h4v6h5V10", "M3 12l9-9 9 9M5 10v10h5v-6h4v6h5V10"),
+    ("zh-docs.html", "Chinese Docs \u4e2d\u6587", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
     ("search.html", "Search", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
     ("tor.html", "ToR Perspectives", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
     ("work.html", "Work & Effort", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
@@ -2704,14 +2709,88 @@ code{background:#f1f5f9;padding:.1rem .35rem;border-radius:6px;font-size:.8em}
 .lg-btn-light{background:#fff;color:var(--ink)!important}
 .lg-btn-light:hover{background:#e2e8f0}
 @media(max-width:760px){.lg-compare,.lg-duo{grid-template-columns:1fr}}
+
+/* --- Chinese corpus page (zh-docs.html) --- */
+.lede{color:var(--mut);max-width:680px;font-size:.98rem}
+.section-block{margin:2rem 0}
+.section-block h2{font-size:1.3rem;letter-spacing:-.01em;margin-bottom:.9rem}
+.zh-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:.9rem}
+.zh-meta{display:flex;flex-wrap:wrap;gap:.35rem}
+.zh-links{display:flex;flex-wrap:wrap;gap:.35rem 1rem;font-size:.85rem;margin-top:auto}
+.zh-links a{color:var(--accent,#2563eb);text-decoration:none}
+.zh-links a:hover{text-decoration:underline}
+.zh-en-link{font-weight:600}
+.note-box{background:var(--card);border:1px solid var(--line);border-left:4px solid #f59e0b;border-radius:12px;padding:.9rem 1.1rem;font-size:.9rem;margin:1.25rem 0}
+.tag{display:inline-block;font-size:.68rem;font-weight:600;padding:.15rem .5rem;border-radius:999px;background:rgba(37,99,235,.1);color:#1e40af}
+@media(max-width:760px){.zh-grid{grid-template-columns:1fr}}
 """
 
 
 def fix_abs_links(html):
     """Convert site-relative links to root-absolute so pages in subfolders work."""
-    for prefix in ["index.html", "map.html", "documents.html", "tor.html", "news.html", "about.html", "work.html", "search.html", "assets/", "doc/", "tor/", "zh/", "engagement/", "letter.html", "images.html"]:
+    for prefix in ["index.html", "map.html", "documents.html", "zh-docs.html", "tor.html", "news.html", "about.html", "work.html", "search.html", "assets/", "doc/", "tor/", "zh/", "engagement/", "letter.html", "images.html"]:
         html = html.replace(f'href="{prefix}', f'href="/{prefix}')
     return html
+
+
+def build_zh_docs():
+    """Chinese-language corpus page (parallel to the 243-doc EN corpus).
+
+    The committee's /chi/ site links 80 PDFs the EN pages never link. Presented
+    here as a parallel corpus so the established '243 documents' counts stay
+    valid; each card cross-links the English counterpart where one exists.
+    """
+    n = len(ZH_INDEX)
+    n_counter = sum(1 for d in ZH_INDEX if d.get("en_counterpart"))
+    cats = {}
+    for d in ZH_INDEX:
+        cats.setdefault(d.get("category", "Other (Chinese)"), []).append(d)
+    order = sorted(cats.items(), key=lambda kv: -len(kv[1]))
+
+    def card(d):
+        tags = "".join(f'<span class="tag">{esc(t.split(":")[0])}</span>' for t in d.get("related_to_tor", [])[:3])
+        counter = ""
+        if d.get("en_counterpart"):
+            counter = (f'<a class="zh-en-link" href="{esc(d["en_counterpart"])}" target="_blank" rel="noopener">'
+                       'English version ↗</a>')
+        return f"""<div class="doc-card">
+  <div class="doc-card-head"><h3>{esc(d['title'])}</h3></div>
+  <div class="zh-meta"><span class="tag">{esc(d['category'])}</span><span class="tag">{d.get('pages', 0)} pp</span>{tags}</div>
+  <div class="zh-links">
+    <a href="{esc(d['url'])}" target="_blank" rel="noopener">原文 PDF ↗</a>
+    {counter}
+  </div>
+</div>"""
+
+    sections = []
+    for cat, docs in order:
+        cards = "\n".join(card(d) for d in docs)
+        sections.append(f"""<section class="section-block">
+  <h2>{esc(cat)} <span class="muted">({len(docs)})</span></h2>
+  <div class="zh-grid">{cards}</div>
+</section>""")
+    sections_html = "\n".join(sections)
+
+    body = f"""<header class="page-head">
+  <h1>Chinese-language documents <span class="muted">\u4e2d\u6587\u6587\u4ef6</span></h1>
+  <p class="lede">A parallel corpus of {n} documents the Committee publishes only on its
+  <a href="https://www.ic-wangfukcourtfire.gov.hk/chi/index.html" target="_blank" rel="noopener">Chinese site</a>
+  \u2014 the English pages never link them, so keyword tools built on the English record miss them entirely.</p>
+</header>
+<div class="stats">
+  {stat_card(n, 'Chinese documents', 'linked only from /chi/')}
+  {stat_card(31, 'Hearing transcripts', 'Chinese versions of the hearings')}
+  {stat_card(f'{n_counter}/{n}', 'with English counterpart', 'cross-linked below')}
+</div>
+<div class="note-box">
+  <strong>Parallel corpus \u2014 counts unchanged.</strong> The main site's figures (243 documents,
+  6,377 pages, 1.9M words) describe the English record and are unchanged. ToR tags below are
+  provisional keyword matches; LLM semantic tagging is pending.
+</div>
+{sections_html}"""
+
+    return page("Chinese Docs", "zh-docs.html", body,
+                "The 80 Chinese-language inquiry documents linked only from the committee's Chinese site, cross-linked to their English counterparts.")
 
 
 def main():
@@ -2726,6 +2805,7 @@ def main():
         "about.html": build_about(),
         "news.html": build_news(),
         "letter.html": build_letter(),
+        "zh-docs.html": build_zh_docs(),
         "engagement/legcoDraft.html": build_legco_draft(),
     }
     os.makedirs(os.path.join(OUT, "engagement"), exist_ok=True)

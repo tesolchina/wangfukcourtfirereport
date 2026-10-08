@@ -44,6 +44,7 @@ ToR5 vs 11 under a summary-level first pass).
 │   ├── relationship_mapper.py / tor_full_scan.py / tor_aggregate.py  # ToR tagging
 │   ├── tor_deep_analysis.py / doc_meta.py / doc_summaries.py  # LLM analysis
 │   ├── search_build.py     # full-text search index
+│   ├── build_zh_index.py   # Chinese corpus index (data/index_zh.json) from /chi/-only PDFs
 │   ├── build_site.py       # EN site generator -> site_out/
 │   ├── tc_site.py          # Traditional Chinese mirror -> site_out/zh/
 │   ├── deploy_site.py      # upload site_out/ to Aliyun OSS (creds from local file)
@@ -90,11 +91,30 @@ What each check covers:
 | `audit_coverage2.py` | PDFs linked only from the Chinese `/chi/` pages (the EN pages never link them); non-PDF file assets; dated content newer than the crawl |
 
 Reference result (audit of 2026-10-08 vs the 2026-08-16 crawl): EN site
-unchanged — 0 new pages, 0 new/changed/removed PDFs; one gap found: **80
-Chinese-language PDFs** (26 hearing transcripts, 24 witness timetables, 8
-notices, 6 lists of involved parties, plus appointments/addresses/Rules of
-Procedure) are linked only from `/chi/` and are not yet in our corpus. They are
-text-based PDFs (no OCR needed). See issue #4 for the full breakdown.
+unchanged — 0 new pages, 0 new/changed/removed PDFs; one gap found and since
+closed: **80 Chinese-language PDFs** (31 hearing transcripts, 26 witness
+timetables, 8 notices, 6 lists of involved parties, plus appointments,
+opening addresses, Rules of Procedure, a CC press release and 2 witness-statement
+translations) are linked only from `/chi/`. They were crawled, converted and
+published as a parallel corpus at `/zh-docs.html` (all 80 cross-linked to their
+English counterparts; ToR tags provisional pending LLM tagging). See issue #4.
+
+## Chinese-language corpus
+
+`data/index_zh.json` holds the 80 documents the committee links only from its
+Chinese site (`/chi/`). Rebuild it after re-crawling:
+
+```bash
+/usr/local/bin/python3 codes/fire_crawler.py        # seeds EN + CHI start pages
+/usr/local/bin/python3 codes/pdf_processor.py       # convert new PDFs to Markdown
+/usr/local/bin/python3 codes/build_zh_index.py      # build data/index_zh.json (EN cross-links, provisional ToR tags)
+python3 codes/build_site.py                         # emits /zh-docs.html
+```
+
+The corpus is presented as a **parallel** set: the established "243 documents"
+figures describe the English record and are unchanged; the Chinese page states
+this explicitly. ToR tags are keyword-heuristic matches, labelled as provisional
+in the data (`tagged_by`) until the LLM pipeline tags them semantically.
 
 ## Rebuild the site locally
 
