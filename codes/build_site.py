@@ -1811,7 +1811,7 @@ def build_legco_draft():
         so the Panel can put the briefing on its next agenda.</p>
       </div>
       <p style="margin-top:1rem"><a class="link" href="https://github.com/tesolchina/wangfukcourtfirereport/blob/main/docs/legco_panel_security_report.md" target="_blank" rel="noopener">Read the full draft with the sources table ↗</a> ·
-      <a class="link" href="https://github.com/tesolchina/wangfukcourtfirereport/issues/1" target="_blank" rel="noopener">Discussion on GitHub ↗</a> ·
+      <a class="link" href="https://github.com/tesolchina/wangfukcourtfirereport" target="_blank" rel="noopener">Source code on GitHub ↗</a> ·
       <a class="link" href="letter.html">Our published SCMP letter →</a></p>
     </section>
 
