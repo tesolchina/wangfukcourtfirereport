@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>投稿提案｜宏福苑大火調查文件的機器可讀分析</title>
+<style>
+  @page { size: A4 portrait; margin: 16mm 15mm; }
+  * { box-sizing: border-box; }
+  body { margin: 0; color: #1d2935; font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 10.5pt; line-height: 1.65; }
+  header { display: flex; gap: 14px; align-items: flex-start; padding-bottom: 12px; border-bottom: 3px solid #7b1e24; }
+  .mark { flex: 0 0 48px; width: 48px; height: 48px; display: grid; place-items: center; background: #1d2935; color: #fff; font-weight: 700; font-size: 18px; }
+  .eyebrow { margin: 0 0 3px; color: #7b1e24; font-size: 8.5pt; font-weight: 700; letter-spacing: .12em; }
+  h1 { margin: 0; font-size: 19pt; line-height: 1.25; }
+  .sub { margin: 3px 0 0; color: #5e6b76; font-size: 10pt; }
+  .pitch { margin: 14px 0; padding: 13px 15px; background: #f3f5f6; border-left: 4px solid #7b1e24; font-size: 11pt; }
+  .pitch .tag { display: block; font-size: 8.5pt; font-weight: 700; color: #7b1e24; letter-spacing: .1em; margin-bottom: 6px; }
+  h2 { margin: 16px 0 8px; font-size: 13pt; }
+  .stats { display: flex; gap: 8px; margin: 10px 0; }
+  .stat { flex: 1; padding: 9px 6px; border: 1px solid #cbd3d9; text-align: center; }
+  .stat b { display: block; font-size: 17pt; color: #7b1e24; line-height: 1.2; }
+  .stat span { font-size: 7.8pt; color: #5e6b76; }
+  .chart { margin: 12px 0; }
+  .barrow { margin-bottom: 10px; }
+  .barlabel { font-size: 9.5pt; margin-bottom: 3px; }
+  .bartrack { background: #eef0f2; height: 22px; position: relative; }
+  .bar { height: 100%; background: #9aa7b1; color: #fff; font-size: 8.5pt; font-weight: 700; display: flex; align-items: center; padding-left: 8px; white-space: nowrap; }
+  .bar.hot { background: #7b1e24; }
+  .compare { display: flex; gap: 10px; margin: 12px 0; }
+  .side { flex: 1; padding: 11px 13px; border: 1px solid #cbd3d9; }
+  .side h4 { margin: 0 0 5px; font-size: 10pt; }
+  .side.bad { border-top: 4px solid #9aa7b1; }
+  .side.good { border-top: 4px solid #7b1e24; }
+  .side .big { font-size: 20pt; font-weight: 700; }
+  .side.bad .big { color: #5e6b76; }
+  .side.good .big { color: #7b1e24; }
+  .side p { margin: 4px 0 0; font-size: 8.8pt; color: #3c4a55; }
+  .callout { margin: 12px 0; padding: 11px 13px; background: #1d2935; color: #fff; }
+  .callout b { color: #ffd79a; }
+  .access { display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: center; margin-top: 14px; padding: 13px; border-top: 1px solid #cbd3d9; border-bottom: 1px solid #cbd3d9; }
+  .link { color: #7b1e24; font-weight: 700; word-break: break-all; font-size: 11pt; }
+  figure { margin: 0; text-align: center; }
+  figure img { display: block; width: 36mm; height: 36mm; border: 4px solid #fff; outline: 1px solid #1d2935; }
+  figcaption { margin-top: 3px; font-size: 7.5pt; color: #5e6b76; }
+  .foot { margin-top: 12px; color: #5e6b76; font-size: 7.5pt; display: flex; justify-content: space-between; }
+  .avoid { break-inside: avoid; }
+</style>
+</head>
+<body>
+<header>
+  <div class="mark">WF</div>
+  <div>
+    <p class="eyebrow">投稿提案 · PITCH FOR EDITORS</p>
+    <h1>宏福苑大火調查：243 份文件的機器可讀分析</h1>
+    <p class="sub">從一次火災調查，看香港政府應如何發布公共文件 · 約 1,000 字</p>
+  </div>
+</header>
+
+<div class="pitch avoid">
+  <span class="tag">致編輯 · 約 100 字提案</span>
+  我們已把獨立調查委員會公開的 243 份文件、6,377 頁證詞全文轉為可搜尋資料庫。全文閱讀後，涉串標的文件由 11 份躍升至 99 份——關鍵詞搜尋根本找不出這些證據。擬投稿約千字短文，談重大事故調查文件應以機器可讀格式發布，讓傳媒與公眾真正查得到。附網站及數據圖供參考。
+</div>
+
+<h2>一、資料概覽</h2>
+<div class="stats avoid">
+  <div class="stat"><b>243</b><span>份公開文件</span></div>
+  <div class="stat"><b>6,377</b><span>頁證詞</span></div>
+  <div class="stat"><b>190 萬</b><span>字詞</span></div>
+  <div class="stat"><b>8,785</b><span>張圖片</span></div>
+</div>
+
+<h2>二、全文閱讀 vs 摘要閱讀：證據浮出水面</h2>
+<div class="chart avoid">
+  <div class="barrow">
+    <div class="barlabel">涉「串標、合謀」的文件（第 5 項職權範圍）</div>
+    <div class="bartrack"><div class="bar" style="width:11%">摘要閱讀 11</div></div>
+    <div class="bartrack" style="margin-top:3px"><div class="bar hot" style="width:100%">全文閱讀 99</div></div>
+  </div>
+  <div class="barrow">
+    <div class="barlabel">討論「現行法例與罰則是否足夠」的文件（第 6 項）</div>
+    <div class="bartrack"><div class="bar" style="width:8.1%">摘要閱讀 8</div></div>
+    <div class="bartrack" style="margin-top:3px"><div class="bar hot" style="width:78%">全文閱讀 77</div></div>
+  </div>
+</div>
+
+<h2>三、同一個問題，兩個搜索框</h2>
+<div class="compare avoid">
+  <div class="side bad">
+    <h4>官方網站搜「串標」</h4>
+    <div class="big">30</div>
+    <p>條平鋪的 PDF 連結，無分類、無摘要，逐份打開才知道內容。</p>
+  </div>
+  <div class="side good">
+    <h4>本資料庫搜「串標」</h4>
+    <div class="big">35</div>
+    <p>份相關文件，附段落級摘要，點擊直達原文頁碼——而多數關鍵證據的文件裡根本沒有「串標」二字。</p>
+  </div>
+</div>
+
+<div class="callout avoid">
+  <b>85 份</b>消防裝置停工／復工通知，由同一承建商提交，證詞顯示其<b>從未到過宏福苑現場</b>；一份分判合約只有<b>口頭協議、沒有書面合約</b>。這些文件沒有一份寫着「串標」——關鍵詞搜索永遠找不到它們。
+</div>
+
+<h2>四、鏈接我們的網站</h2>
+<div class="access avoid">
+  <div>
+    <p>全部 243 份文件：摘要、重點、目錄、原文 PDF 鏈接；七項職權範圍專題；中英雙語全文檢索；開源（MIT）。</p>
+    <p class="link">https://wangfukcourtfirereport.simonsays.hk/</p>
+    <p style="font-size:8.5pt;color:#5e6b76">獨立、非牟利、教育用途；每項論述均可點回原始 PDF 核對。</p>
+  </div>
+  <figure>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAAGaAQAAAAAefbjOAAACJElEQVR42u1cQW7DMAwTlgf4Sfl6n+QHGPA6m5TtYodtt5X0IUhr85ISEkWpif779QiDDDLIIIMMMsggggLryq+f6674tnfexT12P+IPy6D/AQIjxi/d6/XkRmmTDP1R+vw4NrZzZoQCI+oIChd/89KTAg0bXxHEjNBjxHMxRszIwIsZIcuIkTCOdOIYoawjoB6mimyxbVhHSDEiaw2IideLaw0xRuyL8pKFJ3PFVrL66b0/I4ZweMR1MmIkkUbS1Dzsp6fACEiIQYEhIeYd/AjwxVlDJ2uc1WcUVhh3By1gXZkRQspylhkID53u5WDE3DUjxLLGrDXmpRxCEzHCylIpRmRQiFiaocVBkGZlqVR9tulU0nZo2fGkKeEYIacsUWlWtr/v9LNnJbJ65X567581tlkIWhFkBMjASsSMUGEE8sLGg2Vvb7tmhEytkbki7Ymga8UhCXuWSowo7RyaSgNiCw/2I+SUZWRra01KzL5GCytLMR3R+2ZE4bKO1L0FZkao+BFLOGDOctmVkSO5ZoSQsnwZw17tb4oJe5Zq1ec0JQo0AwtPHrSyFMsaOY6fRhQaGeCBXWytGIF1cZoqByIQKI7ROjNCpNZgNdH2+TokjO7pfDkdgVCAv3xmEvkuUJgRSoygAUGvCkfYKzcj9Bhxn7PYvWYX1MpSU0csS+pekxJZcDhGCNYafD3Aiy8V4b6GpB/h97EYZJBBBhlkkEE/BX0CfZDtmVUSlGUAAAAASUVORK5CYII=" alt="二維碼：宏福苑大火調查報告網站">
+    <figcaption>掃碼打開網站</figcaption>
+  </figure>
+</div>
+
+<div class="foot">
+  <span>Wang Fuk Court Fire Report · 編輯查詢：simonwanghkteacher@gmail.com</span>
+  <span>2026-10-10 · 開源：github.com/tesolchina/wangfukcourtfirereport</span>
+</div>
+</body>
+</html>
