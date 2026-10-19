@@ -633,7 +633,7 @@ NAV = [
     ("work.html", "Work & Effort", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
     ("news.html", "News & Coverage", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
     ("letter.html", "Our Letter", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
-    ("engagement/legcoDraft.html", "Engagement", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
+    ("engagement/legcoReport.html", "LegCo Report", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
     ("images.html", "All Images", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
     ("about.html", "About & Credits", "M4 6h16M4 12h16M4 18h16", "M4 6h16M4 12h16M4 18h16"),
 ]
@@ -1654,7 +1654,7 @@ def build_letter():
         <li><strong><a href="tor.html">ToR Perspectives</a></strong> — themed narratives that cite the documents behind each task.</li>
         <li><strong><a href="news.html">News &amp; Coverage</a></strong> — how the media covered the fire, mapped to the record.</li>
         <li><strong><a href="about.html">About &amp; Credits</a></strong> — methodology, image filtering and the OCR burden.</li>
-        <li><strong><a href="engagement/legcoDraft.html">LegCo engagement</a></strong> — the draft report to the Panel on Security, and how AI prepared it.</li>
+        <li><strong><a href="engagement/legcoReport.html">LegCo report</a></strong> — our submission to the Panel on Security (PDF + live page) and the draft email to the Secretariat.</li>
         <li><strong><a href="https://github.com/tesolchina/wangfukcourtfirereport" target="_blank" rel="noopener">Source code ↗</a></strong> — open source, under <code>projects/FireReport</code>.</li>
       </ul>
     </section>
@@ -2806,7 +2806,6 @@ def main():
         "news.html": build_news(),
         "letter.html": build_letter(),
         "zh-docs.html": build_zh_docs(),
-        "engagement/legcoDraft.html": build_legco_draft(),
     }
     os.makedirs(os.path.join(OUT, "engagement"), exist_ok=True)
     for name, content in pages.items():
