@@ -237,6 +237,7 @@ DOC_ANCHOR_JS = """<script>
 # LLM narrative summaries (data/doc_summaries.json, from codes/doc_summaries.py) —
 # preferred over the raw text excerpt, which for long documents is just cover/TOC text.
 DOC_SUMMARIES = _load_json(os.path.join(DATA, "doc_summaries.json"), {})
+DOC_DETAILED = _load_json(os.path.join(DATA, "doc_summaries_detailed.json"), {})
 
 
 def scanned_page_images(doc):
@@ -266,7 +267,8 @@ def scanned_page_images(doc):
 def doc_full_summary(doc):
     """Complete summary for a document: the LLM narrative summary when available,
     else a clean-text excerpt, else the index summary."""
-    s = DOC_SUMMARIES.get(doc["title"], {}).get("summary")
+    s = (DOC_DETAILED.get(doc["title"], {}).get("summary")
+         or DOC_SUMMARIES.get(doc["title"], {}).get("summary"))
     if s and s.strip():
         return s.strip()
     # clean-text excerpt for text documents
