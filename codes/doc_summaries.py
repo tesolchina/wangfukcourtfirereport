@@ -71,10 +71,13 @@ def _mark_provider(p, down_seconds=300):
 
 SYSTEM_PROMPT = (
     "You are a research assistant summarising Hong Kong inquiry documents for "
-    "journalists. Write a concise 2–3 sentence summary of a document, in the "
-    "document's own language. Base it on the key points and themes provided — do "
-    "not invent details. Reply ONLY with a plain JSON object: "
-    '{"summary": "2-3 sentences, neutral, factual."}'
+    "journalists and legislators. Write a DETAILED, structured summary of 120-180 "
+    "words (6-9 sentences) in the document's own language, covering: (1) what the "
+    "document is and where it sits in the inquiry; (2) who appears or is examined; "
+    "(3) the concrete facts, figures, admissions or decisions it establishes; "
+    "(4) why it matters to the questions the Committee was asked. Base it strictly "
+    "on the key points, themes and opening text provided - do not invent details. "
+    'Reply ONLY with a plain JSON object: {"summary": "120-180 words, neutral, factual."}'
 )
 
 USER_TEMPLATE = (
@@ -83,7 +86,8 @@ USER_TEMPLATE = (
     "Key points from deep analysis:\n{kp}\n"
     "Themes: {th}\n"
     "First lines of the document:\n{opening}\n"
-    "Write a 2-3 sentence summary."
+    "Write a detailed summary of 120-180 words: what the document is, who appears in it, "
+    "the concrete facts and figures it establishes, and why it matters."
 )
 
 
@@ -110,7 +114,7 @@ def call_llm(title, dtype, kp, themes, opening):
         body = {"model": p["model"], "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user},
-        ], "temperature": 0.3, "max_tokens": p["max_tokens"]}
+        ], "temperature": 0.3, "max_tokens": max(p["max_tokens"], 900)}
         try:
             resp = requests.post(p["base"] + p["path"], json=body,
                                  headers=dict(p["headers"], **{"Content-Type": "application/json"}),
