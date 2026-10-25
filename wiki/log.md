@@ -29,3 +29,9 @@ Chinese originals scanned with Chinese formulation terms. Pattern matches the En
 department days 97–204 policy terms (30 Apr URA 204; 10 Apr FSD 180; 27 Apr BD/ICU 173; 21 Apr Labour 172),
 residents' days 2–8. Coverage note added: the record was read at summary level for all 243 docs, full text
 for the 31+31 transcripts and the 10 closing submissions.
+
+## [2026-10-25] ingest | Full-text scan of all 323 manifest entries
+Downloaded the 212 PDFs that were missing locally; extracted text for 322 documents (300 with text).
+Highest formulation scores are the argument documents: Government closing 523, Committee closing 522,
+Competition Commission recommendations 397 / report 283, URA opening 311 — evidence documents far lower.
+See the addendum in [sources/group-3-7-remaining-documents.md](sources/group-3-7-remaining-documents.md).
