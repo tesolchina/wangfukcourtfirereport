@@ -86,6 +86,11 @@ onto more than one ToR.
 | 999 call not transferred to the Fire Services; caller later died | T12 |
 | Probable cause: cigarette on light-well roof igniting cartons | Ch4; T25 |
 
+## Page-level upgrades (25 Oct 2026)
+- **Government's own systemic analysis** (closing address Part III(F)): abuse by private parties (P1–P6) → systemic factors (Q1 self-regulation and audit checks · Q2 supervision of RCs/RIs/RFSICs · **Q3 sufficiency of guidelines and codes of practice** · Q4 communications incl. BD–ICU delegation and the 1823 hotline · **Q5 technology application**) → conclusions (R). Policy enters as *instruments*, not as decisions.
+- **IFITF report**: Ch6 cause and spread · Ch7 scientific analysis · Ch8 validation with full-scale tests in Sichuan · Ch9 fatalities · Ch10 evacuation · Ch11 conclusion. No recommendations chapter.
+- **OCR pages (494 files)**: policy instruments cited by implementers — FSD Policy Instructions (PDPI) Part IV 4.2.16; Departmental Policy Instructions Appendix V.
+
 *Status: objectives are inferences and labelled as such; facts carry citations to documents or
 transcript days. Expand with page-level references as the remaining reads (Government closing,
 2 expert reports, OCR pages) are completed.*

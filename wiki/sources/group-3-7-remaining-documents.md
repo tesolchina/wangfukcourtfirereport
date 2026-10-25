@@ -60,3 +60,18 @@ closing address (523 hits), the Committee's closing address (522), the Competiti
 recommendations (397) and report (283), the URA opening address (311). The evidence documents
 (witness statements, transcripts) sit far lower. Policy is argued by counsel and regulators;
 it is not tested with the policy branches.
+
+## Addendum 3 — OCR'd image-only pages (494 OCR files, read 25 Oct 2026)
+`data/ocr/` holds **494 OCR page files** (more than the 347 pages originally counted). Formulation
+vocabulary across the OCR text: `guideline` **45** · `regulation` **33** · `standard` **27** ·
+`recommend` **21** · `ordinance` **13** · `legislation` **10** · `policy` **7** · `bureau` **3** ·
+`penalt` **2**.
+
+Examples of what the OCR pages add:
+- Victory Fire's closing cites *"the current policy — Fire Services Department Policy Instructions
+  (PDPI) Part IV 4.2.16 — General Procedures for Handling Defective FSI and FSI Shutdown"*.
+- Keung Sai Ming's witness statement refers to *"Appendix V of the Departmental Policy
+  Instructions, serving as a reference for officers conducting on-site risk assessments"*.
+
+**Reading:** even in the image-only pages, policy appears as **instruments cited by implementers**
+(departmental policy instructions, guidelines) — not as decisions examined with their authors.

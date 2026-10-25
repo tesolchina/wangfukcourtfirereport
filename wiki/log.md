@@ -48,3 +48,9 @@ Government closing: Parts I–V, ToR1 (A–F incl. "systemic issues") and ToR2; 
 as officers "from different Bureaux and Departments" — but the timetable shows no bureau secretary/perm sec.
 IFITF report: 11 chapters + appendices, scientific causation (incl. full-scale tests in Sichuan), **no
 recommendations**, policy vocabulary 5 hits in 1.16 M characters. Counter-evidence section added to synthesis.
+
+## [2026-10-25] ingest | Government Part III(F) close read + OCR pages (494 files)
+Part III(F): P (abuse by private parties) → Q (self-regulation, supervision of professionals, guideline
+sufficiency, communications, technology) → R (conclusions). Policy appears as instruments, not decisions.
+OCR pages: guideline 45, regulation 33, standard 27, recommend 21, policy 7, bureau 3 — policy instruments
+cited by implementers (PDPI Part IV 4.2.16; Departmental Policy Instructions Appendix V).

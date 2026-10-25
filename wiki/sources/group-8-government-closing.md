@@ -26,3 +26,23 @@ administrative side, not evidence that policy-makers testified.
 
 Part III(F) ("Systemic issues") is the section where the Government most directly engages policy;
 it needs a close read before the letter asserts anything about the Government's policy defence.
+
+## Part III(F) "Systemic issues" — close read (25 Oct 2026)
+Structure of the Government's own systemic analysis:
+
+| Section | Subject |
+|---|---|
+| **P** | **Abuse of the system by professionals and other non-governmental parties** — P1 Prestige · P2 Will Power and the RI (Ng Yeuk) · P3 China Status · P4 Victory Fire · P5 ISS (the PMC) · P6 residents as victims of cumulative private-actor failure |
+| **Q** | **Systemic issues across key contributing factors** — Q1 reliance on **self-regulation** of professionals and sufficiency of audit checks/site inspections · Q2 supervision of professionals (RCs, RIs, RFSICs) · **Q3 sufficiency of procedural guidelines, codes of practice, etc.** · Q4 internal and external communications (BD–ICU delegation; Police–FSD; 1823 hotline/HAD referrals; residents; professionals) · **Q5 status of technology application** |
+| **R** | The Government's conclusions on ToR 1 |
+
+**Reading:** the Government's "systemic issues" are framed as **self-regulation, professional
+supervision, guideline sufficiency, communications and technology** — policy-adjacent questions,
+but framed around *the professions and the departments that supervise them*. The section opens
+with abuse by private parties (P) and only then reaches systemic factors (Q). **No bureau-level
+decision-making is examined as such**; "policy" appears in the section only through instruments
+(guidelines, codes of practice, policy instructions).
+
+**Consequence for the letter:** we can say the Government itself treats the systemic question as
+one of *guidelines and self-regulation* — which is precisely the formulation layer — while the
+evidence and the responsibility findings remain at department level.
