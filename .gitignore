@@ -31,3 +31,17 @@ data/markdown_all/
 
 # backup of the earlier summary run
 data/doc_summaries_backup_*.json
+
+# working notes and drafts live in the private repo (wangfukcourtfirereport-work)
+wiki/
+docs/SCMPeditor.md
+docs/analysis_log.md
+docs/letterSCMP.md
+docs/metaread-notes.md
+docs/pilot-coding-*.md
+docs/plan*.md
+docs/zh-*.md
+data/coding/
+data/deflections.json
+data/doc_register.json
+data/coding_summary.json
