@@ -25,6 +25,9 @@
 | Policy questions were put to department officers, not to policy-makers | Group 2: policy-formulation vocabulary peaks on department days — T20 BD/ICU (130), T10 FSD (108), T17 FSD (107), T24 HAD (98), T16 Labour (95), T22 ICU (71) — while residents' days carry almost none (T4 = 1) | **confirmed** (Group 2) |
 | No bureau session exists | 30 sessions; policy vocabulary distributed across implementing bodies; no day with a policy-branch witness set | **confirmed** (Group 2) |
 
+| Formulation vocabulary is present across every document group | Groups 3–7 (summary-level screen of all 243 docs): 66/118 witness statements, 28/30 transcripts, 10/10 closing submissions, 5/5 expert reports are policy-heavy | **confirmed** (Groups 3–7) |
+| The deficit is *who is asked*, not *whether policy is discussed* | all formulation vocabulary flows through implementers, contractors, counsel and experts; no policy-branch witness anywhere in the record | **confirmed** (all groups) |
+
 ## Contradictions / corrections
 - **2026-10-25** — Group 2 shows policy *was* discussed, but with implementers: the gap is the *level* of the witness, not the absence of the question.
 - **2026-10-25** — earlier hypothesis ("the inquiry focused too much on implementation and not enough on formulation") was **too strong**: the argument layer (Ch7/Ch8/Ch10) does reach policy. The surviving, sharper claim is the asymmetry between *evidence* (implementation) and *recommendations* (policy).
