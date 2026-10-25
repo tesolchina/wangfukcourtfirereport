@@ -84,3 +84,65 @@ at the level of coordination.
 Single coder (the agent), no second coder yet; one day only; English transcripts only
 (the Chinese originals are authoritative where they differ); "formulation" is a judgment
 call at the margins, which is why the reliability check matters before any number is published.
+
+---
+
+# Addendum: hybrid coding (rules + LLM)
+
+## Architecture
+
+| Layer | Does | Why |
+|---|---|---|
+| Rule-based | segment blocks, attribute witness/examiner, extract question turns, join each question to the witness's answer, count | exact, free, reproducible |
+| LLM (DeepSeek, temp 0) | assign IMPLEMENTATION / FORMULATION / PROCEDURAL per question, with a one-line reason | the semantic call a regex cannot make |
+| Rule-based | flag candidate formulation questions (broad recall) and deflection phrases | audit trail, not a classifier |
+
+## Three iterations, and what each fixed
+
+| Version | Formulation calls | Precision | Defect found |
+|---|---|---|---|
+| v1 — questions only | 26 / 285 (9%) | ~38% | bare "Why?" uncodeable; over-codes anything mentioning a rule |
+| v2 — + answers, few-shot | 16 / 285 (6%) | ~63% | **silent bug**: witness label `MS CHEUNG YUK CHING` never matched declaration `MS CHEUNG YUK CHING, KAREN`, so answers were empty |
+| v3 — join fixed | 17 / 285 (6%) | **~88%** | — |
+
+The v2 bug is the argument for piloting: the coder was guessing from bare questions and the output looked plausible.
+
+## v3 result — Day 20 (27 April 2026)
+
+| Code | n | share |
+|---|---|---|
+| Implementation | 235 | 82% |
+| Procedural | 33 | 12% |
+| Formulation | 17 | 6% |
+
+By witness:
+
+| Witness | Q | Formulation |
+|---|---|---|
+| Cheung (BD, Assistant Director) | 144 | 11 |
+| Committee members' own questions | 6 | 2 |
+| Chan (District Officer) | 17 | 2 |
+| Tse (retired BD surveyor) | 23 | 2 |
+| Or (HAD liaison officer) | 82 | 0 |
+
+## The finding that matters — and it refines the thesis
+
+The 17 formulation questions are mostly **defensible**: why the registered inspector role was created, why the MBIS selects buildings on a risk basis, why natural lighting is required, why a clause exists, what the penalty for collusion is, why the Minor Works Control System classifies works as it does.
+
+But every one was put to an **officer who administers the rule**, and answered with the department's rationale. Not one was put to the office that chose the rule.
+
+So the sharper claim is not "the inquiry never asked about policy". It is:
+
+> **The inquiry asked about the rules, but always of the people who apply them — never of the people who wrote them.**
+
+That is a better argument than the one in the letter, and it is now measurable across all 31 days.
+
+## Cost to scale
+
+285 questions/day × 31 days ≈ 8,800 questions; ~25 per call ≈ 350 calls. Pilot day cost a few cents. Full run is small.
+
+## Still required before publication
+
+1. Hand-code 20 blocks blind, compute agreement with the LLM (target ≥80%).
+2. Report the formulation-adjacent category separately from hard formulation.
+3. Run the deflection detector on answers across all days — Day 20 returned zero upward referrals, which needs confirming against the other 30.
