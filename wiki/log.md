@@ -23,3 +23,9 @@ Systematic pass over the 243 document summaries for formulation vs implementatio
 (Committee closing f=13, Government closing f=14, Usmani/Jiang recommendations f=15).
 Conclusion: policy is discussed everywhere — but always with implementers, contractors, counsel or
 experts; no policy-branch witness appears. See [sources/group-3-7-remaining-documents.md](sources/group-3-7-remaining-documents.md).
+
+## [2026-10-25] ingest | Group 2 addendum — Chinese-language transcripts (31 files)
+Chinese originals scanned with Chinese formulation terms. Pattern matches the English translations:
+department days 97–204 policy terms (30 Apr URA 204; 10 Apr FSD 180; 27 Apr BD/ICU 173; 21 Apr Labour 172),
+residents' days 2–8. Coverage note added: the record was read at summary level for all 243 docs, full text
+for the 31+31 transcripts and the 10 closing submissions.

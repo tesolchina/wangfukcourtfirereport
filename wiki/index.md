@@ -22,6 +22,14 @@ Catalog of the wiki. Updated on every ingest.
 ## Source notes
 - [sources/group-1-closing-submissions.md](sources/group-1-closing-submissions.md) — 10 closing submissions, 1,217 pp
 
+## Coverage status (25 Oct 2026)
+| Level | What |
+|---|---|
+| Summary level (400–600 words each) | **all 243 documents** |
+| Full text, programmatic scan | 31 English + 31 Chinese hearing transcripts |
+| Full text, text extracted | 10 closing submissions (Committee's read in detail: Ch7/8/9/10 + citation trail; Government's 408 pp read only via summary) |
+| Not yet read | 212 PDFs not on local disk (summaries only) · 2 expert reports without summaries · 347 OCR'd image pages |
+
 ## Pending groups
 2. Hearing transcripts (30 docs, 952 pp) · 3. Witness statements (120, 1,304 pp) ·
 4. Expert reports (7, 1,410 pp) · 5. Opening addresses (7, 279 pp) · 6. Agency reports (3, 267 pp) ·

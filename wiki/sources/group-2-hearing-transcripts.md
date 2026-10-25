@@ -47,3 +47,23 @@ Purpose: test whether policy questions were put to witnesses, and to whom.
 The claim "policy was never discussed" is **false**. The accurate claim is:
 **policy was discussed with the people who implemented it, on days organised around
 implementing bodies** — the formulation questions were asked of the wrong level.
+
+## Addendum — Chinese-language originals (31 files, read 25 Oct 2026)
+The hearings were conducted in Chinese for Days 1–26 (English transcripts are translations).
+Same method applied to the Chinese transcripts with Chinese formulation terms
+(政策 · 標準 · 指引 · 法例 · 條例 · 規例 · 罰則 · 局 · 問責 · 規定 · 守則 · 立法 · 修例):
+
+| Date | Policy-terms | Dominant terms | Block |
+|---|---|---|---|
+| 30 Apr | **204** | 局 151, 標準 29, 條例 14 | URA |
+| 16 Jul | 190 | 標準 35, 局 34, 條例 28 | closing day |
+| 10 Apr | 180 | 局 39, 政策 28, 守則 26 | FSD |
+| 8 May | 177 | 局 56, 條例 28, 政策 20 | HAD / ICU |
+| 27 Apr | 173 | 條例 73, 守則 25, 法例 24 | BD / ICU |
+| 21 Apr | 172 | 法例 51, 條例 28, 標準 24 | Labour |
+| 22 Apr | 147 | 局 33, 條例 30, 指引 27 | FSD |
+| **24 Jun** | **2** | 局 2 | experts |
+| 16 Apr · 26 Mar | 7 · 8 | — | **residents** |
+
+**Chinese originals confirm the English pattern**: formulation vocabulary concentrates on
+department days (97–204 terms) and is nearly absent on residents' days (2–8).
