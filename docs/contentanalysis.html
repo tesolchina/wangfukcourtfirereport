@@ -41,6 +41,17 @@
   .linkgrid { display:grid; grid-template-columns:1fr 1fr; gap:4px 14px; margin:6px 0 4px;
               font-family:Arial,sans-serif; font-size:9pt; }
   .linkgrid a { color:#7b1e24; text-decoration:none; border-bottom:1px dotted #b9c3cc; }
+  .tag { display:inline-block; font-family:Arial,sans-serif; font-size:7.4pt; font-weight:700;
+         letter-spacing:.06em; padding:1px 6px; border-radius:2px; vertical-align:middle; }
+  .tag.site { background:#7b1e24; color:#fff; }
+  .tag.news { background:#2a5d8f; color:#fff; }
+  .legend { border:1px solid #cbd3d9; background:#f7f9fa; padding:9px 13px; margin:10px 0 4px;
+            font-family:Arial,sans-serif; font-size:9.2pt; line-height:1.6; }
+  .artlist { font-size:8.8pt; }
+  .artlist td { padding:3px 6px; }
+  .artlist td.d { white-space:nowrap; font-family:Arial,sans-serif; }
+  .artlist a { text-decoration:none; color:#1d2935; }
+  .artlist a:hover { color:#7b1e24; text-decoration:underline; }
   @media (max-width:640px){ body{padding:12px 8px 32px;} .sheet{padding:18px 16px;} .linkgrid{grid-template-columns:1fr;} }
 </style>
 </head>
@@ -57,18 +68,29 @@
     <h1>What the record's own words show</h1>
     <p class="meta">Word and phrase frequency analysis of the Independent Committee's published record —
       <b>243 documents · 6,377 pages · ~1.9 million words</b> — contrasted with the language of news coverage
-      (69 article bodies, 20–25 October 2026). Method, tables, and the six arguments the numbers support.</p>
+      (69 article bodies, 20–25 October 2026). Method, tables, six arguments, the department map, and the full article list.</p>
 
-    <h2>1 · Method</h2>
+    <div class="legend">
+      <b>Where every number comes from</b><br>
+      <span class="tag site">COMMITTEE SITE</span> — the Independent Committee's own archive:
+      <b>243 documents · 6,377 pages · ~1.9m words</b> (counts from our full-text index; phrase counts from the
+      111-document text mirror). &nbsp;
+      <span class="tag news">NEWS</span> — published news articles, <b>69 with usable bodies, 20–25 Oct 2026</b>
+      (counts from the article texts; full list and selection rules in §8).<br>
+      <span style="color:#5e6b76">Sections 2, 3, 5 and 6 are <b>SITE</b> unless a line says otherwise; §4 sets the two
+      side by side; every <span class="tag news">NEWS</span> figure can be traced to a row in §8.</span>
+    </div>
+
+    <h2>1 · Method — how each side was counted</h2>
     <ul class="tight">
-      <li><b>Corpus.</b> Our text mirror of the official archive: all 243 PDFs converted to text (347 scanned pages OCR'd), held in an inverted index (term → per-document frequencies).</li>
+      <li><span class="tag site">COMMITTEE SITE</span> <b>Corpus.</b> Our text mirror of the official archive: all 243 PDFs converted to text (347 scanned pages OCR'd), held in an inverted index (term → per-document frequencies).</li>
       <li><b>Filters.</b> Transcript boilerplate (<i>simultaneous interpretation · ambiguity · discrepancy · versions prevail · evidential hearing · witness statement</i>), English stop-words, and personal names (counsel, witnesses, committee members) removed — otherwise the "top words" are just the transcript disclaimer.</li>
       <li><b>Phrases.</b> Bigrams and trigrams counted over the 111-document markdown mirror, with minimum thresholds.</li>
-      <li><b>Coverage side.</b> The same method over 69 news bodies (20–25 Oct) fetched via newsapi.ai and archived at <code>data/news_bodies_20261025.json</code>.</li>
+      <li><span class="tag news">NEWS</span> <b>Coverage side.</b> The same method over 69 news bodies (20–25 Oct) fetched via newsapi.ai and archived at <code>data/news_bodies_20261025.json</code>.</li>
       <li><b>Reproducible.</b> Scripts <code>tmp/wfc_ca3.py</code> and <code>tmp/wfc_cov_vs_record.py</code>; raw output in <code>tmp/content_analysis_out.txt</code>. Re-run when the redacted report lands.</li>
     </ul>
 
-    <h2>2 · Word frequency (the record)</h2>
+    <h2>2 · Word frequency — <span class="tag site">COMMITTEE SITE</span> (243 documents)</h2>
     <table>
       <tr><th>Term</th><th>Total frequency</th><th>Documents containing it (of 243)</th></tr>
       <tr><td>safety</td><td class="num">832</td><td class="num"><b>140</b></td></tr>
@@ -93,7 +115,7 @@
       <tr><td>windows</td><td class="num">584</td><td class="num">28</td></tr>
     </table>
 
-    <h2>3 · Phrase frequency (the record)</h2>
+    <h2>3 · Phrase frequency — <span class="tag site">COMMITTEE SITE</span> (111-document text mirror)</h2>
     <table>
       <tr><th>Phrase</th><th>Occurrences</th><th>Reading</th></tr>
       <tr><td>foam boards</td><td class="num">492</td><td>the combustible cladding at the centre of the spread</td></tr>
@@ -109,9 +131,9 @@
       <tr><td>independent committee</td><td class="num">294</td><td>institutional self-reference</td></tr>
     </table>
 
-    <h2>4 · Coverage vs record</h2>
+    <h2>4 · Coverage vs record — <span class="tag news">NEWS</span> vs <span class="tag site">COMMITTEE SITE</span></h2>
     <table>
-      <tr><th></th><th>Coverage (69 bodies, 20–25 Oct)</th><th>The record (243 documents)</th></tr>
+      <tr><th></th><th><span class="tag news">NEWS</span> Coverage (69 bodies, 20–25 Oct)</th><th><span class="tag site">COMMITTEE SITE</span> The record (243 documents)</th></tr>
       <tr><td><b>Top tokens</b></td>
           <td>fire 159 · report 138 · <b>government 110</b> · committee 84 · department 65 · <b>icu 64</b> · <b>accountability 39</b> · <b>reforms 37</b> · safety 34 · recommendations 33</td>
           <td>system · building · water · residents · <b>safety (140 docs)</b> · scaffolding · alarm · inspection · contractor · <b>maintenance (116 docs)</b></td></tr>
@@ -122,7 +144,7 @@
           <td colspan="2">Small: both say <i>safety</i> and <i>fire</i>; almost nothing else. Coverage cannot cite a page; the record cannot reach a reader.</td></tr>
     </table>
 
-    <h2>5 · The six arguments these numbers support</h2>
+    <h2>5 · The six arguments these numbers support <span class="note">(DATA lines tagged: <span class="tag site">SITE</span> / <span class="tag news">NEWS</span>)</span></h2>
 
     <div class="arg">
       <h3>A · This is, quantitatively, a maintenance-regime inquiry</h3>
@@ -172,7 +194,61 @@
       <b>SUPPORTS:</b> forecast prediction 10; paragraph 5 of the 中文 piece.</p>
     </div>
 
-    <h2>6 · Caveats</h2>
+
+    <h2>6 · Which departments the record names — and what holds them accountable <span class="tag site">COMMITTEE SITE</span></h2>
+    <p class="note">Counts below are phrase counts over the 111-document text mirror (English), so they are
+    directly comparable with the phrase table in §3; mechanism counts come from the full 243-document index.</p>
+    <table>
+      <tr><th>Body</th><th>Mentions <span class="note">(SITE)</span></th><th>Documents <span class="note">(SITE)</span></th></tr>
+      <tr><td>Independent Checking Unit</td><td class="num">1,378</td><td class="num">42</td></tr>
+<tr><td>Police</td><td class="num">384</td><td class="num">30</td></tr>
+<tr><td>Buildings Department</td><td class="num">169</td><td class="num">20</td></tr>
+<tr><td>Labour Department</td><td class="num">141</td><td class="num">16</td></tr>
+<tr><td>Competition Commission</td><td class="num">109</td><td class="num">31</td></tr>
+<tr><td>ICAC</td><td class="num">80</td><td class="num">19</td></tr>
+<tr><td>Fire Services Department</td><td class="num">64</td><td class="num">19</td></tr>
+<tr><td>Housing Department</td><td class="num">18</td><td class="num">11</td></tr>
+<tr><td>EMSD</td><td class="num">10</td><td class="num">6</td></tr>
+<tr><td>Housing Bureau</td><td class="num">6</td><td class="num">4</td></tr>
+    </table>
+    <p><b>Named explicitly.</b> The record does not deal in anonymous "departments": counsel and witnesses name
+    them and allocate duties on the record — e.g. <i>"the principal responsibility rests on the BD, the Buildings
+    Department"</i> (24 April transcript), the Fire Services Department's 1982 code of practice on inspection and
+    testing (10 April), and the Independent Checking Unit's notification of the net inspection that preceded the
+    purchase of 155 non-fire-retardant units (17 July). The four bodies singled out in the final report —
+    <b>FSD · Buildings Department · Labour Department · Housing Bureau's ICU</b> — are the four most-evidenced
+    regulators in the corpus.</p>
+
+    <h3>Where the accountability material sits</h3>
+    <table>
+      <tr><th>Mechanism <span class="note">(SITE)</span></th><th>Combined term frequency</th><th>Widest spread (documents)</th></tr>
+      <tr><td>Enforcement &amp; inspection</td><td class="num">1,273</td><td class="num">35</td></tr>
+      <tr><td>Laws &amp; legislation (ordinances, penalties, amendments)</td><td class="num">925</td><td class="num">28</td></tr>
+      <tr><td>Statutory duty &amp; responsibility</td><td class="num">755</td><td class="num">39</td></tr>
+      <tr><td>Oversight &amp; accountability</td><td class="num">343</td><td class="num">73</td></tr>
+      <tr><td>Disciplinary / suspension powers</td><td class="num">123</td><td class="num">15</td></tr>
+      <tr><td>Liability &amp; offences</td><td class="num">116</td><td class="num">17</td></tr>
+      <tr><td>Fines &amp; penalties</td><td class="num">101</td><td class="num">17</td></tr>
+    </table>
+    <ul class="tight">
+      <li><b>Existing powers, already used:</b> the Buildings Department rejected a minor-works licence renewal
+      from the main contractor after disciplinary action (20 April transcript); a registered contractor was
+      "ordered to suspend the registration for three weeks" (8 April); the BD's own website carried the
+      disciplinary-hearing note a witness was asked to check (30 April).</li>
+      <li><b>The gap is not powers but verification:</b> counsel recorded that "the inspection principles need to
+      be amended… there should be surprise checks" (16 July), and the Committee was asked to "delineate
+      responsibilities… and implement remedial measures" (17 July).</li>
+      <li><b>Law-enforcement lane, already running:</b> police and ICAC arrests — seven individuals and two
+      companies, manslaughter, money laundering and collusion to defraud (22 June and 17 July transcripts) —
+      25 charges now before the courts.</li>
+      <li><b>How to hold them accountable, in one line:</b> the record supports three routes —
+      <b>departmental discipline</b> (existing, evidenced), <b>legislative amendment</b> (ToR 6, 925 hits), and
+      <b>prosecution</b> (running). Our site lets a reader trace each route to the documents: search
+      <a href="/search.html?q=suspension">suspension</a>, <a href="/search.html?q=disciplinary">disciplinary</a>,
+      <a href="/search.html?q=surprise">surprise checks</a>, <a href="/search.html?q=delineate">delineate</a>.</li>
+    </ul>
+
+    <h2>7 · Caveats</h2>
     <ul class="tight">
       <li>Term frequency measures presence, not importance or blame — a phrase can be frequent because it is contested, not because it is proven.</li>
       <li>Stop-lists were applied by hand; a different list shifts the ranking (raw lists archived with the scripts).</li>
@@ -180,6 +256,92 @@
       <li>Coverage bodies are aggregator-supplied; paywalled opinion columns (Alice Wu 19 Oct, Regina Ip 25 Oct) were read separately.</li>
       <li><b>Re-run on the day the redacted report is published</b> and compare its vocabulary against both tables above.</li>
     </ul>
+
+
+    <h2>8 · The 69 news articles — full list and selection rules <span class="tag news">NEWS</span></h2>
+    <p><b>How they were selected (so the analysis can be re-run):</b></p>
+    <ul class="tight">
+      <li><b>Source:</b> newsapi.ai <code>POST /api/v1/article/getArticles</code> — key held privately in issue #8, never in code.</li>
+      <li><b>Queries (5, declared in advance):</b> <code>Tai Po fire</code> · <code>Wang Fuk Court</code> · <code>宏福苑</code> · <code>Tai Po fire report</code> · <code>宏福苑 報告</code>.</li>
+      <li><b>Window:</b> <b>2026-10-22 → 2026-10-25</b> (the day the report was submitted onward), sorted by date, 50 results per query.</li>
+      <li><b>Pooling &amp; de-duplication:</b> 131 raw rows pooled → <b>80 unique</b> by exact title → <b>69 with usable bodies</b> (article body &gt; 400 characters); 11 dropped for having no/partial body.</li>
+      <li><b>What counts as an article:</b> any item the aggregator labels as a news or opinion piece — including syndicated copies (e.g. The Star carrying the AP/wire version). Headlines-only rows are excluded from the 69.</li>
+      <li><b>Reproduce:</b> archive <code>data/news_bodies_20261025.json</code> (committed) · theme classifier <code>codes/news_themes.py</code> · counts <code>tmp/wfc_bodies.py</code>.</li>
+      <li><b>Limits:</b> aggregator-supplied text (may truncate very long pieces); paywalled opinion columns (Alice Wu 19 Oct, Regina Ip 25 Oct) were read separately and are <b>not</b> in this list; window is deliberately post-submission — earlier coverage is in <a href="https://github.com/tesolchina/wangfukcourtfirereport/blob/main/data/news_nov2025_gnews.json">the Nov 2025 index</a> and issue #8.</li>
+    </ul>
+    <p class="note">Every <span class="tag news">NEWS</span> figure used elsewhere on this page (§1, §4, §5-E and the theme counts in the letter outline) derives from these 69 articles.</p>
+    <table class="artlist">
+      <tr><th>#</th><th>Date</th><th>Source</th><th>Title</th></tr>
+      <tr><td class="d">1</td><td class="d">2026-10-25</td><td class="d">Yahoo News</td><td><a href="https://tw.news.yahoo.com/%E5%B0%88%E8%A8%AA-%E5%9C%8B%E5%85%A9%E5%88%B6-%E6%9C%AC%E7%82%BA%E5%8F%B0%E7%81%A3%E8%80%8C%E8%A8%AD-%E7%A5%81%E7%A6%8F%E5%BE%B7-%E5%8C%97%E4%BA%AC%E6%9C%83%E6%8A%8A%E9%80%80%E8%AE%93%E8%A6%96%E7%82%BA%E9%80%B2-010100272.html" target="_blank" rel="noopener">【專訪】「一國兩制」本為台灣而設　祁福德：北京會把退讓視為進一步壓迫的邀請</a></td></tr>
+<tr><td class="d">2</td><td class="d">2026-10-25</td><td class="d">South China Morning Post</td><td><a href="https://www.scmp.com/opinion/hong-kong-opinion/article/3371777/hong-kong-needs-civil-service-fit-changed-world" target="_blank" rel="noopener">Opinion · Hong Kong needs a civil service fit for a changed world</a></td></tr>
+<tr><td class="d">3</td><td class="d">2026-10-24</td><td class="d">香港經濟日報HKET</td><td><a href="https://news.hket.com/article/4213093/%E5%AE%8F%E7%A6%8F%E8%8B%91%E7%81%AB%E7%81%BD%E5%95%8F%E8%B2%AC%EF%BD%9C%E8%AD%B0%E5%93%A1%EF%BC%9A%E8%8B%A5%E7%84%A1%E5%B1%80%E9%95%B7%E8%90%BD%E5%8F%B0%E3%80%80%E6%81%90%E5%8B%95%E6%90%96%E7%A4%BE%E6%9C%83%E5%B0%8D%E6%94%BF%E5%BA%9C%E4%BF%A1%E5%BF%83%E5%8F%8A%E6%83%B9%E5%85%AC%E5%8B%99%E5%93%A1%E4%B8%8D%E6%BB%BF" target="_blank" rel="noopener">宏福苑火災問責｜議員：若無局長落台　恐動搖社會對政府信心及惹公務員不滿·香港經濟日報</a></td></tr>
+<tr><td class="d">4</td><td class="d">2026-10-24</td><td class="d">獨立媒體</td><td><a href="https://www.inmediahk.net/node/%E5%9C%8B%E9%9A%9B/%E7%81%BD%E5%BE%8C%E5%BE%A9%E5%85%83%E6%BC%AB%E9%95%B7-%E7%B4%85%E5%8D%81%E5%AD%97%E6%9C%83%E7%B1%B2%E6%8C%81%E7%BA%8C%E9%97%9C%E6%B3%A8%E5%8A%A0%E6%B2%99%E3%80%81%E5%B0%BC%E6%B3%8A%E7%88%BEe" target="_blank" rel="noopener">災後復元漫長 紅十字會籲持續關注加沙、尼泊爾</a></td></tr>
+<tr><td class="d">5</td><td class="d">2026-10-24</td><td class="d">即時新聞 instant news</td><td><a href="https://news.mingpao.com/pns/%E5%89%AF%E5%88%8A/article/20261025/s00005/1792858566023/1125-1127-%E6%B4%AA%E6%B0%B4%E6%A9%8B%E8%88%87%E8%88%8A%E8%A1%97%E5%9D%8A%E7%82%BA%E9%84%B0-%E4%BB%8D%E8%AA%AA%E4%B8%8D%E5%87%BA%E9%80%99%E6%98%AF%E3%80%8C%E5%AE%B6%E3%80%8D" target="_blank" rel="noopener">1125/1127：洪水橋與舊街坊為鄰 仍說不出這是「家」 - 20261025</a></td></tr>
+<tr><td class="d">6</td><td class="d">2026-10-24</td><td class="d">即時新聞 instant news</td><td><a href="https://news.mingpao.com/pns/%E5%89%AF%E5%88%8A/article/20261025/s00005/1792858564553/%E7%B7%A8%E8%80%85%E8%A9%B1-%E6%9C%AA%E5%AE%8C%E5%BE%85%E7%BA%8C" target="_blank" rel="noopener">編者話：未完待續 - 20261025</a></td></tr>
+<tr><td class="d">7</td><td class="d">2026-10-23</td><td class="d">아주경제</td><td><a href="https://www.ajunews.com/view/20261023162947663" target="_blank" rel="noopener">[NNA] 홍콩 웡 푹 코트 화재 조사위, 보고서 제출 · 아주경제</a></td></tr>
+<tr><td class="d">8</td><td class="d">2026-10-23</td><td class="d">香港經濟日報HKET</td><td><a href="https://news.hket.com/article/4213307/%E6%96%B0%E7%9A%87%E5%B4%97%E5%8F%A3%E5%B2%B8%EF%B8%B1%E9%84%A7%E7%82%B3%E5%BC%B7%E7%A8%B1%E7%9F%A5%E6%82%89%E5%89%8D%E7%B7%9A%E6%89%BF%E5%8F%97%E5%B7%A8%E5%A4%A7%E5%A3%93%E5%8A%9B%E3%80%80%E5%BC%B7%E8%AA%BF%E5%B7%B2%E7%89%B9%E5%88%A5%E8%AA%BF%E6%B4%BE%E4%BA%BA%E6%89%8B%EF%BC%9A%E7%9B%B8%E4%BF%A1%E5%90%8C%E4%BA%8B%E6%A8%82%E6%96%BC%E6%9C%8D%E5%8B%99%E5%B8%82%E6%B0%91" target="_blank" rel="noopener">新皇崗口岸︱鄧炳強稱知悉前線承受巨大壓力　強調已特別調派人手：相信同事樂於服務市民·香港經濟日報</a></td></tr>
+<tr><td class="d">9</td><td class="d">2026-10-23</td><td class="d">香港文匯網</td><td><a href="https://www.wenweipo.com/a/202610/24/AP6adbbe07e4b0fa89498a1a93.html" target="_blank" rel="noopener">相識近四十載 甜蜜如初戀 德籍丈夫帶莫文蔚香港郊遊 - 香港文匯報</a></td></tr>
+<tr><td class="d">10</td><td class="d">2026-10-23</td><td class="d">香港01</td><td><a href="https://www.hk01.com/01%E8%A7%80%E9%BB%9E/60402651/%E5%AE%8F%E7%A6%8F%E8%8B%91%E5%95%8F%E8%B2%AC-01%E8%A7%80%E9%BB%9E-%E6%B6%89%E4%BA%8B%E5%AE%98%E5%93%A1%E7%90%86%E6%87%89%E6%92%AB%E5%BF%83%E8%87%AA%E5%95%8F" target="_blank" rel="noopener">宏福苑問責．01觀點｜涉事官員理應撫心自問</a></td></tr>
+<tr><td class="d">11</td><td class="d">2026-10-23</td><td class="d">香港01</td><td><a href="https://global.hk01.com/01%E8%A7%82%E7%82%B9/60402651/%E5%AE%8F%E7%A6%8F%E8%8B%91%E9%97%AE%E8%B4%A3-01%E8%A7%82%E7%82%B9-%E6%B6%89%E4%BA%8B%E5%AE%98%E5%91%98%E7%90%86%E5%BA%94%E6%8A%9A%E5%BF%83%E8%87%AA%E9%97%AE" target="_blank" rel="noopener">宏福苑问责．01观点｜涉事官员理应抚心自问</a></td></tr>
+<tr><td class="d">12</td><td class="d">2026-10-23</td><td class="d">香港01</td><td><a href="https://global.hk01.com/01%E8%A7%82%E7%82%B9/60402651/%E5%AE%8F%E7%A6%8F%E8%8B%91%E9%97%AE%E8%B4%A3-01%E8%A7%82%E7%82%B9-%E7%8B%AC%E7%AB%8B%E5%A7%94%E5%91%98%E4%BC%9A%E6%8F%90%E4%BA%A4%E6%8A%A5%E5%91%8A-%E6%B6%89%E4%BA%8B%E5%AE%98%E5%91%98%E7%90%86%E5%BA%94%E6%8A%9A%E5%BF%83%E8%87%AA%E9%97%AE" target="_blank" rel="noopener">宏福苑问责．01观点｜独立委员会提交报告　涉事官员理应抚心自问</a></td></tr>
+<tr><td class="d">13</td><td class="d">2026-10-23</td><td class="d">香港01</td><td><a href="https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60402706/%E6%96%B0%E7%9A%87%E5%B4%97%E9%87%8D%E9%99%BD%E9%80%BC%E7%88%86-%E9%84%A7%E7%82%B3%E5%BC%B7%E7%A8%B1%E7%9F%A5%E6%82%89%E5%89%8D%E7%B7%9A%E6%89%BF%E5%8F%97%E5%B7%A8%E5%A4%A7%E5%A3%93%E5%8A%9B-%E5%B7%B2%E5%A2%9E%E6%B4%BE%E4%BA%BA%E6%89%8B%E6%87%89%E5%B0%8D" target="_blank" rel="noopener">新皇崗重陽逼爆　鄧炳強稱知悉前線承受巨大壓力　已增派人手應對</a></td></tr>
+<tr><td class="d">14</td><td class="d">2026-10-23</td><td class="d">香港01</td><td><a href="https://global.hk01.com/%E7%A4%BE%E4%BC%9A%E6%96%B0%E9%97%BB/60402706/%E6%96%B0%E7%9A%87%E5%B2%97%E9%87%8D%E9%98%B3%E9%80%BC%E7%88%86-%E9%82%93%E7%82%B3%E5%BC%BA%E7%A7%B0%E7%9F%A5%E6%82%89%E5%89%8D%E7%BA%BF%E6%89%BF%E5%8F%97%E5%B7%A8%E5%A4%A7%E5%8E%8B%E5%8A%9B-%E5%B7%B2%E5%A2%9E%E6%B4%BE%E4%BA%BA%E6%89%8B%E5%BA%94%E5%AF%B9" target="_blank" rel="noopener">新皇岗重阳逼爆　邓炳强称知悉前线承受巨大压力　已增派人手应对</a></td></tr>
+<tr><td class="d">15</td><td class="d">2026-10-23</td><td class="d">獨立媒體</td><td><a href="https://www.inmediahk.net/node/%E6%94%BF%E7%B6%93/%E3%80%90%E5%B7%A5%E5%9C%B0%E6%82%B2%E5%8A%87%E3%80%91%E9%A6%99%E6%B8%AF%E5%B7%A5%E7%A8%8B%E8%B3%AA%E7%B4%A0%E7%9C%9F%E7%9A%84%E6%98%AF%E8%BF%91%E5%B9%B4%E6%89%8D%E6%83%A1%E5%8C%96%E5%97%8E%EF%BC%9F" target="_blank" rel="noopener">【工地悲劇】香港工程質素真的是近年才惡化嗎？ · 本土研究社 · 獨立媒體</a></td></tr>
+<tr><td class="d">16</td><td class="d">2026-10-23</td><td class="d">獨立媒體</td><td><a href="https://www.inmediahk.net/node/%E6%94%BF%E7%B6%93/%E3%80%90%E5%AE%8F%E7%A6%8F%E8%8B%91%E4%BA%94%E7%B4%9A%E7%81%AB%E3%80%91%E9%84%A7%E7%82%B3%E5%BC%B7%E6%8C%87%E6%B6%88%E9%98%B2%E8%99%95%E5%B7%B2%E6%89%BF%E6%93%94%E3%80%8C%E5%85%9C%E5%BA%95%E3%80%8D%E8%B2%AC%E4%BB%BB-%E5%B0%87%E5%B0%B1%E6%B6%88%E9%98%B2%E5%AE%89%E5%85%A8%E6%8E%A8%E6%B3%95%E4%BE%8B%E6%94%B9%E9%9D%A9" target="_blank" rel="noopener">【宏福苑五級火】鄧炳強指消防處已承擔「兜底」責任 將就消防安全推法例改革</a></td></tr>
+<tr><td class="d">17</td><td class="d">2026-10-23</td><td class="d">星島日報</td><td><a href="https://www.singtaousa.com/2026/10/22/news/china/hong-fu-court-fire-report-accountability/" target="_blank" rel="noopener">社論：宏福苑火災報告提交 強調公正追責與制度改革 - 星島日報</a></td></tr>
+<tr><td class="d">18</td><td class="d">2026-10-23</td><td class="d">明報 Our Lifestyle</td><td><a href="https://ol.mingpao.com/ldy/showbiz/latest/20261023/1792741839617/%E8%8E%AB%E6%96%87%E8%94%9A%E5%81%95%E5%BE%B7%E7%B1%8D%E4%B8%88%E5%A4%AB%E6%8B%96%E6%89%8B%E6%94%BE%E9%96%83-%E6%93%AC%E4%B8%80%E5%B9%B4%E5%BE%8C%E9%87%8D%E5%95%9F%E5%B7%A1%E5%94%B1-%E7%9B%BC%E5%95%9F%E5%BE%B7%E9%96%8B%E9%A8%B7" target="_blank" rel="noopener">莫文蔚偕德籍丈夫拖手放閃 擬一年後重啟巡唱 盼啟德開騷 (16:08) - 20261023</a></td></tr>
+<tr><td class="d">19</td><td class="d">2026-10-23</td><td class="d">即時新聞 instant news</td><td><a href="https://news.mingpao.com/pns/%E6%B8%AF%E8%81%9E/article/20261024/s00002/1792777801653/%E9%84%A7%E7%82%B3%E5%BC%B7-%E5%B7%B2%E5%B0%B1%E5%A4%A7%E7%81%AB%E6%8E%A8%E6%96%B0%E6%8E%AA%E6%96%BD-%E5%B0%87%E4%BF%AE%E4%BE%8B%E6%94%B9%E9%9D%A9%E8%BF%BD%E8%B2%AC" target="_blank" rel="noopener">鄧炳強：已就大火推新措施 將修例改革追責 - 20261024</a></td></tr>
+<tr><td class="d">20</td><td class="d">2026-10-23</td><td class="d">即時新聞 instant news</td><td><a href="https://news.mingpao.com/ins/%E6%B8%AF%E8%81%9E/article/20261023/s00001/1792724763429/%E9%84%A7%E7%82%B3%E5%BC%B7-%E5%B0%87%E5%B0%B1%E6%B6%88%E9%98%B2%E5%AE%89%E5%85%A8%E6%8E%A8%E6%B3%95%E4%BE%8B%E6%94%B9%E9%9D%A9-%E6%B6%88%E9%98%B2%E8%99%95%E5%B7%B2%E6%89%BF%E6%93%94%E3%80%8C%E5%85%9C%E5%BA%95%E8%B2%AC%E4%BB%BB%E3%80%8D" target="_blank" rel="noopener">鄧炳強：將就消防安全推法例改革　消防處已承擔「兜底責任」 (11:12) - 20261023</a></td></tr>
+<tr><td class="d">21</td><td class="d">2026-10-23</td><td class="d">中华网科技公司</td><td><a href="https://news.china.com/socialgd/10000169/20261023/49814407.html" target="_blank" rel="noopener">宏福苑大火调查报告点名4部门失职 详述火灾成因与责任分配</a></td></tr>
+<tr><td class="d">22</td><td class="d">2026-10-23</td><td class="d">thestandard.com.hk</td><td><a href="https://www.thestandard.com.hk/news/article/346309/Chris-Tang-pledges-legal-reforms-and-total-fire-safety-accountability-after-fatal-blaze" target="_blank" rel="noopener">Chris Tang pledges legal reforms and total fire safety accountability after fatal blaze</a></td></tr>
+<tr><td class="d">23</td><td class="d">2026-10-23</td><td class="d">thestandard.com.hk</td><td><a href="https://www.thestandard.com.hk/news/article/346309/pledges-legal-reforms-and-total-fire-safety-accountability-after-fatal-blaze" target="_blank" rel="noopener">pledges legal reforms and total fire safety accountability after fatal blaze</a></td></tr>
+<tr><td class="d">24</td><td class="d">2026-10-23</td><td class="d">news.rthk.hk</td><td><a href="https://news.rthk.hk/rthk/en/component/k2/1875039-20261023.htm" target="_blank" rel="noopener">'Legislative reforms on fire safety to be rolled out'</a></td></tr>
+<tr><td class="d">25</td><td class="d">2026-10-23</td><td class="d">chinadailyhk</td><td><a href="https://www.chinadailyhk.com/hk/article/641547" target="_blank" rel="noopener">Independent committee probing Tai Po fire submits report to CE</a></td></tr>
+<tr><td class="d">26</td><td class="d">2026-10-23</td><td class="d">Yahoo News</td><td><a href="https://hk.news.yahoo.com/%E6%A3%9A%E7%B6%B2%E6%96%B0%E5%9C%8B%E6%A8%99-%E6%B5%B8%E6%BC%AC%E5%A1%97%E8%A6%86%E6%A3%9A%E7%B6%B2%E7%BA%8C%E7%87%83%E4%B8%8D%E5%8F%AF%E5%A4%9A%E6%96%BC2%E7%A7%92-%E7%94%9F%E7%94%A2%E5%95%86%E6%96%99%E6%B1%B0%E5%BC%B1%E7%95%99%E5%BC%B7%E6%8F%90%E9%AB%98%E5%AE%89%E5%85%A8%E6%80%A7-%E6%A2%81%E6%BD%94%E7%80%85%E5%A0%B1%E9%81%93-231832605.html" target="_blank" rel="noopener">棚網新國標｜浸漬塗覆棚網續燃不可多於2秒　生產商料汰弱留強提高安全性(梁潔瀅報道)</a></td></tr>
+<tr><td class="d">27</td><td class="d">2026-10-23</td><td class="d">Yahoo News</td><td><a href="https://hk.news.yahoo.com/%E5%AE%8F%E7%A6%8F%E8%8B%91%E5%A4%A7%E7%81%AB-%E7%8D%A8%E7%AB%8B%E5%A7%94%E5%93%A1%E6%9C%83%E6%8F%90%E4%BA%A4%E5%A0%B1%E5%91%8A-%E9%BB%9E%E5%90%8D4%E9%83%A8%E9%96%80%E5%8C%85%E6%8B%ACicu-%E6%9D%8E%E5%AE%B6%E8%B6%85-%E7%9F%AD%E6%9C%9F%E5%85%A7%E5%85%AC%E5%B8%83%E8%BF%BD%E8%B2%AC-200000587.html" target="_blank" rel="noopener">宏福苑大火｜獨立委員會提交報告 點名4部門包括ICU 李家超：短期內公布追責 盡快公開報告</a></td></tr>
+<tr><td class="d">28</td><td class="d">2026-10-23</td><td class="d">The Star </td><td><a href="https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/23/incisive-final-report-on-the-deadly-tai-po-blaze-singles-out-four-government-bodies" target="_blank" rel="noopener">'Incisive' final report on the deadly Tai Po blaze singles out four government bodies</a></td></tr>
+<tr><td class="d">29</td><td class="d">2026-10-23</td><td class="d">South China Morning Post</td><td><a href="https://www.scmp.com/news/hong-kong/politics/article/3371874/security-chief-vows-accountability-reforms-ahead-tai-po-fire-reports-release" target="_blank" rel="noopener">Security chief vows accountability, reforms ahead of Tai Po fire report's release</a></td></tr>
+<tr><td class="d">30</td><td class="d">2026-10-23</td><td class="d">Radio Taiwan International</td><td><a href="https://www.rti.org.tw/news?uid=3&pid=239335" target="_blank" rel="noopener">有門無框的安全 香港工程監管還剩什麼？</a></td></tr>
+<tr><td class="d">31</td><td class="d">2026-10-23</td><td class="d">RFI</td><td><a href="https://www.rfi.fr/tw/%E4%B8%AD%E5%9C%8B/20261023-%E8%8B%B1%E5%9C%8B%E5%A0%B1%E5%91%8A%E5%86%8D%E7%B1%B2%E9%87%8B%E6%94%BE%E9%BB%8E%E6%99%BA%E8%8B%B1-%E6%89%B9%E6%B8%AF%E5%BA%9C%E6%93%B4%E5%A4%A7%E5%9C%8B%E5%AE%89%E6%AC%8A%E5%8A%9B%E5%92%8C%E5%B0%8D%E4%BB%98%E6%B5%B7%E5%A4%96%E6%B8%AF%E4%BA%BA-%E4%B8%AD%E6%96%B9%E6%8F%90%E4%BA%A4%E6%B6%89" target="_blank" rel="noopener">英國報告再籲釋放黎智英　批港府擴大國安權力和對付海外港人　中方提交涉</a></td></tr>
+<tr><td class="d">32</td><td class="d">2026-10-23</td><td class="d">RFI</td><td><a href="https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20261023-%E8%8B%B1%E5%9B%BD%E6%8A%A5%E5%91%8A%E5%86%8D%E5%90%81%E9%87%8A%E6%94%BE%E9%BB%8E%E6%99%BA%E8%8B%B1-%E6%89%B9%E6%B8%AF%E5%BA%9C%E6%89%A9%E5%A4%A7%E5%9B%BD%E5%AE%89%E6%9D%83%E5%8A%9B%E5%92%8C%E5%AF%B9%E4%BB%98%E6%B5%B7%E5%A4%96%E6%B8%AF%E4%BA%BA-%E4%B8%AD%E6%96%B9%E6%8F%90%E4%BA%A4%E6%B6%89" target="_blank" rel="noopener">英国报告再吁释放黎智英　批港府扩大国安权力和对付海外港人　中方提交涉</a></td></tr>
+<tr><td class="d">33</td><td class="d">2026-10-23</td><td class="d">Dimsum Daily</td><td><a href="https://www.dimsumdaily.hk/government-pledges-full-inquiry-as-fire-services-takes-backstop-role-after-wang-fuk-court-blaze/" target="_blank" rel="noopener">Government pledges full inquiry as Fire Services takes backstop role after Wang Fuk Court blaze</a></td></tr>
+<tr><td class="d">34</td><td class="d">2026-10-22</td><td class="d">經濟一週</td><td><a href="https://www.edigest.hk/%E6%9C%80%E6%96%B0%E8%B2%A1%E7%B6%93%E6%B6%88%E6%81%AF/%E5%AE%8F%E7%A6%8F%E8%8B%91%E7%81%AB%E7%81%BD%E7%8D%A8%E5%A7%94%E6%9C%83%E5%A0%B1%E5%91%8A%E6%8F%90%E4%BA%A4%E6%9D%8E%E5%AE%B6%E8%B6%85%E8%BF%BD%E8%B2%AC-2046569/" target="_blank" rel="noopener">【宏福苑報告提交】李家超承諾短期內改革 獨委會歷時近一年調查　四部門涉失職　168 人死亡慘劇待問責</a></td></tr>
+<tr><td class="d">35</td><td class="d">2026-10-22</td><td class="d">東方日報</td><td><a href="http://orientaldaily.on.cc/content/%E8%A6%81%E8%81%9E%E6%B8%AF%E8%81%9E/odn-20261023-1023_00186_001/%E5%A0%B1%E5%91%8A%E7%9C%9F%E7%9B%B8%E6%8B%96%E6%B2%93--%E5%B1%85%E6%B0%91%E6%96%A5%E6%AC%A0%E8%AA%A0%E6%84%8F" target="_blank" rel="noopener">報告真相拖沓 居民斥欠誠意</a></td></tr>
+<tr><td class="d">36</td><td class="d">2026-10-22</td><td class="d">東方日報</td><td><a href="http://orientaldaily.on.cc/content/%E8%A6%81%E8%81%9E%E6%B8%AF%E8%81%9E/odn-20261023-1023_00174_001/%E7%81%AB%E5%8A%AB%E5%A0%B1%E5%91%8A%E5%87%BA%E5%8F%B0--%E7%95%B6%E5%B1%80%E4%B8%80%E5%8F%A5%E6%B6%89%E5%88%91%E4%BA%8B%E6%8B%92%E5%85%AC%E9%96%8B--%E7%81%BD%E6%B0%91%E6%86%A4%E6%85%A8" target="_blank" rel="noopener">火劫報告出台 當局一句涉刑事拒公開 災民憤慨</a></td></tr>
+<tr><td class="d">37</td><td class="d">2026-10-22</td><td class="d">東方日報</td><td><a href="http://orientaldaily.on.cc/content/%E8%A6%81%E8%81%9E%E6%B8%AF%E8%81%9E/odn-20261023-1023_00174_003/%E6%A3%9A%E7%B6%B2%E6%8C%89%E5%85%A7%E5%9C%B0%E6%A8%99%E6%BA%96%E7%B4%B0%E5%88%86--%E9%98%BB%E7%87%83%E8%A6%81%E6%B1%82%E6%94%B6%E7%B7%8A" target="_blank" rel="noopener">棚網按內地標準細分 阻燃要求收緊</a></td></tr>
+<tr><td class="d">38</td><td class="d">2026-10-22</td><td class="d">東方日報</td><td><a href="http://orientaldaily.on.cc/content/%E8%A6%81%E8%81%9E%E6%B8%AF%E8%81%9E/odn-20261023-1023_00174_002/ICU%E8%B2%AC%E4%BB%BB%E6%9C%80%E5%A4%A7--%E6%B6%88%E9%98%B2%E5%B1%8B%E7%BD%B2%E5%8B%9E%E8%99%95%E4%BA%A6%E7%84%A1%E6%97%81%E8%B2%B8" target="_blank" rel="noopener">ICU責任最大 消防屋署勞處亦無旁貸</a></td></tr>
+<tr><td class="d">39</td><td class="d">2026-10-22</td><td class="d">即時新聞 instant news</td><td><a href="https://news.mingpao.com/pns/%E8%A6%81%E8%81%9E/article/20261023/s00001/1792692505598/%E8%AD%B0%E5%93%A1%E5%86%80%E7%AB%8B%E6%9C%83%E5%86%8D%E8%A8%8E%E8%AB%96-%E5%95%8F%E8%B2%AC%E3%80%8C%E7%9D%87%E7%89%B9%E9%A6%96%E6%96%B9%E6%A1%88%E3%80%8D" target="_blank" rel="noopener">議員冀立會再討論 問責「睇特首方案」 - 20261023 - 要聞</a></td></tr>
+<tr><td class="d">40</td><td class="d">2026-10-22</td><td class="d">即時新聞 instant news</td><td><a href="https://news.mingpao.com/pns/%E8%A6%81%E8%81%9E/article/20261023/s00001/1792692505428/%E9%9B%A3%E5%B1%AC%E7%9B%BC%E6%9C%89%E5%AE%98%E5%93%A1%E9%81%93%E6%AD%89%E4%B8%8B%E5%8F%B0-%E3%80%8C%E4%B8%8D%E8%82%AF%E9%9D%A2%E5%B0%8D-%E5%A6%82%E4%BD%95%E6%94%B9%E9%9D%A9-%E3%80%8D" target="_blank" rel="noopener">難屬盼有官員道歉下台 「不肯面對，如何改革？」 - 20261023 - 要聞</a></td></tr>
+<tr><td class="d">41</td><td class="d">2026-10-22</td><td class="d">即時新聞 instant news</td><td><a href="https://news.mingpao.com/pns/%E7%A4%BE%E8%A9%95/article/20261023/s00003/1792692519499/%E7%A4%BE%E8%A9%95-%E6%B1%B2%E5%8F%96%E5%AE%8F%E7%A6%8F%E6%95%99%E8%A8%93%E6%94%B9%E9%9D%A9-%E5%AE%98%E5%93%A1%E5%95%8F%E8%B2%AC%E8%8E%AB%E8%B2%A0%E7%9C%BE%E6%9C%9B" target="_blank" rel="noopener">社評：汲取宏福教訓改革 官員問責莫負眾望 - 20261023 - 社評</a></td></tr>
+<tr><td class="d">42</td><td class="d">2026-10-22</td><td class="d">即時新聞 instant news</td><td><a href="https://news.mingpao.com/pns/%E8%A6%81%E8%81%9E/article/20261023/s00001/1792692504985/%E5%AE%8F%E7%A6%8F%E5%A0%B1%E5%91%8A%E9%BB%9E%E5%90%8D4%E9%83%A8%E9%96%80-icu%E6%9C%80%E5%A4%A7%E8%B2%AC-%E7%89%B9%E9%A6%96-%E6%94%B9%E9%9D%A9%E7%A9%B6%E8%B2%AC%E7%9F%AD%E6%9C%9F%E5%85%AC%E5%B8%83-%E5%8A%89%E5%85%86%E4%BD%B3-%E8%A6%81%E5%B8%82%E6%B0%91%E8%A6%BA%E5%BE%97%E5%85%AC%E6%AD%A3" target="_blank" rel="noopener">宏福報告點名4部門 ICU最大責 特首：改革究責短期公布 劉兆佳：要市民覺得公正 - 20261023 - 要聞</a></td></tr>
+<tr><td class="d">43</td><td class="d">2026-10-22</td><td class="d">thestandard.com.hk</td><td><a href="https://www.thestandard.com.hk/news/article/346259/Night-Recap-October-22-2026" target="_blank" rel="noopener">Night Recap - October 22, 2026</a></td></tr>
+<tr><td class="d">44</td><td class="d">2026-10-22</td><td class="d">thestandard.com.hk</td><td><a href="https://www.thestandard.com.hk/news/article/346180/New-scaffold-net-standard-tightens-fire-resistance-rules-in-Hong-Kong" target="_blank" rel="noopener">New scaffold net standard tightens fire-resistance rules in Hong Kong</a></td></tr>
+<tr><td class="d">45</td><td class="d">2026-10-22</td><td class="d">thestandard.com.hk</td><td><a href="https://www.thestandard.com.hk/news/article/346168/Independent-committee-submits-Wang-Fuk-Court-fire-report" target="_blank" rel="noopener">Independent committee submits Wang Fuk Court fire report</a></td></tr>
+<tr><td class="d">46</td><td class="d">2026-10-22</td><td class="d">thestandard.com.hk</td><td><a href="https://www.thestandard.com.hk/news/article/346168/Independent-committee-submits-Wang-Fuk-Court-fire-report-sources-say" target="_blank" rel="noopener">Independent committee submits Wang Fuk Court fire report, sources say</a></td></tr>
+<tr><td class="d">47</td><td class="d">2026-10-22</td><td class="d">on.cc東網</td><td><a href="https://hk.on.cc/hk/bkn/cnt/news/20261023/bkn-20261023033547117-1023_00822_001.html" target="_blank" rel="noopener">ICU責任最大　消防屋署勞處亦無旁貸</a></td></tr>
+<tr><td class="d">48</td><td class="d">2026-10-22</td><td class="d">on.cc東網</td><td><a href="https://hk.on.cc/hk/bkn/cnt/news/20261023/bkn-20261023033037688-1023_00822_001.html" target="_blank" rel="noopener">東方日報A1：火劫報告出台　當局一句涉刑事拒公開　災民憤慨</a></td></tr>
+<tr><td class="d">49</td><td class="d">2026-10-22</td><td class="d">news.rthk.hk</td><td><a href="https://news.rthk.hk/rthk/en/component/k2/1874893-20261022.htm" target="_blank" rel="noopener">Wang Fuk Court fire report submitted to John Lee</a></td></tr>
+<tr><td class="d">50</td><td class="d">2026-10-22</td><td class="d">news.gov.hk 香港政府新聞網</td><td><a href="http://www.news.gov.hk/eng/2026/10/20261022/20261022_120829_074.html" target="_blank" rel="noopener">CE receives Wang Fuk Court report</a></td></tr>
+<tr><td class="d">51</td><td class="d">2026-10-22</td><td class="d">am730</td><td><a href="https://www.am730.com.hk/article/1059880" target="_blank" rel="noopener">宏福苑大火｜獨立委員會提交報告 點名4部門包括ICU 李家超：短期內公布追責 盡快公開報告 · am730</a></td></tr>
+<tr><td class="d">52</td><td class="d">2026-10-22</td><td class="d">am730</td><td><a href="https://www.am730.com.hk/article/1059844" target="_blank" rel="noopener">莫文蔚跟老公相識40年形影不離 諗過重唱舊作有意返港開騷 · am730</a></td></tr>
+<tr><td class="d">53</td><td class="d">2026-10-22</td><td class="d">Young Post Club</td><td><a href="https://www.youngpostclub.com/yp/news/hong-kong/society/article/3371750/after-tai-po-fire-children-use-play-therapy-make-slow-steady-recovery" target="_blank" rel="noopener">After Tai Po fire, children use play therapy to make slow, steady recovery · Young Post Club</a></td></tr>
+<tr><td class="d">54</td><td class="d">2026-10-22</td><td class="d">South China Morning Post</td><td><a href="https://www.scmp.com/news/hong-kong/law-and-crime/article/3371726/tai-po-fire-inquiry-submits-final-report-targets-4-government-bodies" target="_blank" rel="noopener">Tai Po fire inquiry submits final report, targets 4 government bodies</a></td></tr>
+<tr><td class="d">55</td><td class="d">2026-10-22</td><td class="d">Hong Kong Herald</td><td><a href="https://www.hongkongherald.com/news/279392095/independent-committee-probing-hong-kong-tai-po-fire-submits-report-to-hksar-chief-executive" target="_blank" rel="noopener">Independent committee probing Hong Kong's Tai Po fire submits report to HKSAR chief executive</a></td></tr>
+<tr><td class="d">56</td><td class="d">2026-10-22</td><td class="d">Hong Kong Free Press HKFP</td><td><a href="https://hongkongfp.com/2026/10/22/tai-po-fire-independent-committee-submits-final-report-on-wang-fuk-court-blaze-to-hong-kong-leader/" target="_blank" rel="noopener">Tai Po fire: Independent committee submits final report on Wang Fuk Court blaze to Hong Kong leader</a></td></tr>
+<tr><td class="d">57</td><td class="d">2026-10-22</td><td class="d">Government World Magazine</td><td><a href="http://www.government-world.com/independent-committee-in-relation-to-fire-at-wang-fuk-court-in-tai-po-submits-report-to-chief-executive/" target="_blank" rel="noopener">Independent Committee in relation to fire at Wang Fuk Court in Tai Po submits report to Chief Executive</a></td></tr>
+<tr><td class="d">58</td><td class="d">2026-10-22</td><td class="d">Government World Magazine</td><td><a href="http://www.government-world.com/ce-receives-report-of-independent-committee-in-relation-to-fire-at-wang-fuk-court-in-tai-po-with-photo/" target="_blank" rel="noopener">CE receives report of Independent Committee in relation to fire at Wang Fuk Court in Tai Po (with photo)</a></td></tr>
+<tr><td class="d">59</td><td class="d">2026-10-22</td><td class="d">Dimsum Daily</td><td><a href="https://www.dimsumdaily.hk/chief-executive-john-lee-vows-short-term-reforms-after-wang-fuk-court-fire-report/" target="_blank" rel="noopener">Chief Executive John Lee vows short-term reforms after Wang Fuk Court fire report - Dimsum Daily</a></td></tr>
+<tr><td class="d">60</td><td class="d">2026-10-22</td><td class="d">Dimsum Daily</td><td><a href="https://www.dimsumdaily.hk/independent-committee-submits-wang-fuk-court-fire-report-to-government-as-publication-held-back/" target="_blank" rel="noopener">Independent Committee submits Wang Fuk Court fire report to government as publication held back</a></td></tr>
+<tr><td class="d">61</td><td class="d">2026-10-21</td><td class="d">headliner.nl</td><td><a href="https://www.headliner.nl/artikelen/onderzoekscommissie-brand-hong-kong-levert-eindrapport-john-lee-213009" target="_blank" rel="noopener">Onderzoekscommissie brand Hong Kong levert eindrapport aan John Lee</a></td></tr>
+<tr><td class="d">62</td><td class="d">2026-10-21</td><td class="d">The Straits Times</td><td><a href="https://www.straitstimes.com/asia/east-asia/hong-kong-fire-report-to-put-government-accountability-in-focus" target="_blank" rel="noopener">Hong Kong fire report to focus on government accountability</a></td></tr>
+<tr><td class="d">63</td><td class="d">2026-10-21</td><td class="d">The Star </td><td><a href="https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/21/hong-kong-fire-report-to-put-government-accountability-in-focus" target="_blank" rel="noopener">Hong Kong fire report to put government accountability in focus</a></td></tr>
+<tr><td class="d">64</td><td class="d">2026-10-21</td><td class="d">The Edge Malaysia</td><td><a href="https://theedgemalaysia.com/node/822646" target="_blank" rel="noopener">Hong Kong fire report to put govt accountability in focus</a></td></tr>
+<tr><td class="d">65</td><td class="d">2026-10-21</td><td class="d">JTM</td><td><a href="https://jtm.com.mo/local/fundacao-macau-deu-137-milhoes-para-intercambios-cooperacao/" target="_blank" rel="noopener">Fundação Macau deu 137 milhões para intercâmbios e cooperação</a></td></tr>
+<tr><td class="d">66</td><td class="d">2026-10-21</td><td class="d">Hong Kong Free Press HKFP</td><td><a href="https://hongkongfp.com/2026/10/22/hong-kongs-urban-renewal-body-to-set-up-hk100-million-ai-first-tender-assessment-subsidiary/" target="_blank" rel="noopener">Hong Kong's urban renewal body to set up HK$100 million 'AI-first' tender assessment subsidiary</a></td></tr>
+<tr><td class="d">67</td><td class="d">2026-10-21</td><td class="d">Dimsum Daily</td><td><a href="https://www.dimsumdaily.hk/lo-wai-kwok-tipped-to-chair-construction-industry-council/" target="_blank" rel="noopener">Lo Wai-kwok tipped to chair Construction Industry Council</a></td></tr>
+<tr><td class="d">68</td><td class="d">2026-10-20</td><td class="d">South China Morning Post</td><td><a href="https://www.scmp.com/news/hong-kong/politics/article/3371533/tai-po-fire-report-be-submitted-thursday-scathing-submission-endorsed" target="_blank" rel="noopener">Tai Po fire report to be submitted on Thursday, with scathing submission endorsed</a></td></tr>
+<tr><td class="d">69</td><td class="d">2026-10-20</td><td class="d">South China Morning Post</td><td><a href="https://www.scmp.com/news/hong-kong/society/article/3371471/luxury-homeowner-fined-hk255800-after-eighth-prosecution-over-illegal-renovations" target="_blank" rel="noopener">Homeowner fined HK$255,800 after eighth prosecution over illegal renovations</a></td></tr>
+    </table>
 
     <h2>Links</h2>
     <div class="linkgrid">
