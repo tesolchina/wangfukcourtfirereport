@@ -35,3 +35,10 @@ Downloaded the 212 PDFs that were missing locally; extracted text for 322 docume
 Highest formulation scores are the argument documents: Government closing 523, Committee closing 522,
 Competition Commission recommendations 397 / report 283, URA opening 311 — evidence documents far lower.
 See the addendum in [sources/group-3-7-remaining-documents.md](sources/group-3-7-remaining-documents.md).
+
+## [2026-10-25] ingest | Full-text conversion of the entire record (323 documents)
+All 323 manifest PDFs now downloaded and converted to markdown with page markers
+(`data/markdown_all/`, gitignored): 323 files, ~20 MB text. Includes the **IFITF Final
+Investigation Report (Redacted, with appendices) — 1,142 pages, 1.16 M characters** recovered
+after fixing a control-character URL. Its profile: cause 92 · standard 57 · bureau 10 · policy 5 —
+a technical document about causation and standards, not about policy choices.
