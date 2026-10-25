@@ -28,3 +28,6 @@ env/
 
 # full-text conversions of all committee PDFs (generated)
 data/markdown_all/
+
+# backup of the earlier summary run
+data/doc_summaries_backup_*.json
