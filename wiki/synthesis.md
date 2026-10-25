@@ -28,6 +28,10 @@
 | Formulation vocabulary is present across every document group | Groups 3–7 (summary-level screen of all 243 docs): 66/118 witness statements, 28/30 transcripts, 10/10 closing submissions, 5/5 expert reports are policy-heavy | **confirmed** (Groups 3–7) |
 | The deficit is *who is asked*, not *whether policy is discussed* | all formulation vocabulary flows through implementers, contractors, counsel and experts; no policy-branch witness anywhere in the record | **confirmed** (all groups) |
 
+## Counter-evidence (to be addressed in the letter)
+- **Government closing address (408 pp)** argues the policy side: it describes its witnesses as officers "from different Bureaux and Departments", narrates reforms already implemented (MBIS, MWCS, joint complaint-handling) and pledges to respond to recommendations. **But its 27 witnesses are department-level** — no bureau secretary, permanent secretary or under-secretary appears in the timetable. "Bureaux and departments" is a collective label, not evidence of policy-level testimony.
+- **IFITF Final Investigation Report (1,142 pp)** provides deep technical causation (fire tests in Sichuan, spread modes, fatalities, evacuation) with **zero recommendations** and almost no policy vocabulary — technical depth at the engineering level, not the policy level.
+
 ## Contradictions / corrections
 - **2026-10-25** — Group 2 shows policy *was* discussed, but with implementers: the gap is the *level* of the witness, not the absence of the question.
 - **2026-10-25** — earlier hypothesis ("the inquiry focused too much on implementation and not enough on formulation") was **too strong**: the argument layer (Ch7/Ch8/Ch10) does reach policy. The surviving, sharper claim is the asymmetry between *evidence* (implementation) and *recommendations* (policy).

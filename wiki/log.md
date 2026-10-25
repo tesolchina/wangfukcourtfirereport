@@ -42,3 +42,9 @@ All 323 manifest PDFs now downloaded and converted to markdown with page markers
 Investigation Report (Redacted, with appendices) — 1,142 pages, 1.16 M characters** recovered
 after fixing a control-character URL. Its profile: cause 92 · standard 57 · bureau 10 · policy 5 —
 a technical document about causation and standards, not about policy choices.
+
+## [2026-10-25] ingest | Groups 8–9 — Government closing (408 pp) and IFITF report (1,142 pp)
+Government closing: Parts I–V, ToR1 (A–F incl. "systemic issues") and ToR2; describes 27 factual witnesses
+as officers "from different Bureaux and Departments" — but the timetable shows no bureau secretary/perm sec.
+IFITF report: 11 chapters + appendices, scientific causation (incl. full-scale tests in Sichuan), **no
+recommendations**, policy vocabulary 5 hits in 1.16 M characters. Counter-evidence section added to synthesis.
