@@ -8,3 +8,4 @@
   certificate comparison failure (no one compared the certificate against the copy on file)
   [T22, WS14].
 - **Policy owner:** Labour and Welfare Bureau — named **0** times in the closing submissions.
+- **Hearing day:** T16 (21 Apr) — 95 policy terms, legislation 22, ordinance 15.

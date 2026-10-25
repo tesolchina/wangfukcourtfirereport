@@ -7,3 +7,4 @@
 - **Witnesses:** none at bureau level. The most senior housing-side witness is the Director
   of the ICU (T24) and ICU senior surveyors (T22–T23).
 - **Significance:** the policy owner of the unit held responsible (ICU) never gave evidence.
+- **Hearing days:** none at bureau level. The closest is T24 (8 May) with the HAD Deputy Director and the ICU Director.

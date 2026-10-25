@@ -13,3 +13,4 @@
 - **Evidence base:** ICU witnesses Ku Siu Ping (WS14, 24 citations), senior building
   maintenance surveyors (T22–T24); BD Assistant Director (T20).
 - **Policy owner:** Housing Bureau (policy) / BD (standards) — neither gave evidence.
+- **Hearing days:** T20 (27 Apr, 130 policy terms — highest of any session), T22 (6 May, Ku Siu Ping, standard 29), T23–T24.

@@ -9,3 +9,4 @@
   inspections [T10]; the shutdown-notice regime [T9, T10].
 - **Policy owner:** FSD sets operational policy; the bureau above it (Security Bureau) gave
   no evidence.
+- **Hearing days:** T10 (10 Apr, Keung Sai Ming — 108 policy terms), T11 (13 Apr, Hui Kin On — guideline 32), T12 (15 Apr, emergency calls), T17 (22 Apr), T18 (23 Apr), T19 (24 Apr, Director).
