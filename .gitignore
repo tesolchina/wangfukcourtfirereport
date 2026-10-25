@@ -25,3 +25,6 @@ env/
 .ossutil_checkpoint/
 *.log
 .cache_ggshield
+
+# full-text conversions of all committee PDFs (generated)
+data/markdown_all/
