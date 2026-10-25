@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Content analysis of the Wang Fuk Court inquiry record — full report</title>
+<meta name="description" content="Word and phrase frequency analysis of the Independent Committee's 243-document record, contrasted with news coverage, and the six arguments it supports. Published 25 October 2026.">
+<link rel="canonical" href="https://wangfukcourtfirereport.simonsays.hk/engagement/contentanalysis.html">
+<style>
+  body { background:#eef1f3; padding:24px 16px 48px; margin:0; color:#1d2935;
+         font-family:Georgia,"Times New Roman",serif; font-size:11pt; line-height:1.6; }
+  .topbar { max-width:1100px; margin:0 auto 18px; display:flex; gap:14px; align-items:center;
+            justify-content:space-between; flex-wrap:wrap; }
+  .brand { font-family:Arial,sans-serif; font-size:9pt; letter-spacing:.1em; text-transform:uppercase; color:#5e6b76; }
+  .brand b { color:#1d2935; }
+  .dl { display:inline-block; padding:10px 18px; background:#7b1e24; color:#fff; text-decoration:none;
+        font-family:Arial,sans-serif; font-size:10pt; font-weight:700; border-radius:2px; }
+  .dl.ghost { background:#1d2935; }
+  .sheet { max-width:1100px; margin:0 auto; background:#fff; padding:26px 34px 24px;
+           box-shadow:0 2px 14px rgba(29,41,53,.12); }
+  h1 { margin:0 0 6px; font-size:22pt; line-height:1.25; }
+  h2 { margin:22px 0 8px; font-size:14pt; border-bottom:2px solid #7b1e24; padding-bottom:3px; }
+  h3 { margin:16px 0 6px; font-size:12pt; }
+  a { color:#7b1e24; }
+  .meta { font-family:Arial,sans-serif; font-size:9pt; color:#5e6b76; margin:0 0 14px; }
+  .eyebrow { color:#7b1e24; font-family:Arial,sans-serif; font-size:8.5pt; font-weight:700;
+             letter-spacing:.12em; text-transform:uppercase; margin:0 0 6px; }
+  table { width:100%; border-collapse:collapse; margin:8px 0 14px; font-size:9.6pt; }
+  th { background:#1d2935; color:#fff; font-family:Arial,sans-serif; font-size:8.4pt;
+       text-align:left; padding:5px 7px; }
+  td { border:1px solid #cbd3d9; padding:4px 7px; vertical-align:top; }
+  tr:nth-child(even) td { background:#f7f9fa; }
+  td.num { text-align:right; font-family:Arial,sans-serif; }
+  .arg { border-left:4px solid #7b1e24; background:#fbfcfc; padding:10px 14px; margin:10px 0; }
+  .arg .chain { font-family:Arial,sans-serif; font-size:9.2pt; line-height:1.55; margin:0; }
+  .arg .chain b { color:#7b1e24; }
+  .arg h3 { margin:0 0 6px; font-size:11.5pt; }
+  .note { font-size:9.4pt; color:#5e6b76; }
+  ul.tight { margin:6px 0 10px; padding-left:18px; }
+  ul.tight li { margin-bottom:5px; }
+  .linkgrid { display:grid; grid-template-columns:1fr 1fr; gap:4px 14px; margin:6px 0 4px;
+              font-family:Arial,sans-serif; font-size:9pt; }
+  .linkgrid a { color:#7b1e24; text-decoration:none; border-bottom:1px dotted #b9c3cc; }
+  @media (max-width:640px){ body{padding:12px 8px 32px;} .sheet{padding:18px 16px;} .linkgrid{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <span class="brand"><b>Wang Fuk Court Fire Report</b> · Content analysis</span>
+    <span>
+      <a class="dl ghost" href="/engagement/legcoReport.html">The report to the Panel</a>
+      <a class="dl" href="/engagement/forecast.html">Forecast</a>
+    </span>
+  </div>
+  <div class="sheet">
+    <p class="eyebrow">Full report · published 25 October 2026 (HKT)</p>
+    <h1>What the record's own words show</h1>
+    <p class="meta">Word and phrase frequency analysis of the Independent Committee's published record —
+      <b>243 documents · 6,377 pages · ~1.9 million words</b> — contrasted with the language of news coverage
+      (69 article bodies, 20–25 October 2026). Method, tables, and the six arguments the numbers support.</p>
+
+    <h2>1 · Method</h2>
+    <ul class="tight">
+      <li><b>Corpus.</b> Our text mirror of the official archive: all 243 PDFs converted to text (347 scanned pages OCR'd), held in an inverted index (term → per-document frequencies).</li>
+      <li><b>Filters.</b> Transcript boilerplate (<i>simultaneous interpretation · ambiguity · discrepancy · versions prevail · evidential hearing · witness statement</i>), English stop-words, and personal names (counsel, witnesses, committee members) removed — otherwise the "top words" are just the transcript disclaimer.</li>
+      <li><b>Phrases.</b> Bigrams and trigrams counted over the 111-document markdown mirror, with minimum thresholds.</li>
+      <li><b>Coverage side.</b> The same method over 69 news bodies (20–25 Oct) fetched via newsapi.ai and archived at <code>data/news_bodies_20261025.json</code>.</li>
+      <li><b>Reproducible.</b> Scripts <code>tmp/wfc_ca3.py</code> and <code>tmp/wfc_cov_vs_record.py</code>; raw output in <code>tmp/content_analysis_out.txt</code>. Re-run when the redacted report lands.</li>
+    </ul>
+
+    <h2>2 · Word frequency (the record)</h2>
+    <table>
+      <tr><th>Term</th><th>Total frequency</th><th>Documents containing it (of 243)</th></tr>
+      <tr><td>safety</td><td class="num">832</td><td class="num"><b>140</b></td></tr>
+      <tr><td>building</td><td class="num">1,130</td><td class="num">128</td></tr>
+      <tr><td>maintenance</td><td class="num">562</td><td class="num"><b>116</b></td></tr>
+      <tr><td>spread</td><td class="num">541</td><td class="num">91</td></tr>
+      <tr><td>alarm</td><td class="num">754</td><td class="num">84</td></tr>
+      <tr><td>system</td><td class="num">1,251</td><td class="num">59</td></tr>
+      <tr><td>residents</td><td class="num">1,121</td><td class="num">56</td></tr>
+      <tr><td>management</td><td class="num">815</td><td class="num">56</td></tr>
+      <tr><td>water</td><td class="num">1,124</td><td class="num">31</td></tr>
+      <tr><td>scaffolding</td><td class="num">807</td><td class="num">37</td></tr>
+      <tr><td>inspection</td><td class="num">732</td><td class="num">35</td></tr>
+      <tr><td>contractor</td><td class="num">725</td><td class="num">35</td></tr>
+      <tr><td>materials</td><td class="num">633</td><td class="num">42</td></tr>
+      <tr><td>smoke</td><td class="num">572</td><td class="num">35</td></tr>
+      <tr><td>foam</td><td class="num">653</td><td class="num">26</td></tr>
+      <tr><td>nets</td><td class="num">682</td><td class="num">27</td></tr>
+      <tr><td>boards</td><td class="num">691</td><td class="num">26</td></tr>
+      <tr><td>tank</td><td class="num">651</td><td class="num">23</td></tr>
+      <tr><td>prestige</td><td class="num">522</td><td class="num">27</td></tr>
+      <tr><td>windows</td><td class="num">584</td><td class="num">28</td></tr>
+    </table>
+
+    <h2>3 · Phrase frequency (the record)</h2>
+    <table>
+      <tr><th>Phrase</th><th>Occurrences</th><th>Reading</th></tr>
+      <tr><td>foam boards</td><td class="num">492</td><td>the combustible cladding at the centre of the spread</td></tr>
+      <tr><td>water tank</td><td class="num">350</td><td>drained tanks and the shutdown notices that allowed it</td></tr>
+      <tr><td>scaffolding nets</td><td class="num">255</td><td>non-fire-retardant netting</td></tr>
+      <tr><td>alarm system</td><td class="num">247</td><td>deactivated in seven of the eight blocks</td></tr>
+      <tr><td>access openings</td><td class="num">179</td><td>fire-service access to the blocks</td></tr>
+      <tr><td>buildings department</td><td class="num">206</td><td>one of the four bodies now named in the final report</td></tr>
+      <tr><td>labour department</td><td class="num">170</td><td>a second of the four</td></tr>
+      <tr><td>smart tender</td><td class="num">167</td><td>the anti-bid-rigging tool — outranks <i>collusion</i></td></tr>
+      <tr><td>management office</td><td class="num">267</td><td>the estate's management chain</td></tr>
+      <tr><td>whatsapp</td><td class="num">440</td><td>informal instructions, off-record contracting</td></tr>
+      <tr><td>independent committee</td><td class="num">294</td><td>institutional self-reference</td></tr>
+    </table>
+
+    <h2>4 · Coverage vs record</h2>
+    <table>
+      <tr><th></th><th>Coverage (69 bodies, 20–25 Oct)</th><th>The record (243 documents)</th></tr>
+      <tr><td><b>Top tokens</b></td>
+          <td>fire 159 · report 138 · <b>government 110</b> · committee 84 · department 65 · <b>icu 64</b> · <b>accountability 39</b> · <b>reforms 37</b> · safety 34 · recommendations 33</td>
+          <td>system · building · water · residents · <b>safety (140 docs)</b> · scaffolding · alarm · inspection · contractor · <b>maintenance (116 docs)</b></td></tr>
+      <tr><td><b>Question answered</b></td>
+          <td><i>Who is answerable?</i></td>
+          <td><i>What failed?</i></td></tr>
+      <tr><td><b>Overlap</b></td>
+          <td colspan="2">Small: both say <i>safety</i> and <i>fire</i>; almost nothing else. Coverage cannot cite a page; the record cannot reach a reader.</td></tr>
+    </table>
+
+    <h2>5 · The six arguments these numbers support</h2>
+
+    <div class="arg">
+      <h3>A · This is, quantitatively, a maintenance-regime inquiry</h3>
+      <p class="chain"><b>DATA:</b> <i>safety</i> in <b>140 of 243 documents (58%)</b>, <i>maintenance</i> in <b>116 (48%)</b>, <i>inspection</i> 732 times across 35 documents.<br>
+      <b>INFERENCE:</b> the subject is not a single night but a standing regime of upkeep, inspection and sign-off.<br>
+      <b>CLAIM:</b> the record's own vocabulary frames the disaster as systemic before anyone reads a conclusion.<br>
+      <b>SUPPORTS:</b> paragraph 2 of the SCMP letter; §2 of the LegCo report; and the expectation that the final report's findings are about regimes, not a villain.</p>
+    </div>
+
+    <div class="arg">
+      <h3>B · The failure chain is physical — and the corpus names it</h3>
+      <p class="chain"><b>DATA:</b> <i>foam boards 492</i> · <i>water tank 350</i> · <i>scaffolding nets 255</i> · <i>alarm system 247</i> · <i>access openings 179</i> — these out-rank almost every personal name in the archive.<br>
+      <b>INFERENCE:</b> the evidential weight sits in materials and systems: what was installed, switched off, drained.<br>
+      <b>CLAIM:</b> "systemic failure" is not a rhetorical flourish — it is the dominant collocation pattern of the record.<br>
+      <b>SUPPORTS:</b> the letter's numbers; the LegCo feature table; journalists' Case 1 (search <i>foam boards</i> and you are inside the causal story in one step).</p>
+    </div>
+
+    <div class="arg">
+      <h3>C · The four government bodies were visible before the report named them</h3>
+      <p class="chain"><b>DATA:</b> <i>buildings department</i> as a fixed phrase <b>206</b> times, <i>labour department</i> <b>170</b> times; coverage adds <i>icu</i> 64 and <i>department</i> 65 in five days.<br>
+      <b>INFERENCE:</b> departmental responsibility is a recurring, nameable axis of the testimony — not a late discovery.<br>
+      <b>CLAIM:</b> when the final report "singles out four government bodies", the corpus already shows which documents to open.<br>
+      <b>SUPPORTS:</b> forecast predictions 4 and 7 (supervision; adequacy of laws); the LegCo argument that traceability should exist <i>before</i> publication.</p>
+    </div>
+
+    <div class="arg">
+      <h3>D · The tender problem is framed as governance, not crime</h3>
+      <p class="chain"><b>DATA:</b> <i>smart tender</i> <b>167</b> vs <i>collusion</i> in the low tens; ToR-5 tagging finds <b>99 documents</b> with tender-irregularity evidence that never use "bid-rigging" or "collusion".<br>
+      <b>INFERENCE:</b> the record treats the issue as a tool-and-process failure rather than a criminal finding.<br>
+      <b>CLAIM:</b> the reported line that bid-rigging is "not a major focus" of the final report was predictable from the corpus.<br>
+      <b>SUPPORTS:</b> forecast prediction 6 (downgraded to "addressed, not central"); journalists' Case 1; paragraph 4 of the 中文 piece.</p>
+    </div>
+
+    <div class="arg">
+      <h3>E · Press and record do not cite each other — the accessibility argument, quantified twice</h3>
+      <p class="chain"><b>DATA:</b> coverage's top tokens are <i>government / accountability / reforms / icu / report</i>; the record's are <i>foam boards / water tank / scaffolding nets / maintenance</i>. Overlap ≈ <i>safety</i>, <i>fire</i>.<br>
+      <b>INFERENCE:</b> two vocabularies describing the same event with no bridge: one asks who is answerable, the other answers what failed.<br>
+      <b>CLAIM:</b> publication without a shared, machine-readable, question-organised structure means neither side can cite the other — which is why coverage repeats the press release and the archive stays unread.<br>
+      <b>SUPPORTS:</b> the central argument of the LegCo report (§4) and the ask in both letters: deposit as <b>XML/CSV through data.gov.hk</b> at the point of publication.</p>
+    </div>
+
+    <div class="arg">
+      <h3>F · The thinnest evidence is the residents' remedies</h3>
+      <p class="chain"><b>DATA:</b> <i>compensation</i>, <i>rehousing</i> and <i>transitional</i> sit at term frequencies of 1–2 — the lowest of any cluster tested.<br>
+      <b>INFERENCE:</b> the record is weakest exactly where the public's questions are strongest (cf. 曾詠雪's 21 Oct op-ed on residents' continuing uncertainty).<br>
+      <b>CLAIM:</b> an absence in a corpus is a finding: the report will not resolve residents' questions, so that story stays with the press and the District Councillors.<br>
+      <b>SUPPORTS:</b> forecast prediction 10; paragraph 5 of the 中文 piece.</p>
+    </div>
+
+    <h2>6 · Caveats</h2>
+    <ul class="tight">
+      <li>Term frequency measures presence, not importance or blame — a phrase can be frequent because it is contested, not because it is proven.</li>
+      <li>Stop-lists were applied by hand; a different list shifts the ranking (raw lists archived with the scripts).</li>
+      <li>The markdown mirror covers 111 documents; word counts come from the full 243-document index.</li>
+      <li>Coverage bodies are aggregator-supplied; paywalled opinion columns (Alice Wu 19 Oct, Regina Ip 25 Oct) were read separately.</li>
+      <li><b>Re-run on the day the redacted report is published</b> and compare its vocabulary against both tables above.</li>
+    </ul>
+
+    <h2>Links</h2>
+    <div class="linkgrid">
+      <a href="/">Live site (EN + 繁體中文)</a>
+      <a href="/search.html">Full-text search</a>
+      <a href="/documents.html">All 243 documents</a>
+      <a href="/tor.html">Seven Terms of Reference</a>
+      <a href="/letter.html">Our published SCMP letter (19 Aug 2026)</a>
+      <a href="/engagement/legcoReport.html">Submission to the Panel on Security</a>
+      <a href="/engagement/forecast.html">Forecast of the final report</a>
+      <a href="/engagement/legcoEmail.html">Draft covering email</a>
+      <a href="https://github.com/tesolchina/wangfukcourtfirereport-work/issues/9#issuecomment-6393526483">Analysis thread on issue #9</a>
+      <a href="https://github.com/tesolchina/wangfukcourtfirereport">Source code &amp; data</a>
+    </div>
+    <p class="note">Method and figures by the Wang Fuk Court Fire Report project — volunteer work, AI-assisted; every claim links back to the source documents, so check us against them.</p>
+  </div>
+</body>
+</html>
