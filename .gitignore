@@ -45,3 +45,13 @@ data/coding/
 data/deflections.json
 data/doc_register.json
 data/coding_summary.json
+codes/run_all_days.py
+codes/extract_claims.py
+codes/build_doc_register.py
+codes/build_register_page.py
+codes/detect_deflections.py
+codes/aggregate_coding.py
+codes/code_questions_hybrid.py
+codes/parse_blocks.py
+data/coding2/
+data/claims_*.json
